@@ -4,6 +4,12 @@ A browser-based quiz for learning the 43 Arabic rhythmic cycles in [Maqam Worldâ
 
 Notation images and recordings load directly from Maqam World. The repository contains the application and source catalog, **not copies of those media files**. An internet connection is required to display notation and play audio.
 
+## Use online
+
+Open [Iqaâ€˜ quiz](https://ptrkmrsck.github.io/iqa-quiz/) on your phone or desktop. No local server is needed.
+
+GitHub Pages deploys automatically when changes are pushed to `main`. The deployment includes only `index.html`, `styles.css`, `app.js`, and `rhythms.json`; media continues to load from Maqam World.
+
 ## Run locally
 
 Install Node.js 18 or later, then run:
