@@ -1,0 +1,21 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Python importer caches
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Local audio backups; playback uses Maqam World URLs
+/assets/audio/
+
+# Local notation backups; display uses Maqam World URLs
+/assets/notation/

@@ -1,0 +1,19 @@
+{
+  "ayyub.php": [{"name":"Zar","note":"Name used in Egypt"},{"name":"Ayoub","note":"Alternate spelling"}],
+  "baladi.php": [{"name":"Masmudi Saghir"}],
+  "bambi.php": [{"name":"Bamb"}],
+  "ciftetelli.php": [{"name":"shaftatalli","note":"Arabic pronunciation"}],
+  "dharafat.php": [{"name":"Zarafat","note":"Alternate spelling"}],
+  "khosh_rang.php": [{"name":"Khush Rank","note":"Alternate spelling"}],
+  "malfuf.php": [{"name":"Laff"}],
+  "masmudi_kabir.php": [{"name":"Masmudi","note":"Short name"}],
+  "nawari.php": [{"name":"Katakufti","note":"Name used by percussionists; the separate Katakufti entry is in 8/8"}],
+  "samai_darij.php": [{"name":"Darij","note":"Short name"}],
+  "samai_saraband.php": [{"name":"Sama‘i Ta’ir"}],
+  "samai_thaqil.php": [{"name":"Sama‘i","note":"Short name"}],
+  "saidi.php": [{"name":"Saidi","note":"Alternate spelling"}],
+  "thurayya.php": [{"name":"Aqsaq Turki"}],
+  "wahda_kabira.php": [{"name":"Wahda Sunbati"}],
+  "wahda_saghira.php": [{"name":"Wahda Basita"}],
+  "yuruk_semai.php": [{"name":"Yugrug"}]
+}

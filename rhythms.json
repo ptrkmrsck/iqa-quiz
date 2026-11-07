@@ -1,0 +1,3813 @@
+[
+  {
+    "id": "aqsaq_f1",
+    "name": "Aqsaq",
+    "meter": "9/8",
+    "notations": [
+      "assets/notation/aqsaq_f1.png",
+      "assets/notation/aqsaq_f2.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/aqsaq.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/aqsaq_form1.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/aqsaq_form1.mp3",
+      "title": "Iqa‘ Aqsaq 9/8 - Form I",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "aqsaq_f1",
+        "label": "Form I",
+        "meter": "9/8",
+        "notation": "assets/notation/aqsaq_f1.png",
+        "tabla": [
+          {
+            "src": "assets/audio/aqsaq_form1.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/aqsaq_form1.mp3",
+            "title": "Iqa‘ Aqsaq 9/8 - Form I",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-6e518ce1d097851a.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/ma_htiyali.mp3",
+            "title": "Muwashah Ma-htiyali",
+            "credits": [
+              "Louis Hage & Aida Chalhoub",
+              "Mouwashah - Chants Arabo-andalous"
+            ]
+          },
+          {
+            "src": "assets/audio/example-4753e6316253c8e5.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/ana_min_wajdi.mp3",
+            "title": "Muwashah Ana Min Wajdi Ana",
+            "credits": [
+              "Aicha Redouane",
+              "Egypte"
+            ]
+          },
+          {
+            "src": "assets/audio/example-439ce412a9d4acf7.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/jalla_man_bil_husni.mp3",
+            "title": "Muwashah Jalla Man Bil Husni Sawwar",
+            "credits": [
+              "Abdel Halim Noueira Ensemble",
+              "Music by Kamel al-Khula‘i"
+            ]
+          },
+          {
+            "src": "assets/audio/example-38c4614885a19679.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/el_sama3_wel_rah.mp3",
+            "title": "Muwashah el-Sama‘ wel-Rah",
+            "credits": [
+              "Ibrahim el-Haggar",
+              "Music by Dawud Husni"
+            ]
+          },
+          {
+            "src": "assets/audio/example-0ef1dbb3e20ce1b8.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/bashraf_bulbul_al_afrah.mp3",
+            "title": "Bashraf Bulbul al-Afrah",
+            "credits": [
+              "Ensemble Morkos"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/aqsaq_f1.png"
+      },
+      {
+        "id": "aqsaq_f2",
+        "label": "Form II",
+        "meter": "9/8",
+        "notation": "assets/notation/aqsaq_f2.png",
+        "tabla": [
+          {
+            "src": "assets/audio/aqsaq_form2.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/aqsaq_form2.mp3",
+            "title": "Iqa‘ Aqsaq 9/8 - Form II",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-f8c4b8065ec323e5.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/ma_htiyali.mp3",
+            "title": "Muwashah Ma-htiyali",
+            "credits": [
+              "Al-Turath Ensemble",
+              "The Music In Spanish Al Andalus - Hijaz"
+            ]
+          },
+          {
+            "src": "assets/audio/example-b9c6af6844f71f50.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/ayyuha_al_saqi.mp3",
+            "title": "Muwashah Ayyuha al-Saqi",
+            "credits": [
+              "Sabah Fakhri",
+              "Beiteddine Festival Vol. 1",
+              "Music by Majdi al-‘Aqili"
+            ]
+          },
+          {
+            "src": "assets/audio/example-96c04cda2ea6c192.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/azzibuni.mp3",
+            "title": "Muwashah ‘Adhibuni",
+            "credits": [
+              "Ensemble Al-Kindi",
+              "The Aleppian Music Room Vol. 1 - Hijazkar Kurd & Saba",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a54b1a9804eb48af.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/bi_abi_bahil_jamal.mp3",
+            "title": "Muwashah Bi Abi Bahi al-Jamal",
+            "credits": [
+              "Muhammad Khayri (Syria)"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/aqsaq_f2.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/aqsaq_f1.png",
+      "https://www.maqamworld.com/note/iqaa/aqsaq_f2.png"
+    ]
+  },
+  {
+    "id": "awfar_f1",
+    "name": "Awfar Masri",
+    "meter": "19/4",
+    "notations": [
+      "assets/notation/awfar_f1.png",
+      "assets/notation/awfar_f2.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/awfar.php",
+    "alternateNames": [],
+    "audio": null,
+    "forms": [
+      {
+        "id": "awfar_f1",
+        "label": "Form I",
+        "meter": "19/4",
+        "notation": "assets/notation/awfar_f1.png",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-1a4eb0030b310d30.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/awfar/man_kunta_anta_habibahu.mp3",
+            "title": "Muwashah Man Kunta Anta Habibahu",
+            "credits": [
+              "Al-Kindi Ensemble",
+              "The Aleppian Music Room II - Maqam Rast"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/awfar_f1.png"
+      },
+      {
+        "id": "awfar_f2",
+        "label": "Form II",
+        "meter": "19/4",
+        "notation": "assets/notation/awfar_f2.png",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-3086a339e0a50d64.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/awfar/ghuddi_jufunaki.mp3",
+            "title": "Muwashah Ghuddi Jufunaki",
+            "credits": [
+              "(in Maqam Saba )",
+              "Ghada Shbeir",
+              "Muwashahat"
+            ]
+          },
+          {
+            "src": "assets/audio/example-e4f27655af3d53dd.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/awfar/ya_man_ramani_bil_siham.mp3",
+            "title": "Muwashah Ya Man Ramani Bil-Siham",
+            "credits": [
+              "(in Maqam Nikriz )",
+              "Ensemble Dugah",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-f52ea4c16d3d3578.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/awfar/ya_na3isa_al_ajfan.mp3",
+            "title": "Muwashah Ya Na‘isa al-Ajfan",
+            "credits": [
+              "(in Maqam Nahawand )",
+              "Khaled al-Hafez",
+              "Music by ‘Umar al-Batsh"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/awfar_f2.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/awfar_f1.png",
+      "https://www.maqamworld.com/note/iqaa/awfar_f2.png"
+    ]
+  },
+  {
+    "id": "awis",
+    "name": "‘Awis",
+    "meter": "11/8",
+    "notations": [
+      "assets/notation/awis.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/awis.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/awis.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/awis.mp3",
+      "title": "Iqa‘ ‘Awis 11/8",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "awis",
+        "label": "Standard form",
+        "meter": "11/8",
+        "notation": "assets/notation/awis.png",
+        "tabla": [
+          {
+            "src": "assets/audio/awis.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/awis.mp3",
+            "title": "Iqa‘ ‘Awis 11/8",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-75b2569045367f0d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/awis/hibbi_da3ani1.mp3",
+            "title": "Muwashah Hibbi Da‘ani Lil-Wisal",
+            "credits": [
+              "Sabah Fakhri",
+              "Music by Sayyed Darwish",
+              "Nagham Al-Ams Vol.2 - Bayati Shuri"
+            ]
+          },
+          {
+            "src": "assets/audio/example-8690597a88bc1d50.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/awis/munyati_man_rumtu.mp3",
+            "title": "Muwashah Munyati Man Rumtu Qurbuh",
+            "credits": [
+              "Sabah Fakhri",
+              "Music by ‘Umar al-Batsh",
+              "Nagham Al-Ams Vol.9 - Rast"
+            ]
+          },
+          {
+            "src": "assets/audio/example-7849004a2f6435fd.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/awis/munyati_sidul_milah.mp3",
+            "title": "Muwashah Munyati Sidu-l-Milah",
+            "credits": [
+              "(performed in 11/4)",
+              "The munshid Mahmud Fares",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-27f46390f46c23e4.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/awis/ukhfi_el_hawa.mp3",
+            "title": "Muwashah Ukhfi el-Hawa (2019)",
+            "credits": [
+              "Firqat al-Turath al-Musiqi al-Arabi (Lebanon)",
+              "Music by Dr. Hayaf Yassine",
+              "Poem by 'Umar Ibn al-Fared"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/awis.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/awis.png"
+    ]
+  },
+  {
+    "id": "ayyub",
+    "name": "Ayyub",
+    "meter": "2/4",
+    "notations": [
+      "assets/notation/ayyub.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/ayyub.php",
+    "alternateNames": [
+      {
+        "name": "Zar",
+        "note": "Name used in Egypt"
+      },
+      {
+        "name": "Ayoub",
+        "note": "Alternate spelling"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/ayyub.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/ayyub.mp3",
+      "title": "Iqa‘ Ayyub 2/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "ayyub",
+        "label": "Standard form",
+        "meter": "2/4",
+        "notation": "assets/notation/ayyub.png",
+        "tabla": [
+          {
+            "src": "assets/audio/ayyub.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/ayyub.mp3",
+            "title": "Iqa‘ Ayyub 2/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-d052297c1b865399.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ayyub/atani_zamani.mp3",
+            "title": "Muwashah Atani Zamani",
+            "credits": [
+              "Noureddine Khourshid Et Les Derviches De Damas"
+            ]
+          },
+          {
+            "src": "assets/audio/example-f37f71f57a6dceb1.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ayyub/ya_man_nasha.mp3",
+            "title": "Muwashah Ya Man Nasha",
+            "credits": [
+              "Rima Khcheich and Salim Sahhab Orchestra"
+            ]
+          },
+          {
+            "src": "assets/audio/example-bfa8bd1b5c281cd6.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ayyub/tajallat.mp3",
+            "title": "Tajallat Wa-njalat Laylan",
+            "credits": [
+              "Sheikh Hamza Shakkur and Ensemble Al Kindi"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/ayyub.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/ayyub.png"
+    ]
+  },
+  {
+    "id": "baladi",
+    "name": "Baladi",
+    "meter": "4/4",
+    "notations": [
+      "assets/notation/baladi.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/baladi.php",
+    "alternateNames": [
+      {
+        "name": "Masmudi Saghir"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/baladi.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/baladi.mp3",
+      "title": "Iqa‘ Baladi 4/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "baladi",
+        "label": "Standard form",
+        "meter": "4/4",
+        "notation": "assets/notation/baladi.png",
+        "tabla": [
+          {
+            "src": "assets/audio/baladi.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/baladi.mp3",
+            "title": "Iqa‘ Baladi 4/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-818a39b5050b8cd8.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/baladi/aziza.mp3",
+            "title": "‘Aziza (1955)",
+            "credits": [
+              "Instrumental Composition",
+              "Music by Muhammad Abdel Wahab (from the movie ‘Aziza, 1955)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-b7e20803801ed34e.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/baladi/halummu.mp3",
+            "title": "Talumuni Wa Lam Tarthu Li Hali",
+            "credits": [
+              "Hassan al-Haffar"
+            ]
+          },
+          {
+            "src": "assets/audio/example-69ee2fea86862940.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/baladi/malik_ya_hilwa.mp3",
+            "title": "Qadd Malik Ya Hilwa",
+            "credits": [
+              "Muhammad Khayri"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/baladi.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/baladi.png"
+    ]
+  },
+  {
+    "id": "bambi_f1",
+    "name": "Bambi",
+    "meter": "8/4",
+    "notations": [
+      "assets/notation/bambi_f1.png",
+      "assets/notation/bambi_f2.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/bambi.php",
+    "alternateNames": [
+      {
+        "name": "Bamb"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/bambi_dtd.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/bambi_dtd.mp3",
+      "title": "Iqa‘ Bambi 8/4 - Form I",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan",
+        "(with the last dum replaced with a tak )"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "bambi_f1",
+        "label": "Form I",
+        "meter": "8/4",
+        "notation": "assets/notation/bambi_f1.png",
+        "tabla": [
+          {
+            "src": "assets/audio/bambi_dtd.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/bambi_dtd.mp3",
+            "title": "Iqa‘ Bambi 8/4 - Form I",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan",
+              "(with the last dum replaced with a tak )"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-ebff924d6da5c867.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/bambi_form1/taqsim_oud_shaheen.mp3",
+            "title": "Taqasim on the Beat",
+            "credits": [
+              "Simon Shaheen",
+              "Turath: Masterworks of the Middle East"
+            ]
+          },
+          {
+            "src": "assets/audio/example-c5808f2cfd643015.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/bambi_form1/mawwal_khayri.mp3",
+            "title": "Mawwal Ya Man Bunudak Harir",
+            "credits": [
+              "Muhammad Khayri"
+            ]
+          },
+          {
+            "src": "assets/audio/example-29d4dee6fe1ccb2c.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/bambi_form1/gafnuhu.mp3",
+            "title": "Gafnuhu ‘Allam al-Ghazal (1933)",
+            "credits": [
+              "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/bambi_f1.png"
+      },
+      {
+        "id": "bambi_f2",
+        "label": "Form II",
+        "meter": "8/4",
+        "notation": "assets/notation/bambi_f2.png",
+        "tabla": [
+          {
+            "src": "assets/audio/bambi_form2.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/bambi_form2.mp3",
+            "title": "Iqa‘ Bambi 8/4 - Form II",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-bc10b226cc90eace.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/bambi_form2/andah_3aleik.mp3",
+            "title": "Andah ‘Aleik (1982)",
+            "credits": [
+              "Warda",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-452552329aa2d404.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/bambi_form2/alf_leila.mp3",
+            "title": "Alf Leila w Leila (1969)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-674e701ed3a58ed3.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/bambi_form2/asamina.mp3",
+            "title": "Asamina",
+            "credits": [
+              "Fairouz",
+              "Music by Philemon Wehbe"
+            ]
+          },
+          {
+            "src": "assets/audio/example-eee1dd54ee209b1b.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/bambi_form2/layali_lubnan.mp3",
+            "title": "Layali Lubnan (1954)",
+            "credits": [
+              "Instrumental Composition",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/bambi_f2.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/bambi_f1.png",
+      "https://www.maqamworld.com/note/iqaa/bambi_f2.png"
+    ]
+  },
+  {
+    "id": "ciftetelli",
+    "name": "Ciftetelli",
+    "meter": "8/4",
+    "notations": [
+      "assets/notation/ciftetelli.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/ciftetelli.php",
+    "alternateNames": [
+      {
+        "name": "shaftatalli",
+        "note": "Arabic pronunciation"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/ciftetelli.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/ciftetelli.mp3",
+      "title": "Iqa‘ Ciftetelli 8/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "ciftetelli",
+        "label": "Standard form",
+        "meter": "8/4",
+        "notation": "assets/notation/ciftetelli.png",
+        "tabla": [
+          {
+            "src": "assets/audio/ciftetelli.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/ciftetelli.mp3",
+            "title": "Iqa‘ Ciftetelli 8/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-0b84405c3587d79f.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/ishta2tillak.mp3",
+            "title": "Ishta'tillak (1962)",
+            "credits": [
+              "Vocals and Music by Farid al-Atrash"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d8e98cc21d8b08a9.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/jaat_mu3adhibati.mp3",
+            "title": "Qasida Ja'at Mu‘adhibati",
+            "credits": [
+              "Fatima Serhan",
+              "The Queen of Balady"
+            ]
+          },
+          {
+            "src": "assets/audio/example-ee2e8d36b233ac64.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/layali_3abbas_blaydi.mp3",
+            "title": "Layali Rast (from ‘Addini ya M‘addawi)",
+            "credits": [
+              "‘Abbas al-Bleidi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-35d9f204b0843fb1.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/mawwal_khayri.mp3",
+            "title": "Mawwal Khullin Sagani Kasat al-Sabr",
+            "credits": [
+              "Muhammad Khayri"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d5b366e25adc1483.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/ya_dala3.mp3",
+            "title": "Ya Dala‘ Dalla‘ (1974)",
+            "credits": [
+              "Sabah",
+              "Music by Farid al-Atrash"
+            ]
+          },
+          {
+            "src": "assets/audio/example-29ddf928a18c1392.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/qasida_3ayni.mp3",
+            "title": "Qasida ‘Ayni Li Ghayri Jamalikum",
+            "credits": [
+              "Al-Turath Ensemble"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/ciftetelli.png"
+      },
+      {
+        "id": "ciftetelli-4-4",
+        "label": "Faster 4/4 form",
+        "meter": "4/4",
+        "notation": null,
+        "notationNote": "MaqamWorld does not provide a separate transcription for this tempo variant.",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-94ed7bf81c029f56.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/bint_il_balad.mp3",
+            "title": "Bint el-Balad (1951)",
+            "credits": [
+              "Instrumental Composition",
+              "Muhammad Abdel Wahab"
+            ]
+          },
+          {
+            "src": "assets/audio/example-6a14591954ea8049.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/mawwal_khayri.mp3",
+            "title": "Mawwal Ya Man Bunudak Harir",
+            "credits": [
+              "Muhammad Khayri"
+            ]
+          },
+          {
+            "src": "assets/audio/example-581936f3a8903278.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/nura.mp3",
+            "title": "Nura Nura (1953)",
+            "credits": [
+              "Vocals and Music by Farid al-Atrash"
+            ]
+          },
+          {
+            "src": "assets/audio/example-6b40173a37e53c43.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/taqsim_nay.mp3",
+            "title": "Taqsim Nay Bayati",
+            "credits": [
+              "Muhammad Khayri"
+            ]
+          },
+          {
+            "src": "assets/audio/example-3d5aef780d884932.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/tuta.mp3",
+            "title": "Tuta (1942)",
+            "credits": [
+              "Instrumental Composition (from the movie Ahlam el-Shabab )",
+              "Music by Farid al-Atrash"
+            ]
+          },
+          {
+            "src": "assets/audio/example-9f2f11e5d51b4c98.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/ya_dara_duri.mp3",
+            "title": "Ya Dara Duri Fina",
+            "credits": [
+              "Fairouz",
+              "Music by Philemon Wehbe"
+            ]
+          }
+        ],
+        "notationSource": null
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/ciftetelli.png"
+    ]
+  },
+  {
+    "id": "dawr_hindi",
+    "name": "Dawr Hindi",
+    "meter": "7/8",
+    "notations": [
+      "assets/notation/dawr_hindi.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/dawr_hindi.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/dawr_hindi.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/dawr_hindi.mp3",
+      "title": "Iqa‘ Dawr Hindi 7/8",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "dawr_hindi",
+        "label": "Standard form",
+        "meter": "7/8",
+        "notation": "assets/notation/dawr_hindi.png",
+        "tabla": [
+          {
+            "src": "assets/audio/dawr_hindi.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/dawr_hindi.mp3",
+            "title": "Iqa‘ Dawr Hindi 7/8",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-ea7a9ced6680a570.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/sihtu_wajdan.mp3",
+            "title": "Muwashah Sihtu Wajdan",
+            "credits": [
+              "Choir of the faculty of Music - Kaslik University (Lebanon)",
+              "Conductor: Aïda Shalhoub Ziadé",
+              "Music by Sayyed Darwish",
+              "Orientalia: Muwashah and Song series"
+            ]
+          },
+          {
+            "src": "assets/audio/example-c019d76ce11c2104.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/jadaka_al_ghaythu.mp3",
+            "title": "Muwashah Jadaka al-Ghaythu",
+            "credits": [
+              "Sabah Fakhri",
+              "Music by Majdi al-‘Aqili",
+              "Beiteddine Festival Vol I"
+            ]
+          },
+          {
+            "src": "assets/audio/example-b26f9799d9dd21e3.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/jalla_man.mp3",
+            "title": "Muwashah Jalla Man Qad Sawwarak",
+            "credits": [
+              "Sheikh Hamza Shakkur",
+              "Ensemble Al Kindi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d93a6ab8a1bcadcc.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/arji3i-ya-alfa-leila.mp3",
+            "title": "Muwashah Arji‘i Ya Alfa Layla (1966)",
+            "credits": [
+              "Fairouz",
+              "Music by the Rahbani Brothers"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/dawr_hindi.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/dawr_hindi.png"
+    ]
+  },
+  {
+    "id": "dharafat",
+    "name": "Dharafat",
+    "meter": "13/8",
+    "notations": [
+      "assets/notation/dharafat.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/dharafat.php",
+    "alternateNames": [
+      {
+        "name": "Zarafat",
+        "note": "Alternate spelling"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/dharafat.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/dharafat.mp3",
+      "title": "Iqa‘ Dharafat 13/8",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "dharafat",
+        "label": "Standard form",
+        "meter": "13/8",
+        "notation": "assets/notation/dharafat.png",
+        "tabla": [
+          {
+            "src": "assets/audio/dharafat.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/dharafat.mp3",
+            "title": "Iqa‘ Dharafat 13/8",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-bd8f01a787510352.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/dharafat/tif_ya_durri_alkindi.mp3",
+            "title": "Muwashah Tif Ya Durri Bil Qanani",
+            "credits": [
+              "Al-Kindi Ensemble",
+              "Music by ‘Umar al-Batsh",
+              "The Aleppian Music Room I - Maqam Hijazkar Kurd"
+            ]
+          },
+          {
+            "src": "assets/audio/example-2f08bb0234c31fbb.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/dharafat/walladhi_wallaka_qalbi.mp3",
+            "title": "Muwashah Wal-ladhi Wallaka Qalbi",
+            "credits": [
+              "Ensemble Morkos"
+            ]
+          },
+          {
+            "src": "assets/audio/example-177c036360f3b77d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/dharafat/il_hobb_kullo.mp3",
+            "title": "il-Hubbi Kullo (1971)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-07d5d804df2dacdb.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/dharafat/mistanniyak.mp3",
+            "title": "Mistanniyak",
+            "credits": [
+              "‘Aziza Galal",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/dharafat.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/dharafat.png"
+    ]
+  },
+  {
+    "id": "fakhit",
+    "name": "Fakhit",
+    "meter": "20/4",
+    "notations": [
+      "assets/notation/fakhit.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/fakhit.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/fakhit.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/fakhit.mp3",
+      "title": "Iqa‘ Fakhit 20/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "fakhit",
+        "label": "Standard form",
+        "meter": "20/4",
+        "notation": "assets/notation/fakhit.png",
+        "tabla": [
+          {
+            "src": "assets/audio/fakhit.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/fakhit.mp3",
+            "title": "Iqa‘ Fakhit 20/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-99165c052d6ddb25.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fakhit/bi_sifatin_ja3alatni.mp3",
+            "title": "Muwashah Bi Sifatin Ja‘alatni",
+            "credits": [
+              "Al-Kindi Ensemble",
+              "The Aleppian Music Room II - Maqam Rast"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a33c30aade07a012.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fakhit/idha_da3ana_as_siba.mp3",
+            "title": "Muwashah Idha Da‘ana al-Siba",
+            "credits": [
+              "Khaled al-Hafez",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-5a2385b2ea8717be.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fakhit/zarani_tahtal_ghayahib.mp3",
+            "title": "Muwashah Zarani Taht al-Ghayahib",
+            "credits": [
+              "Firqat Usama Bin Zayd",
+              "Music by ‘Umar al-Batsh"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/fakhit.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/fakhit.png"
+    ]
+  },
+  {
+    "id": "fallahi",
+    "name": "Fallahi",
+    "meter": "2/4",
+    "notations": [
+      "assets/notation/fallahi.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/fallahi.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/fallahi.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/fallahi.mp3",
+      "title": "Iqa‘ Fallahi 2/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "fallahi",
+        "label": "Standard form",
+        "meter": "2/4",
+        "notation": "assets/notation/fallahi.png",
+        "tabla": [
+          {
+            "src": "assets/audio/fallahi.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/fallahi.mp3",
+            "title": "Iqa‘ Fallahi 2/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-2777db001a6da6ed.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fallahi/el_binti_beida.mp3",
+            "title": "il-Benti Beida",
+            "credits": [
+              "Vocals and Music by Metqal Qannawi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-f99c629f3cc63d50.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fallahi/ahom_ahom.mp3",
+            "title": "Hizz Ya Hubb",
+            "credits": [
+              "Vocals by Ahmad Adaweya",
+              "Music by Hassan Abu el-Su‘ud"
+            ]
+          },
+          {
+            "src": "assets/audio/example-933f4ed9407d5397.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fallahi/salametha.mp3",
+            "title": "Salametha Ummu Hasan",
+            "credits": [
+              "Vocals by Ahmad Adaweya",
+              "Music by Faruq Salamah"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/fallahi.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/fallahi.png"
+    ]
+  },
+  {
+    "id": "fox",
+    "name": "Fox",
+    "meter": "2/4",
+    "notations": [
+      "assets/notation/fox.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/fox.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/fox.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/fox.mp3",
+      "title": "Iqa‘ Fox 2/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "fox",
+        "label": "Standard form",
+        "meter": "2/4",
+        "notation": "assets/notation/fox.png",
+        "tabla": [
+          {
+            "src": "assets/audio/fox.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/fox.mp3",
+            "title": "Iqa‘ Fox 2/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-50c4dd3d26da6f86.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fox/longa_farahfaza.mp3",
+            "title": "Longa Farahfaza (Instrumental)",
+            "credits": [
+              "Salim Sahhab Orchestra",
+              "Music by Riyad al-Sunbati"
+            ]
+          },
+          {
+            "src": "assets/audio/example-9d3631d218a38af9.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fox/ghulubt_asalih.mp3",
+            "title": "Ghulubt Asalih Fi Ruhi (1946)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Riyad al-Sunbati"
+            ]
+          },
+          {
+            "src": "assets/audio/example-562b12476a62cde9.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fox/al_fann.mp3",
+            "title": "Al-Fann (1945)",
+            "credits": [
+              "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d88edd2994ac198e.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fox/tuta.mp3",
+            "title": "Tuta (1942)",
+            "credits": [
+              "Instrumental Composition (from the movie Ahlam el-Shabab )",
+              "Music by Farid al-Atrash"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/fox.png"
+      },
+      {
+        "id": "fox-4-4",
+        "label": "Slower 4/4 form",
+        "meter": "4/4",
+        "notation": null,
+        "notationNote": "MaqamWorld does not provide a separate transcription for this tempo variant.",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-ba455c2c8f118922.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fox/ya_duniya.mp3",
+            "title": "Ya Dunya Ya Gharami (1938)",
+            "credits": [
+              "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-ac541ac4c9b94a63.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/fox/kulli_da_kan_leh.mp3",
+            "title": "Kulli Da Kan Leh (1954)",
+            "credits": [
+              "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          }
+        ],
+        "notationSource": null
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/fox.png"
+    ]
+  },
+  {
+    "id": "hachaa_4_4",
+    "name": "Hacha‘",
+    "meter": "4/4",
+    "notations": [
+      "assets/notation/hachaa_4_4.png",
+      "assets/notation/hachaa_2_4.png",
+      "assets/notation/hachaa_6_4.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/hachaa.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/hachaa_4_4.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_4_4.mp3",
+      "title": "Iqa‘ Hacha‘ 4/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "hachaa_4_4",
+        "label": "4/4 form",
+        "meter": "4/4",
+        "notation": "assets/notation/hachaa_4_4.png",
+        "tabla": [
+          {
+            "src": "assets/audio/hachaa_4_4.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_4_4.mp3",
+            "title": "Iqa‘ Hacha‘ 4/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-4e2ce2e2a65b01e6.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/hamza_shakkur.mp3",
+            "title": "Bi-Hamdika Ya Ilahi",
+            "credits": [
+              "Sheikh Hamza Shakkur & Ensemble Al Kindi",
+              "Whirling Dervishes of Damascus Vol. 1"
+            ]
+          },
+          {
+            "src": "assets/audio/example-8f4f0a05b4f8f21d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/habbush_sub7ana.mp3",
+            "title": "Subhana",
+            "credits": [
+              "Sheikh Habboush & Ensemble Al Kindi",
+              "Transe Soufie d'Aleppe Vol.2"
+            ]
+          },
+          {
+            "src": "assets/audio/example-72d79cf4cb35ba99.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/il_alb_yi3shaq.mp3",
+            "title": "il-Albi Yi‘shaq Kulli Gamil (1961)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Riyad al-Sunbati"
+            ]
+          },
+          {
+            "src": "assets/audio/example-0931cce867ec773d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/qariat_al_fingan.mp3",
+            "title": "Qari'at al-Fingan (1976)",
+            "credits": [
+              "Abdel Halim Hafez",
+              "Music by Muhammad al-Mugi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-9cb37d07174dd9c3.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/qul_lil_maliha_fakhri.mp3",
+            "title": "Qasida Qul Lil-Maliha",
+            "credits": [
+              "Sabah Fakhri"
+            ]
+          },
+          {
+            "src": "assets/audio/example-0a3384db7dfe6dd3.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/tala3a_al_badru.mp3",
+            "title": "Tala‘a al-Badru ‘Alayna",
+            "credits": [
+              "Hassan al-Haffar"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/hachaa_4_4.png"
+      },
+      {
+        "id": "hachaa_2_4",
+        "label": "2/4 form",
+        "meter": "2/4",
+        "notation": "assets/notation/hachaa_2_4.png",
+        "tabla": [
+          {
+            "src": "assets/audio/hachaa_2_4.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_2_4.mp3",
+            "title": "Iqa‘ Hacha‘ 2/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-791be8146e82df7e.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/hachaa_2_4/3al_maya.mp3",
+            "title": "‘Al-Maya",
+            "credits": [
+              "Diyab Mashhur",
+              "(Syrian Folk Song)"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/hachaa_2_4.png"
+      },
+      {
+        "id": "hachaa_6_4",
+        "label": "6/4 form",
+        "meter": "6/4",
+        "notation": "assets/notation/hachaa_6_4.png",
+        "tabla": [
+          {
+            "src": "assets/audio/hachaa_6_4.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_6_4.mp3",
+            "title": "Iqa‘ Hacha‘ 6/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-546f80fdb858d131.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/hachaa_6_4/alf_leila.mp3",
+            "title": "Alf Leila w leila (1969)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/hachaa_6_4.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/hachaa_4_4.png",
+      "https://www.maqamworld.com/note/iqaa/hachaa_2_4.png",
+      "https://www.maqamworld.com/note/iqaa/hachaa_6_4.png"
+    ]
+  },
+  {
+    "id": "jurjina",
+    "name": "Jurjina",
+    "meter": "10/8",
+    "notations": [
+      "assets/notation/jurjina.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/jurjina.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/jurjina.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/jurjina.mp3",
+      "title": "Iqa‘ Jurjina 10/8",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "jurjina",
+        "label": "Standard form",
+        "meter": "10/8",
+        "notation": "assets/notation/jurjina.png",
+        "tabla": [
+          {
+            "src": "assets/audio/jurjina.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/jurjina.mp3",
+            "title": "Iqa‘ Jurjina 10/8",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-cd88c37014a12b61.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/jurjina/yammul_3uyun.mp3",
+            "title": "Ya Umm il-'Uyun il-Sud",
+            "credits": [
+              "Nazem al-Ghazali",
+              "Music by Nazem Na‘im"
+            ]
+          },
+          {
+            "src": "assets/audio/example-bae57d29cee4f01c.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/jurjina/ya_hulu_al_lama.mp3",
+            "title": "Muwashah Ya Hulu al-Lama",
+            "credits": [
+              "Lutfi Bushnaq"
+            ]
+          },
+          {
+            "src": "assets/audio/example-f0a05ad5e1f2b9f8.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/jurjina/maluf_adir_rahati.mp3",
+            "title": "Muwashah Adir Rahati",
+            "credits": [
+              "Tunisian Malouf"
+            ]
+          },
+          {
+            "src": "assets/audio/example-dc4ff9ce6057e53d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/jurjina/maluf_ma_kuntu_adri.mp3",
+            "title": "Muwashah Ma Kuntu Adri",
+            "credits": [
+              "Tunisian Malouf"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/jurjina.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/jurjina.png"
+    ]
+  },
+  {
+    "id": "karachi",
+    "name": "Karachi",
+    "meter": "2/4",
+    "notations": [
+      "assets/notation/karachi.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/karachi.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/karachi.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/karachi.mp3",
+      "title": "Iqa‘ Karachi 2/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "karachi",
+        "label": "Standard form",
+        "meter": "2/4",
+        "notation": "assets/notation/karachi.png",
+        "tabla": [
+          {
+            "src": "assets/audio/karachi.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/karachi.mp3",
+            "title": "Iqa‘ Karachi 2/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-fc341bf27ca73cd7.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/karachi/dhatul_jamal.mp3",
+            "title": "Qadd Dhatul-Jamal Ukhtul-Hilal",
+            "credits": [
+              "Al-Turath Ensemble",
+              "Hermana de la Luna - Rast"
+            ]
+          },
+          {
+            "src": "assets/audio/example-09733495e487b173.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/karachi/siret_il_hub.mp3",
+            "title": "Siret il-Hubb (1964)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-102a5640754f41ed.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/karachi/fakkaruni.mp3",
+            "title": "Fakkaruni (1966)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-80a095019fbf42ab.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/karachi/ba3id_3annak.mp3",
+            "title": "Ba‘id ‘Annak (1965)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-c657170a1c01744a.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/karachi/amal_hayati.mp3",
+            "title": "Amal Hayati(1965)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-365703a1c3e7a6b5.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/karachi/darit_il_ayyam.mp3",
+            "title": "Darit il-Ayyam (1970)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/karachi.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/karachi.png"
+    ]
+  },
+  {
+    "id": "katakufti",
+    "name": "Katakufti",
+    "meter": "8/8",
+    "notations": [
+      "assets/notation/katakufti.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/katakufti.php",
+    "alternateNames": [],
+    "audio": null,
+    "forms": [
+      {
+        "id": "katakufti",
+        "label": "Standard form",
+        "meter": "8/8",
+        "notation": "assets/notation/katakufti.png",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-f28101d6e2240544.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/katakufti/khadduka_al_naddi.mp3",
+            "title": "Muwashah Khadduka al-Naddi",
+            "credits": [
+              "Khaled al-Hafez",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-7e2c33bb56101fed.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/katakufti/ah_min_nari_jafahum.mp3",
+            "title": "Muwashah Ah Min Nari Jafahum",
+            "credits": [
+              "Ensemble Nour al-Charq",
+              "Music by Sheikh Ali al-Darwish"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/katakufti.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/katakufti.png"
+    ]
+  },
+  {
+    "id": "khosh_rang",
+    "name": "Khosh Rang",
+    "meter": "17/8",
+    "notations": [
+      "assets/notation/khosh_rang.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/khosh_rang.php",
+    "alternateNames": [
+      {
+        "name": "Khush Rank",
+        "note": "Alternate spelling"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/khosh_rang.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/khosh_rang.mp3",
+      "title": "Iqa‘ Khosh Rang 17/8",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "khosh_rang",
+        "label": "Standard form",
+        "meter": "17/8",
+        "notation": "assets/notation/khosh_rang.png",
+        "tabla": [
+          {
+            "src": "assets/audio/khosh_rang.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/khosh_rang.mp3",
+            "title": "Iqa‘ Khosh Rang 17/8",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-f65460c348e432d5.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/khosh_rang/salla_fina_kindi.mp3",
+            "title": "Muwashah Salla Fina al-Lahdha Hindiyya",
+            "credits": [
+              "Ensemble Al-Kindi",
+              "Les Croisades Sous Le Regard De l'Orient - Hijaz"
+            ]
+          },
+          {
+            "src": "assets/audio/example-399c937ae1fd2f1e.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/khosh_rang/salla_fina_fakhri.mp3",
+            "title": "Muwashah Salla Fina al-Lahdha Hindiyya",
+            "credits": [
+              "Sabah Fakhri",
+              "Nagham Al Ams Vol 08 - Hijaz"
+            ]
+          },
+          {
+            "src": "assets/audio/example-1cb49dad6b37ae41.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/khosh_rang/tareq_abdallah.mp3",
+            "title": "Khush-Rank (Oud and Riqq)",
+            "credits": [
+              "Tarek Abdallah, Adel Shams El-Din",
+              "Wasla (Suites musicales égyptiennes)"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/khosh_rang.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/khosh_rang.png"
+    ]
+  },
+  {
+    "id": "malfuf",
+    "name": "Malfuf",
+    "meter": "2/4",
+    "notations": [
+      "assets/notation/malfuf.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/malfuf.php",
+    "alternateNames": [
+      {
+        "name": "Laff"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/malfuf.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/malfuf.mp3",
+      "title": "Iqa‘ Malfuf 2/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "malfuf",
+        "label": "Standard form",
+        "meter": "2/4",
+        "notation": "assets/notation/malfuf.png",
+        "tabla": [
+          {
+            "src": "assets/audio/malfuf.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/malfuf.mp3",
+            "title": "Iqa‘ Malfuf 2/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-dd834e78e971ee3e.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/malfuf/ya_dara.mp3",
+            "title": "Ya Dara Duri Fina",
+            "credits": [
+              "Fairouz",
+              "Music by Philemon Wehbe"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d3de0816783d3329.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/malfuf/amal_hayati.mp3",
+            "title": "Amal Hayati (1965)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-68ddffcbd6b6c4a9.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/malfuf/ya_sahis_sabru_haffar.mp3",
+            "title": "Muwashah Ya Sahi al-Sabru Waha Minni",
+            "credits": [
+              "Hasan al-Haffar"
+            ]
+          },
+          {
+            "src": "assets/audio/example-7e8c200c4d88a4e2.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/malfuf/ya_sahis_sabru_shakkur.mp3",
+            "title": "Muwashah Ya Sahi al-Sabru Waha Minni",
+            "credits": [
+              "Sheikh Hamza Shakkur",
+              "Ensemble Al Kindi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-986d271fdcf771a9.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/malfuf/tulba.mp3",
+            "title": "Tulbah (Proposition)",
+            "credits": [
+              "El-Funoun Ensemble",
+              "Zaghareed: Music From The Palestinian Holy Land"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/malfuf.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/malfuf.png"
+    ]
+  },
+  {
+    "id": "maqsum",
+    "name": "Maqsum",
+    "meter": "4/4",
+    "notations": [
+      "assets/notation/maqsum.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/maqsum.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/maqsum.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/maqsum.mp3",
+      "title": "Iqa‘ Maqsum 4/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "maqsum",
+        "label": "Standard form",
+        "meter": "4/4",
+        "notation": "assets/notation/maqsum.png",
+        "tabla": [
+          {
+            "src": "assets/audio/maqsum.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/maqsum.mp3",
+            "title": "Iqa‘ Maqsum 4/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-e5ed2a4b6ffc1f3a.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/maqsum/il_albi_yi3shaq.mp3",
+            "title": "il-Alb Yi‘shaq Kulli Gamil (1961)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Riyad al-Sunbati"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a9c4f0e1dcbdf572.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/maqsum/darit_il_ayyam.mp3",
+            "title": "Darit el-Ayyam (1970)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-1435c4d192ab29ce.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/maqsum/qariat_al_fingan.mp3",
+            "title": "Qari'at al-Fingan (1976)",
+            "credits": [
+              "Abdel Halim Hafez",
+              "Music by Muhammad al-Mugi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-3dcb91a2f9c67b17.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/maqsum/waraqu_al_asfar.mp3",
+            "title": "Waraqu al-Asfar",
+            "credits": [
+              "Fairouz",
+              "Music by Philemon Wehbe"
+            ]
+          },
+          {
+            "src": "assets/audio/example-4b33f0474dea91dd.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/maqsum/ya_libnan.mp3",
+            "title": "Ya Libnan Dakhl Trabak",
+            "credits": [
+              "Sabah"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d7ef18e682070746.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/maqsum/bahibb_el_gedid.mp3",
+            "title": "Ana Bahibb el-Gedid",
+            "credits": [
+              "Vocals and Music by Ahmad Adaweya"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/maqsum.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/maqsum.png"
+    ]
+  },
+  {
+    "id": "masmudi_kabir",
+    "name": "Masmudi Kabir",
+    "meter": "8/4",
+    "notations": [
+      "assets/notation/masmudi_kabir.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/masmudi_kabir.php",
+    "alternateNames": [
+      {
+        "name": "Masmudi",
+        "note": "Short name"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/masmudi_kabir.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/masmudi_kabir.mp3",
+      "title": "Iqa‘ Masmudi Kabir 8/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "masmudi_kabir",
+        "label": "Standard form",
+        "meter": "8/4",
+        "notation": "assets/notation/masmudi_kabir.png",
+        "tabla": [
+          {
+            "src": "assets/audio/masmudi_kabir.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/masmudi_kabir.mp3",
+            "title": "Iqa‘ Masmudi Kabir 8/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-eeb0af0d74187f5a.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/bint_il_balad.mp3",
+            "title": "Bint el-Balad (1951)",
+            "credits": [
+              "Instrumental Composition",
+              "Muhammad Abdel Wahab"
+            ]
+          },
+          {
+            "src": "assets/audio/example-93f2e7531143a9e1.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/khayyi.mp3",
+            "title": "Khayyi Khayyi (1958)",
+            "credits": [
+              "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-718f8c7d3a852a62.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/ruba3iyyat.mp3",
+            "title": "Ruba‘iyyat al-Khayam (1950)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Riyad al-Sunbati"
+            ]
+          },
+          {
+            "src": "assets/audio/example-2d2593d250b6dceb.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/ya_fatin_al_ghuzlan.mp3",
+            "title": "Muwashah Ya Fatin al-Ghuzlan",
+            "credits": [
+              "Al-Turath Ensemble",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-80284e45b8947898.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/ya_shadil_alhan.mp3",
+            "title": "Muwashah Ya Shadi al-Alhan",
+            "credits": [
+              "Sabah Fakhri",
+              "Music by Sayyed Darwish"
+            ]
+          },
+          {
+            "src": "assets/audio/example-30e92f498f45e3c5.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/zarani_al_mahbub.mp3",
+            "title": "Muwashah Zarani al-Mahbub",
+            "credits": [
+              "Sabah Fakhri"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/masmudi_kabir.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/masmudi_kabir.png"
+    ]
+  },
+  {
+    "id": "mudawwar_masri",
+    "name": "Mudawwar Masri",
+    "meter": "12/4",
+    "notations": [
+      "assets/notation/mudawwar_masri.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/mudawwar.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/mudawwar_masri.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/mudawwar_masri.mp3",
+      "title": "Iqa‘ Mudawwar Masri 12/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "mudawwar_masri",
+        "label": "Standard form",
+        "meter": "12/4",
+        "notation": "assets/notation/mudawwar_masri.png",
+        "tabla": [
+          {
+            "src": "assets/audio/mudawwar_masri.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/mudawwar_masri.mp3",
+            "title": "Iqa‘ Mudawwar Masri 12/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-34f6fc47fd73ed00.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/mudawwar_12_4/adhkuru_al_hubba.mp3",
+            "title": "Muwashah Adhkuru al-Hibba",
+            "credits": [
+              "Abdel Halim Noueira Ensemble",
+              "Music by Dawud Husni (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-df07bfe9073168b6.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/mudawwar_12_4/fika_kullu_bayati.mp3",
+            "title": "Muwashah Fika Kullu Ma Ara Hasan",
+            "credits": [
+              "Composed in Maqam Bayati",
+              "Abdel Halim Noueira Ensemble"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/mudawwar_masri.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/mudawwar_masri.png"
+    ]
+  },
+  {
+    "id": "mudawwar_shami",
+    "name": "Mudawwar Shami",
+    "meter": "10/4",
+    "notations": [
+      "assets/notation/mudawwar_shami.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/mudawwar.php",
+    "alternateNames": [],
+    "audio": null,
+    "forms": [
+      {
+        "id": "mudawwar_shami",
+        "label": "Standard form",
+        "meter": "10/4",
+        "notation": "assets/notation/mudawwar_shami.png",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-fd8979f34a89f028.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/mudawwar_10_4/fika_kullu_hijaz_sarmini.mp3",
+            "title": "Muwashah Fika Kullu Ma Ara Hasan",
+            "credits": [
+              "Composed in Maqam Hijaz",
+              "Omar al-Sarmini",
+              "Al-Kindi Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d23ddc868e9d04e0.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/mudawwar_10_4/fika_kullu_hijaz_sabah.mp3",
+            "title": "Muwashah Fika Kullu Ma Ara Hasan",
+            "credits": [
+              "Composed in Maqam Hijaz",
+              "Sabah Fakhri"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/mudawwar_shami.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/mudawwar_shami.png"
+    ]
+  },
+  {
+    "id": "muhajjar",
+    "name": "Muhajjar",
+    "meter": "14/4",
+    "notations": [
+      "assets/notation/muhajjar.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/muhajjar.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/muhajjar.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/muhajjar.mp3",
+      "title": "Iqa‘ Muhajjar 14/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "muhajjar",
+        "label": "Standard form",
+        "meter": "14/4",
+        "notation": "assets/notation/muhajjar.png",
+        "tabla": [
+          {
+            "src": "assets/audio/muhajjar.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/muhajjar.mp3",
+            "title": "Iqa‘ Muhajjar 14/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-f3df12fd21906c6d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/muhajjar/badat_min_al_khidri.mp3",
+            "title": "Muwashah Badat Min al-Khidri",
+            "credits": [
+              "Ensemble Al-Kindi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-dab90f878ea7de04.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/muhajjar/hajarni_habibi.mp3",
+            "title": "Muwashah Hajarni Habibi",
+            "credits": [
+              "Al-Turath Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-f80f737a6cb5cae6.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/muhajjar/hal_3ala_al_astar.mp3",
+            "title": "Muwashah Hal ‘Ala al-Astar",
+            "credits": [
+              "Ensemble Morkos"
+            ]
+          },
+          {
+            "src": "assets/audio/example-99c2790f470e2171.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/muhajjar/munyati.mp3",
+            "title": "Muwashah Munyati ‘Azza Istibari",
+            "credits": [
+              "Choir of the faculty of Music - Kaslik University (Lebanon)",
+              "Conductor: Aïda Shalhoub Ziadé",
+              "Music by Sayyed Darwish",
+              "Orientalia: Muwashah and Song series"
+            ]
+          },
+          {
+            "src": "assets/audio/example-f1cf7c4e269d4e14.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/muhajjar/ya_tura_ba3da.mp3",
+            "title": "Muwashah Ya Tura Ba‘da al-Bi‘adi",
+            "credits": [
+              "Ensemble Al-Kindi"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/muhajjar.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/muhajjar.png"
+    ]
+  },
+  {
+    "id": "mukhammas",
+    "name": "Mukhammas",
+    "meter": "16/4",
+    "notations": [
+      "assets/notation/mukhammas.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/mukhammas.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/mukhammas.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/mukhammas.mp3",
+      "title": "Iqa‘ Mukhammas 16/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "mukhammas",
+        "label": "Standard form",
+        "meter": "16/4",
+        "notation": "assets/notation/mukhammas.png",
+        "tabla": [
+          {
+            "src": "assets/audio/mukhammas.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/mukhammas.mp3",
+            "title": "Iqa‘ Mukhammas 16/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-262413ebcfaa084e.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/mukhammas/badri_adir.mp3",
+            "title": "Muwashah Badri Adir Kas al-Tila",
+            "credits": [
+              "Choir of the faculty of Music - Kaslik University (Lebanon)",
+              "Conductor: Aïda Shalhoub Ziadé",
+              "Music by Muhammad ‘Uthman",
+              "Orientalia: Muwashah and Song series"
+            ]
+          },
+          {
+            "src": "assets/audio/example-adc8220e58d62fe6.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/mukhammas/hadhi_al-manazel.mp3",
+            "title": "Muwashah Hadhihi al-Manazil",
+            "credits": [
+              "Sabah Fakhri and his ensemble",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a3d3b7cd2ea4ea86.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/mukhammas/wajhak_mushriq.mp3",
+            "title": "Muwashah Wajhak Mushriq",
+            "credits": [
+              "Abdel Halim Noueira Ensemble"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/mukhammas.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/mukhammas.png"
+    ]
+  },
+  {
+    "id": "murabbaa",
+    "name": "Murabba‘",
+    "meter": "13/4",
+    "notations": [
+      "assets/notation/murabbaa.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/murabbaa.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/murabbaa.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/murabbaa.mp3",
+      "title": "Iqa‘ Murabba‘ 13/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "murabbaa",
+        "label": "Standard form",
+        "meter": "13/4",
+        "notation": "assets/notation/murabbaa.png",
+        "tabla": [
+          {
+            "src": "assets/audio/murabbaa.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/murabbaa.mp3",
+            "title": "Iqa‘ Murabba‘ 13/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-ab532884d9ff3ff8.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/murabbaa/hayyara_al_afkar.mp3",
+            "title": "Muwashah Hayyar al-Afkar",
+            "credits": [
+              "Abdel Halim Noueira Ensemble",
+              "Music by Muhammad ‘Uthman"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d4677816674a9541.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/murabbaa/hibbi_malik.mp3",
+            "title": "Muwashah Hibbi Malik al-Milah",
+            "credits": [
+              "Abdel Halim Noueira Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-221d251b19ce29ed.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/murabbaa/isqini_al_rah.mp3",
+            "title": "Muwashah Isqini al-Rah",
+            "credits": [
+              "Abdel Halim Noueira Ensemble",
+              "Music by Muhammad ‘Uthman"
+            ]
+          },
+          {
+            "src": "assets/audio/example-e3cf60a8f8001d07.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/murabbaa/jalla_man_qad.mp3",
+            "title": "Muwashah Jalla Man Qad Ansha Jamalak",
+            "credits": [
+              "Omar al-Sarmini and al-Kindi Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-3238eda9f51f1348.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/murabbaa/qum_bina.mp3",
+            "title": "Muwashah Qum Bina Ya Nur ‘Ayni",
+            "credits": [
+              "Abdel Halim Noueira Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-cfb0f52724aa3fcd.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/murabbaa/ramani_bi_sahmi.mp3",
+            "title": "Muwashah Ramani Bi Sahmi Hawahu",
+            "credits": [
+              "Hasan al-Haffar",
+              "Music by Dawud Husni (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-604d53398ec7c786.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/murabbaa/ya_3udhayb.mp3",
+            "title": "Muwashah Ya ‘Udhayb al-Marshaf",
+            "credits": [
+              "Choir of the faculty of Music - Kaslik University (Lebanon)",
+              "Conductor: Aïda Shalhoub Ziadé",
+              "Music by Sayyed Darwish",
+              "Orientalia: Muwashah and Song series"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/murabbaa.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/murabbaa.png"
+    ]
+  },
+  {
+    "id": "nawakht",
+    "name": "Nawakht",
+    "meter": "7/4",
+    "notations": [
+      "assets/notation/nawakht.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/nawakht.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/nawakht.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/nawakht.mp3",
+      "title": "Iqa‘ Nawakht 7/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "nawakht",
+        "label": "Standard form",
+        "meter": "7/4",
+        "notation": "assets/notation/nawakht.png",
+        "tabla": [
+          {
+            "src": "assets/audio/nawakht.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/nawakht.mp3",
+            "title": "Iqa‘ Nawakht 7/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-5cfcc9737d9b388d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht/ya_hilalan.mp3",
+            "title": "Muwashah Ya Hilalan",
+            "credits": [
+              "Abdel Halim Noueira Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-1793544e02b5d02e.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht/badru_timmin.mp3",
+            "title": "Muwashah Badru Timmin Haza Husnan",
+            "credits": [
+              "Abdel Halim Noueira Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-9108c6cd80ffc9e6.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht/qultu_lamma.mp3",
+            "title": "Muwashah Qultu Lamma Ghaba ‘Anni",
+            "credits": [
+              "Hasan al-Haffar",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-0a076528001917a4.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht/hati_ya_habibi.mp3",
+            "title": "Muwashah Hati Ya Habibi",
+            "credits": [
+              "Abdel Halim Noueira Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-c98cc91759ae6aad.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht/ijma3u_bil_qurbi.mp3",
+            "title": "Muwashah Ijma‘u bil-Qurbi Shamli",
+            "credits": [
+              "Sabah Fakhri"
+            ]
+          },
+          {
+            "src": "assets/audio/example-26e45ee4e359e253.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht/jalla_man_qad_sagha.mp3",
+            "title": "Muwashah Jalla Man Qad Sagha Badran",
+            "credits": [
+              "Ensemble Morkos"
+            ]
+          },
+          {
+            "src": "assets/audio/example-ee716a5c00ce256d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht/khala_al_idhar.mp3",
+            "title": "Muwashah Khala al-‘Idhar",
+            "credits": [
+              "Vocals and Music by ‘Umar al-Batsh"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/nawakht.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/nawakht.png"
+    ]
+  },
+  {
+    "id": "nawakht_hindi",
+    "name": "Nawakht Hindi",
+    "meter": "16/4",
+    "notations": [
+      "assets/notation/nawakht_hindi.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/nawakht_hindi.php",
+    "alternateNames": [],
+    "audio": null,
+    "forms": [
+      {
+        "id": "nawakht_hindi",
+        "label": "Standard form",
+        "meter": "16/4",
+        "notation": "assets/notation/nawakht_hindi.png",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-01142fd2345c2624.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht_hindi/ya_3uyunan_ramiyat.mp3",
+            "title": "Muwashah Ya ‘Uyunan Ramiyat",
+            "credits": [
+              "Sabri al-Mudallal",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d516b68f9d5dee97.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht_hindi/ya_hamam_al_ayk.mp3",
+            "title": "Muwashah Ya Hamam al-Ayk",
+            "credits": [
+              "Ensemble al-Bahaa, Aleppo",
+              "Music by Sayyed Darwish"
+            ]
+          },
+          {
+            "src": "assets/audio/example-82747ec8c0d2d001.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawakht_hindi/ya_mukhjil_al_aqmar.mp3",
+            "title": "Muwashah Ya Mukhjil al-Aqmar",
+            "credits": [
+              "Tunisian Radio Orchestra and Choir"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/nawakht_hindi.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/nawakht_hindi.png"
+    ]
+  },
+  {
+    "id": "nawari",
+    "name": "Nawari",
+    "meter": "4/4",
+    "notations": [
+      "assets/notation/nawari.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/nawari.php",
+    "alternateNames": [
+      {
+        "name": "Katakufti",
+        "note": "Name used by percussionists; the separate Katakufti entry is in 8/8"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/nawari.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/nawari.mp3",
+      "title": "Iqa‘ Nawari 4/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "nawari",
+        "label": "Standard form",
+        "meter": "4/4",
+        "notation": "assets/notation/nawari.png",
+        "tabla": [
+          {
+            "src": "assets/audio/nawari.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/nawari.mp3",
+            "title": "Iqa‘ Nawari 4/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-f9490c97d4d19979.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawari/ya_3ein_mulayyitein.mp3",
+            "title": "Ya ‘Ein Mulayyitein",
+            "credits": [
+              "Samira Tawfiq"
+            ]
+          },
+          {
+            "src": "assets/audio/example-6fcb2b5991cec929.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawari/dal3ona.mp3",
+            "title": "Dal‘ona (traditional)",
+            "credits": [
+              "(performer unknown)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-6e1644e915ad89ff.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/nawari/el_funun.mp3",
+            "title": "Initiation Of Ecstasy",
+            "credits": [
+              "El-Funoun Ensemble",
+              "Zaghareed: Music From The Palestinian Holy Land"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/nawari.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/nawari.png"
+    ]
+  },
+  {
+    "id": "rumba",
+    "name": "Rumba",
+    "meter": "4/4",
+    "notations": [
+      "assets/notation/rumba.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/rumba.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/rumba.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/rumba.mp3",
+      "title": "Iqa‘ Rumba 4/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "rumba",
+        "label": "Standard form",
+        "meter": "4/4",
+        "notation": "assets/notation/rumba.png",
+        "tabla": [
+          {
+            "src": "assets/audio/rumba.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/rumba.mp3",
+            "title": "Iqa‘ Rumba 4/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-5f704c0ee4022f96.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/rumba/al_fann.mp3",
+            "title": "Al-Fann (1945)",
+            "credits": [
+              "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-052f9d973bb8a6e4.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/rumba/amal_hayati.mp3",
+            "title": "Amal Hayati (1965)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-08c0acdade1bd76a.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/rumba/ansak.mp3",
+            "title": "Ansak Da Kalam (1961)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-64fe5fd56a9d0460.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/rumba/ba3id_3annak.mp3",
+            "title": "Ba‘id ‘Annak (1965)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-57674290259a4d60.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/rumba/darit_il_ayyam.mp3",
+            "title": "Darit el-Ayyam (1970)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-493fb3b5adf92d31.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/rumba/qariat_al_fingan.mp3",
+            "title": "Qari’at al-Fingan (1976)",
+            "credits": [
+              "Abdel Halim Hafez",
+              "Music by Muhammad al-Mugi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-c4bb8059ee7d3449.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/rumba/shu3uri_nahiyetak.mp3",
+            "title": "Shu‘uri Nahiyetak (1981)",
+            "credits": [
+              "Warda",
+              "Music by Sayyed Makkawi"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/rumba.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/rumba.png"
+    ]
+  },
+  {
+    "id": "samai_darij",
+    "name": "Sama‘i Darij",
+    "meter": "3/4",
+    "notations": [
+      "assets/notation/samai_darij.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/samai_darij.php",
+    "alternateNames": [
+      {
+        "name": "Darij",
+        "note": "Short name"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/samai_darij.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/samai_darij.mp3",
+      "title": "Iqa‘ Sama‘i Darij 3/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "samai_darij",
+        "label": "Standard form",
+        "meter": "3/4",
+        "notation": "assets/notation/samai_darij.png",
+        "tabla": [
+          {
+            "src": "assets/audio/samai_darij.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/samai_darij.mp3",
+            "title": "Iqa‘ Sama‘i Darij 3/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-eeac2cbc50de484b.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_darij/kallili_ya_suhbu.mp3",
+            "title": "Muwashah Kallili Ya Suhbu",
+            "credits": [
+              "Abdel Halim Noueira Ensemble",
+              "Music by Muhammad ‘Uthman"
+            ]
+          },
+          {
+            "src": "assets/audio/example-305083fd88ec77e5.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_darij/ya_ghusna_naqa.mp3",
+            "title": "Muwashah Ya Ghusna Naqa",
+            "credits": [
+              "Sabah Fakhri"
+            ]
+          },
+          {
+            "src": "assets/audio/example-6406aea609253ccd.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_darij/ya_man_la3ibat.mp3",
+            "title": "Muwashah Ya Man La`ibat Bihi Shamulu",
+            "credits": [
+              "Al-Turath Ensemble"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/samai_darij.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/samai_darij.png"
+    ]
+  },
+  {
+    "id": "samai_saraband",
+    "name": "Sama‘i Saraband",
+    "meter": "3/8",
+    "notations": [
+      "assets/notation/samai_saraband.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/samai_saraband.php",
+    "alternateNames": [
+      {
+        "name": "Sama‘i Ta’ir"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/samai_saraband.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/samai_saraband.mp3",
+      "title": "Iqa‘ Sama‘i Saraband 3/8",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "samai_saraband",
+        "label": "Standard form",
+        "meter": "3/8",
+        "notation": "assets/notation/samai_saraband.png",
+        "tabla": [
+          {
+            "src": "assets/audio/samai_saraband.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/samai_saraband.mp3",
+            "title": "Iqa‘ Sama‘i Saraband 3/8",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-142ebf90e4625be4.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_saraband/qultu_lamma.mp3",
+            "title": "Muwashah Qultu Lamma Ghaba ‘Anni",
+            "credits": [
+              "Hamam Khayri",
+              "Music by ‘Umar al-Batsh"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/samai_saraband.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/samai_saraband.png"
+    ]
+  },
+  {
+    "id": "samai_thaqil",
+    "name": "Sama‘i Thaqil",
+    "meter": "10/8",
+    "notations": [
+      "assets/notation/samai_thaqil.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/samai_thaqil.php",
+    "alternateNames": [
+      {
+        "name": "Sama‘i",
+        "note": "Short name"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/samai_thaqil.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/samai_thaqil.mp3",
+      "title": "Iqa‘ Sama‘i Thaqil 10/8",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "samai_thaqil",
+        "label": "Standard form",
+        "meter": "10/8",
+        "notation": "assets/notation/samai_thaqil.png",
+        "tabla": [
+          {
+            "src": "assets/audio/samai_thaqil.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/samai_thaqil.mp3",
+            "title": "Iqa‘ Sama‘i Thaqil 10/8",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-889b1cd5745c460f.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_thaqil/samai_bayati_aryan.mp3",
+            "title": "Sama‘i Bayati Ibrahim al-‘Aryan",
+            "credits": [
+              "The Takht Ensemble of Cairo",
+              "Music Of Islam Vol. 1: AL-Qahirah"
+            ]
+          },
+          {
+            "src": "assets/audio/example-7cd9ab8f09a0fd8a.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_thaqil/3atini_bikra_al_dinan.mp3",
+            "title": "Muwashah ‘Atini Bikra al-Dinan",
+            "credits": [
+              "Salim Sahhab Orchestra"
+            ]
+          },
+          {
+            "src": "assets/audio/example-72dc0b5beba1d9d7.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_thaqil/imlali_al_aqdah.mp3",
+            "title": "Muwashah Imlali al-Aqdaha Sirfan",
+            "credits": [
+              "Sheikh Hamza Shakkur and Ensemble Al Kindi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-6b03f3b6b44d316c.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_thaqil/laha_badru_ttim.mp3",
+            "title": "Muwashah Laha Badru al-Timm",
+            "credits": [
+              "Abdel Halim Noueira Ensemble",
+              "Music by Sheikh Mahmud Subh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-da25951d679ca4b5.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_thaqil/mala_al_kasat.mp3",
+            "title": "Muwashah Mala al-Kasat",
+            "credits": [
+              "Ensemble Al-Kindi",
+              "Music by Muhammad ‘Uthman"
+            ]
+          },
+          {
+            "src": "assets/audio/example-0d74409e97f6c1e3.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_thaqil/rashiq_al_qadd.mp3",
+            "title": "Muwashah Rashiq al-Qadd",
+            "credits": [
+              "Ensemble Morkos",
+              "Cèdre"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a790019e3d046049.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_thaqil/talaffata_al_dhabiyu.mp3",
+            "title": "Muwashah Talaffata al-Dhabiyu",
+            "credits": [
+              "Ensemble Al-Kindi",
+              "Music by Sheikh Mahmud Subh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-95f443ebe8323581.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_thaqil/tarraza_al_rayhan.mp3",
+            "title": "Muwashah Tarraza al-Rayhan",
+            "credits": [
+              "Ensemble Morkos",
+              "Cèdre"
+            ]
+          },
+          {
+            "src": "assets/audio/example-2122962b7c958b0d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/samai_thaqil/ya_ghusayn_al_ban.mp3",
+            "title": "Muwashah Ya Ghusayn al-Ban",
+            "credits": [
+              "Sabri al-Mudallal",
+              "Music by Sayyed Darwish"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/samai_thaqil.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/samai_thaqil.png"
+    ]
+  },
+  {
+    "id": "saidi",
+    "name": "Sa‘idi",
+    "meter": "4/4",
+    "notations": [
+      "assets/notation/saidi.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/saidi.php",
+    "alternateNames": [
+      {
+        "name": "Saidi",
+        "note": "Alternate spelling"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/saidi.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/saidi.mp3",
+      "title": "Iqa‘ Sa‘idi 4/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "saidi",
+        "label": "Standard form",
+        "meter": "4/4",
+        "notation": "assets/notation/saidi.png",
+        "tabla": [
+          {
+            "src": "assets/audio/saidi.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/saidi.mp3",
+            "title": "Iqa‘ Sa‘idi 4/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-c5f1eda8acccff54.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/saidi/sawwah.mp3",
+            "title": "Sawwah (1966)",
+            "credits": [
+              "Abdel Halim Hafez",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a8925df031c707ec.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/saidi/zayy_el_hawa.mp3",
+            "title": "Zayy el-Hawa (1970)",
+            "credits": [
+              "Abdel Halim Hafez",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-09edfe53c7d2cddf.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/saidi/3ala_hisb_widad.mp3",
+            "title": "‘Ala Hisb Widad Galbi (1953)",
+            "credits": [
+              "Hossam Ramzi",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d84a646340ea12f5.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/saidi/bahibbak_saddaqni.mp3",
+            "title": "Bahibbak Saddaqni",
+            "credits": [
+              "Warda",
+              "Music by Sayyed Makkawi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-ac5078ae116ee6c7.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/saidi/habba_fouq.mp3",
+            "title": "Habba Fouq We Habba Taht",
+            "credits": [
+              "Vocals and Music by Ahmad Adaweya"
+            ]
+          },
+          {
+            "src": "assets/audio/example-691402fda94e8dc7.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/saidi/ma_khadtesh.mp3",
+            "title": "Adik Ti'ul Makhadtesh",
+            "credits": [
+              "Vocals and Music by Ahmad Adaweya"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/saidi.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/saidi.png"
+    ]
+  },
+  {
+    "id": "sittatu_ashar",
+    "name": "Sittatu ‘Ashar Masri",
+    "meter": "32/4",
+    "notations": [
+      "assets/notation/sittatu_ashar.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/sittatu_ashar.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/sittatu_ashar_masari.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/sittatu_ashar_masari.mp3",
+      "title": "Iqa‘ Sittatu ‘Ashar Masri 32/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "sittatu_ashar",
+        "label": "Standard form",
+        "meter": "32/4",
+        "notation": "assets/notation/sittatu_ashar.png",
+        "tabla": [
+          {
+            "src": "assets/audio/sittatu_ashar_masari.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/sittatu_ashar_masari.mp3",
+            "title": "Iqa‘ Sittatu ‘Ashar Masri 32/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-4b5d0156701ce411.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/sittatu_ashar/badat_alkindi.mp3",
+            "title": "Muwashah Badat Min al-Khidri (khana)",
+            "credits": [
+              "Ensemble Al-Kindi",
+              "Les Croisades Sous Le Regard De l'Orient Part I - Maqam Bayati"
+            ]
+          },
+          {
+            "src": "assets/audio/example-c8ebbae527c145a0.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/sittatu_ashar/badat_ghada.mp3",
+            "title": "Muwashah Badat Min al-Khidri (khana)",
+            "credits": [
+              "Ghada Shbeir",
+              "Muwashahat"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a4b90dc64a4cadf2.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/sittatu_ashar/badat_kaslik.mp3",
+            "title": "Muwashah Badat Min al-Khidri (khana)",
+            "credits": [
+              "Louis Hage and Aida Chalhoub"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/sittatu_ashar.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/sittatu_ashar.png"
+    ]
+  },
+  {
+    "id": "sudasi",
+    "name": "Sudasi",
+    "meter": "6/4",
+    "notations": [
+      "assets/notation/sudasi.png",
+      "assets/notation/sudasi-f2.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/sudasi.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/sudasi.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/sudasi.mp3",
+      "title": "Iqa‘ Sudasi 6/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "sudasi",
+        "label": "Form I",
+        "meter": "6/4",
+        "notation": "assets/notation/sudasi.png",
+        "tabla": [
+          {
+            "src": "assets/audio/sudasi.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/sudasi.mp3",
+            "title": "Iqa‘ Sudasi 6/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-337a1b82b5b9913c.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/sudasi_f1/dal3ona.mp3",
+            "title": "Dal‘ona",
+            "credits": [
+              "Fairouz",
+              "(traditional Lebanese folk song)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-5514314704fd019c.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/sudasi_f1/ya_mahla_layali.mp3",
+            "title": "Ya Mahla Layali el-Hawa (1963)",
+            "credits": [
+              "Fairouz",
+              "Music and lyrics by the Rahbani Brothers"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d935b8651e3bdbba.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/sudasi_f1/ya_7ajal_sannin.mp3",
+            "title": "Ya Hajal Sannin (1965)",
+            "credits": [
+              "Fairouz",
+              "Music and lyrics by the Rahbani Brothers",
+              "From the movie Bayya‘ el-Khawatim"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/sudasi.png"
+      },
+      {
+        "id": "sudasi-f2",
+        "label": "Form II",
+        "meter": "6/4",
+        "notation": "assets/notation/sudasi-f2.png",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-9b55786a62761279.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/sudasi_f2/ya_trab_3ayntura.mp3",
+            "title": "Ya Trab ‘Ayntura",
+            "credits": [
+              "Fairouz, Wadih al-Safi and Nasri Shamseddine",
+              "Music and lyrics by the Rahbani Brothers"
+            ]
+          },
+          {
+            "src": "assets/audio/example-074f41d1b717ca44.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/sudasi_f2/ya_b3albak.mp3",
+            "title": "Ya Ba‘albak",
+            "credits": [
+              "Music and lyrics by Tania Saleh"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/sudasi-f2.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/sudasi.png",
+      "https://www.maqamworld.com/note/iqaa/sudasi-f2.png"
+    ]
+  },
+  {
+    "id": "thurayya",
+    "name": "Thurayya",
+    "meter": "5/8",
+    "notations": [
+      "assets/notation/thurayya.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/thurayya.php",
+    "alternateNames": [
+      {
+        "name": "Aqsaq Turki"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/thurayya.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/thurayya.mp3",
+      "title": "Iqa‘ Thurayya 5/8",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "thurayya",
+        "label": "Standard form",
+        "meter": "5/8",
+        "notation": "assets/notation/thurayya.png",
+        "tabla": [
+          {
+            "src": "assets/audio/thurayya.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/thurayya.mp3",
+            "title": "Iqa‘ Thurayya 5/8",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-5c75db85c54e96bc.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/thurayya/fil_roud_ana.mp3",
+            "title": "Muwashah Fil-Roud Ana Shuft il-Gamil",
+            "credits": [
+              "Sabah Fakhri",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a0d7fa82a1bd963d.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/thurayya/fattakatul-lahdhi.mp3",
+            "title": "Muwashah Fattakatu al-Lahdhi",
+            "credits": [
+              "Kareem Azab (Palestine)",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d791a79617b6c917.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/thurayya/qalat_3alamal_rida.mp3",
+            "title": "Muwashah Qalat ‘Alama al-Rida",
+            "credits": [
+              "Sahar",
+              "Music by Sheikh Ali al-Darwish"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/thurayya.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/thurayya.png"
+    ]
+  },
+  {
+    "id": "wahda",
+    "name": "Wahda",
+    "meter": "4/4",
+    "notations": [
+      "assets/notation/wahda.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/wahda.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/wahda.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/wahda.mp3",
+      "title": "Iqa‘ Wahda 4/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "wahda",
+        "label": "Standard form",
+        "meter": "4/4",
+        "notation": "assets/notation/wahda.png",
+        "tabla": [
+          {
+            "src": "assets/audio/wahda.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/wahda.mp3",
+            "title": "Iqa‘ Wahda 4/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-6f9ed14db56032e6.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda/ba3id_3annak.mp3",
+            "title": "Ba‘id ‘Annak (1965)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-5d7635418ed27e7a.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda/darit_il_ayyam.mp3",
+            "title": "Darit el-Ayyam (1970)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-3ca1ebafdb956f97.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda/qariat_al_fingan.mp3",
+            "title": "Qari’at al-Fingan (1976)",
+            "credits": [
+              "Abdel Halim Hafez",
+              "Music by Muhammad al-Mugi"
+            ]
+          },
+          {
+            "src": "assets/audio/example-8e434265c89c389e.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda/salu_qalbi.mp3",
+            "title": "Qasida Salu Qalbi (1946)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Riyad al-Sunbati"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/wahda.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/wahda.png"
+    ]
+  },
+  {
+    "id": "wahda_kabira",
+    "name": "Wahda Kabira",
+    "meter": "8/4",
+    "notations": [
+      "assets/notation/wahda_kabira.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/wahda_kabira.php",
+    "alternateNames": [
+      {
+        "name": "Wahda Sunbati"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/wahda_kabira.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/wahda_kabira.mp3",
+      "title": "Iqa‘ Wahda Kabira 8/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "wahda_kabira",
+        "label": "Standard form",
+        "meter": "8/4",
+        "notation": "assets/notation/wahda_kabira.png",
+        "tabla": [
+          {
+            "src": "assets/audio/wahda_kabira.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/wahda_kabira.mp3",
+            "title": "Iqa‘ Wahda Kabira 8/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-87c4295bf5ef4613.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_kabira/khatwit_habibi.mp3",
+            "title": "Khatwit Habibi (1953)",
+            "credits": [
+              "Instrumental by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-7d35c75a10a683e0.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_kabira/habibi_yis3ed.mp3",
+            "title": "Habibi Yis‘id Awqatu (1943)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Zakariya Ahmad (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-465887575cf08166.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_kabira/il_albi_yi3shaq.mp3",
+            "title": "il-Albi Yi‘shaq Kulli Gamil (1961)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Riyad al-Sunbati"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a2b3fe65d8a3c7a9.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_kabira/tuta.mp3",
+            "title": "Tuta (1942)",
+            "credits": [
+              "Instrumental Composition (from the movie Ahlam el-Shabab )",
+              "Music by Farid al-Atrash"
+            ]
+          },
+          {
+            "src": "assets/audio/example-ef05070744ffeb47.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_kabira/ya_bid3_el_ward.mp3",
+            "title": "Ya Bid‘ el-Ward (1944)",
+            "credits": [
+              "Asmahan",
+              "Music by Farid al-Atrash"
+            ]
+          },
+          {
+            "src": "assets/audio/example-1679f35a88d4e0e7.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_kabira/tile3li_el_biki.mp3",
+            "title": "Tile‘ Li el-Biki",
+            "credits": [
+              "Fairouz",
+              "Music by Philemon Wehbe"
+            ]
+          },
+          {
+            "src": "assets/audio/example-984689d22a3898b8.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_kabira/sawa_rbina.mp3",
+            "title": "Sawa Rbina (1968)",
+            "credits": [
+              "Fairouz",
+              "Music by the Rahbani Brothers"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/wahda_kabira.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/wahda_kabira.png"
+    ]
+  },
+  {
+    "id": "wahda_saghira",
+    "name": "Wahda Saghira",
+    "meter": "2/4",
+    "notations": [
+      "assets/notation/wahda_saghira.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/wahda_saghira.php",
+    "alternateNames": [
+      {
+        "name": "Wahda Basita"
+      }
+    ],
+    "audio": null,
+    "forms": [
+      {
+        "id": "wahda_saghira",
+        "label": "Standard form",
+        "meter": "2/4",
+        "notation": "assets/notation/wahda_saghira.png",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-5c3c9c5c212bb3b8.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/darit_il_ayyam.mp3",
+            "title": "Darit el-Ayyam (1970)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a41327b8a6ce537a.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/al_atlal.mp3",
+            "title": "al-Atlal (1966)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Riyad al-Sunbati"
+            ]
+          },
+          {
+            "src": "assets/audio/example-149a946d0f7a6ad2.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/3ala_hisbi_widab_albi.mp3",
+            "title": "‘Ala Hesb Widad Albi (1953)",
+            "credits": [
+              "Abdel Halim Hafez",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-bf846b41665d307f.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/mudnaka.mp3",
+            "title": "Qasida Mudnaka (1938)",
+            "credits": [
+              "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-11c9159730f07b4e.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/nibtidi.mp3",
+            "title": "Nibtidi Mnein el-Hikaya (1975)",
+            "credits": [
+              "Abdel Halim Hafez",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-72dcdaeaebefb6c1.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/qal_eh_biyisaluni.mp3",
+            "title": "Qal Eh Biyis'aluni",
+            "credits": [
+              "Warda",
+              "Music by Sayed Makkawi"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/wahda_saghira.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/wahda_saghira.png"
+    ]
+  },
+  {
+    "id": "wahda_w_nuss",
+    "name": "Wahda w-Nuss",
+    "meter": "4/4",
+    "notations": [
+      "assets/notation/wahda_w_nuss.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/wahda_w_nuss.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/wahda_w_nuss.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/wahda_w_nuss.mp3",
+      "title": "Iqa‘ Wahda w-Nuss 4/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "wahda_w_nuss",
+        "label": "Standard form",
+        "meter": "4/4",
+        "notation": "assets/notation/wahda_w_nuss.png",
+        "tabla": [
+          {
+            "src": "assets/audio/wahda_w_nuss.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/wahda_w_nuss.mp3",
+            "title": "Iqa‘ Wahda w-Nuss 4/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-d5ecbad251f13f63.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/nura_nura.mp3",
+            "title": "Nura Nura (1953)",
+            "credits": [
+              "Vocals and Music by Farid al-Atrash"
+            ]
+          },
+          {
+            "src": "assets/audio/example-60213c4305b1d64f.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/amal_hayati.mp3",
+            "title": "Amal Hayati (1965)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Muhammad Abdel Wahab (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-e9c748c9ce4c0767.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/ba3id_3annak.mp3",
+            "title": "Ba‘id ‘Annak (1965)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-e97378e9fecf7d10.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/ya_kawini_ya_ali.mp3",
+            "title": "Ya Kawini Ya ‘Ali (1953)",
+            "credits": [
+              "Sabah",
+              "Music by Farid al-Atrash"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/wahda_w_nuss.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/wahda_w_nuss.png"
+    ]
+  },
+  {
+    "id": "warshan_arabi",
+    "name": "Warshan ‘Arabi",
+    "meter": "32/4",
+    "notations": [
+      "assets/notation/warshan_arabi.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/warshan_arabi.php",
+    "alternateNames": [],
+    "audio": null,
+    "forms": [
+      {
+        "id": "warshan_arabi",
+        "label": "Standard form",
+        "meter": "32/4",
+        "notation": "assets/notation/warshan_arabi.png",
+        "tabla": [],
+        "examples": [
+          {
+            "src": "assets/audio/example-abde9afa33633817.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/warshan_arabi/qatili_bi_ghunjil_alkindi.mp3",
+            "title": "Muwashah Qatili Bi Ghunji al-Kahali",
+            "credits": [
+              "Ensemble Al-Kindi",
+              "Les Croisades Sous Le Regard De l'Orient Part I - Maqam Bayati"
+            ]
+          },
+          {
+            "src": "assets/audio/example-b21ba4c23f4b2261.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/warshan_arabi/ah_min_jour_el_ghawani.mp3",
+            "title": "Muwashah Ahi Min Juri al-Ghawani",
+            "credits": [
+              "Abdel Halim Noueira Ensemble",
+              "Music by Ahmad Abu Khalil al-Qabbani"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/warshan_arabi.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/warshan_arabi.png"
+    ]
+  },
+  {
+    "id": "yuruk_semai",
+    "name": "Yuruk Semai",
+    "meter": "6/8",
+    "notations": [
+      "assets/notation/yuruk_semai.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/yuruk_semai.php",
+    "alternateNames": [
+      {
+        "name": "Yugrug"
+      }
+    ],
+    "audio": {
+      "src": "assets/audio/yuruk_semai.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/yuruk_semai.mp3",
+      "title": "Iqa‘ Yuruk Semai 6/8",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "yuruk_semai",
+        "label": "Standard form",
+        "meter": "6/8",
+        "notation": "assets/notation/yuruk_semai.png",
+        "tabla": [
+          {
+            "src": "assets/audio/yuruk_semai.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/yuruk_semai.mp3",
+            "title": "Iqa‘ Yuruk Semai 6/8",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-bbfe5f0f476b2413.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/ahwa_al_ghazal.mp3",
+            "title": "Muwashah Ahwa al-Ghazal al-Rabrabi",
+            "credits": [
+              "Al-Kindi Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-0d8cec916bbbc557.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/3unq_al_malih.mp3",
+            "title": "Muwashah ‘Unq al-Malih al-Ghali",
+            "credits": [
+              "Sabri al-Mudallal"
+            ]
+          },
+          {
+            "src": "assets/audio/example-6585630a1d66406f.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/billadhi_askara.mp3",
+            "title": "Muwashah Bil-Ladhi Askara",
+            "credits": [
+              "Louis Hage and Aida Chalhoub"
+            ]
+          },
+          {
+            "src": "assets/audio/example-a6bd996b2a66746c.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/ila_kam_dha_al_tamadi.mp3",
+            "title": "Muwashah Ila Kam Dha al-Tamadi",
+            "credits": [
+              "Ensemble Morkos",
+              "Cèdre"
+            ]
+          },
+          {
+            "src": "assets/audio/example-fc162944cb419c8a.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/qad_hala_shurb_al_mudam.mp3",
+            "title": "Muwashah Qad Hala Shurb al-Mudam",
+            "credits": [
+              "Al-Turath Ensemble"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d3c7383976c4be98.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/qum_ya_nadim.mp3",
+            "title": "Muwashah Qum Ya Nadim",
+            "credits": [
+              "Sabah Fakhri",
+              "Music by ‘Umar al-Batsh"
+            ]
+          },
+          {
+            "src": "assets/audio/example-d7c7a44a7ffe5b35.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/ya_bahjit_el_rouh.mp3",
+            "title": "Muwashah Ya Bahjet el-Rouh",
+            "credits": [
+              "Sabah Fakhri",
+              "Music by Sayyed Darwish"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/yuruk_semai.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/yuruk_semai.png"
+    ]
+  },
+  {
+    "id": "zaffa",
+    "name": "Zaffa",
+    "meter": "4/4",
+    "notations": [
+      "assets/notation/zaffa.png"
+    ],
+    "source": "https://www.maqamworld.com/en/iqaa/zaffa.php",
+    "alternateNames": [],
+    "audio": {
+      "src": "assets/audio/zaffa.mp3",
+      "source": "https://www.maqamworld.com/demo/iqaa/tabla/zaffa.mp3",
+      "title": "Iqa‘ Zaffa 4/4",
+      "credits": [
+        "Tabla demonstration by Faisal Zedan"
+      ],
+      "performer": "Faisal Zedan"
+    },
+    "forms": [
+      {
+        "id": "zaffa",
+        "label": "Standard form",
+        "meter": "4/4",
+        "notation": "assets/notation/zaffa.png",
+        "tabla": [
+          {
+            "src": "assets/audio/zaffa.mp3",
+            "source": "https://www.maqamworld.com/demo/iqaa/tabla/zaffa.mp3",
+            "title": "Iqa‘ Zaffa 4/4",
+            "credits": [
+              "Tabla demonstration by Faisal Zedan"
+            ],
+            "performer": "Faisal Zedan"
+          }
+        ],
+        "examples": [
+          {
+            "src": "assets/audio/example-6906f4f58d44d1fc.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/zaffa/duqqu_il_mazahir.mp3",
+            "title": "Duqqu il-Mazahir (1952)",
+            "credits": [
+              "Vocals and Music by Farid al-Atrash"
+            ]
+          },
+          {
+            "src": "assets/audio/example-ede309969d0e48f4.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/zaffa/alf_leila_w_leila.mp3",
+            "title": "Alf Leila w Leila (1969)",
+            "credits": [
+              "Umm Kulthum",
+              "Music by Baligh Hamdi (Egypt)"
+            ]
+          },
+          {
+            "src": "assets/audio/example-30c289a21d48d0d9.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/zaffa/ah_ya_hilu.mp3",
+            "title": "Qadd Ah Ya Hilu",
+            "credits": [
+              "Muhammad Khayri"
+            ]
+          },
+          {
+            "src": "assets/audio/example-99cd49dfd97a54c1.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/zaffa/ya_mal_el_sham.mp3",
+            "title": "Qadd Ya Mal il-Sham",
+            "credits": [
+              "Sabah Fakhri",
+              "Music by Ahmad Abu Khalil al-Qabbani"
+            ]
+          },
+          {
+            "src": "assets/audio/example-c9dca87da426fabd.mp3",
+            "source": "https://www.maqamworld.com/audio/iqaa/zaffa/hann_el_hadid.mp3",
+            "title": "Hann el-Hadid (1974)",
+            "credits": [
+              "Joseph Saqr",
+              "Music by Ziad Rahbani",
+              "From the musical Nazl el-Surur"
+            ]
+          }
+        ],
+        "notationSource": "https://www.maqamworld.com/note/iqaa/zaffa.png"
+      }
+    ],
+    "notationSources": [
+      "https://www.maqamworld.com/note/iqaa/zaffa.png"
+    ]
+  }
+]
