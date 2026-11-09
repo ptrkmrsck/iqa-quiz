@@ -46,10 +46,10 @@ test('multiple choice grades once and repeats missed rhythms',async({page})=>{
  const correct=src!.includes('maqsum')?'Maqsum':'Baladi';
  const wrong=correct==='Maqsum'?'Baladi':'Maqsum';
  await page.locator('.choices').getByRole('button',{name:wrong,exact:true}).click();
- await expect(page.getByText('Incorrect. Try again.',{exact:true})).toBeVisible();
+ await expect(page.getByText('Incorrect, try again',{exact:true})).toBeVisible();
  await expect(page.getByRole('heading',{name:'Which iqa‘ is this?'})).toBeVisible();
  await expect(page.locator('#again-count')).toHaveText('1');
- await expect(page.locator('.choices').getByRole('button',{name:wrong+' — Try again',exact:true})).toBeDisabled();
+ await expect(page.locator('.choices').getByRole('button',{name:wrong,exact:true})).toBeDisabled();
  await expect(page.getByRole('button',{name:'Next',exact:true})).toHaveCount(0);
  await expect(page.locator('.notation img')).toHaveAttribute('src',src!);
  for(let i=0;i<3;i++){
@@ -86,7 +86,7 @@ test('alternate names appear only after correct answers, including Hard mode',as
  const src=await page.locator('.notation img').getAttribute('src');
  await page.locator('.choices').getByRole('button',{name:src!.includes('baladi')?'Malfuf':'Baladi',exact:true}).click();
  await expect(page.locator('#alternate-names')).toHaveCount(0);
- await expect(page.getByText('Incorrect. Try again.',{exact:true})).toBeVisible();
+ await expect(page.getByText('Incorrect, try again',{exact:true})).toBeVisible();
  const nextSrc=await page.locator('.notation img').getAttribute('src');
  const isBaladi=nextSrc!.includes('baladi');
  await page.locator('.choices').getByRole('button',{name:isBaladi?'Baladi':'Malfuf',exact:true}).click();
@@ -115,7 +115,7 @@ test('audio playback, correct-only notation reveal, shared mode and collapsible 
  await page.locator('.choices').getByRole('button',{name:source!.includes('baladi')?'Malfuf':'Baladi',exact:true}).click();
  await expect(page.locator('.notation')).toHaveCount(0);
  await expect(page.locator('#alternate-names')).toHaveCount(0);
- await expect(page.getByText('Incorrect. Try again.',{exact:true})).toBeVisible();
+ await expect(page.getByText('Incorrect, try again',{exact:true})).toBeVisible();
  await expect(page.locator('audio')).toHaveAttribute('src',source!);
  const second=await page.locator('audio').getAttribute('src');
  await page.locator('.choices').getByRole('button',{name:second!.includes('baladi')?'Baladi':'Malfuf',exact:true}).click();
@@ -197,7 +197,7 @@ for (const [random,label,file] of [[0,'Form I','aqsaq_f1.png'],[0.99,'Form II','
   await page.getByRole('button',{name:'Reveal answer'}).click();
   await expect(page.locator('#form-label')).toHaveCount(0);
   await page.getByRole('button',{name:'Got it',exact:true}).click();
-  await expect(page.locator('#form-label')).toHaveText(label+' · 9/8');
+  await expect(page.locator('#form-label')).toHaveText(label);
   await expect(page.locator('.notation img')).toHaveAttribute('src','https://www.maqamworld.com/note/iqaa/'+file);
  });
 }
@@ -214,7 +214,7 @@ test('hard audio uses musical examples paired with the selected form',async({pag
  await page.locator('audio').evaluate((a:HTMLAudioElement)=>a.play());
  await expect.poll(()=>page.locator('audio').evaluate((a:HTMLAudioElement)=>a.currentTime)).toBeGreaterThan(0);
  await page.locator('.choices').getByRole('button',{name:'Aqsaq',exact:true}).click();
- await expect(page.locator('#form-label')).toHaveText('Form II · 9/8');
+ await expect(page.locator('#form-label')).toHaveText('Form II');
  await expect(page.locator('.notation img')).toHaveAttribute('src',form.notationSource);
  await expect(page.locator('#track-credit')).toBeVisible();
  await expect(page.locator('audio')).toHaveAttribute('src',source!);
@@ -244,13 +244,13 @@ test('untranscribed tempo variants are labeled without a mismatched score',async
  await page.getByRole('button',{name:'Reveal answer'}).click();
  await expect(page.locator('#form-label')).toHaveCount(0);
  await page.getByRole('button',{name:'Got it',exact:true}).click();
- await expect(page.locator('#form-label')).toHaveText('Faster 4/4 form · 4/4');
+ await expect(page.locator('#form-label')).toHaveText('Faster 4/4 form');
  await expect(page.locator('.notation img')).toHaveCount(0);
  await expect(page.getByText('MaqamWorld does not provide a separate transcription for this tempo variant.')).toBeVisible();
  await inSettings(page,()=>page.getByRole('radio',{includeHidden:true,name:'Show',exact:true}).check());
  await inSettings(page,()=>page.getByRole('radio',{includeHidden:true,name:'None',exact:true}).check());
  await expect(page.locator('.notation img')).toHaveCount(0);
- await expect(page.locator('#form-label')).toHaveText('Faster 4/4 form · 4/4');
+ await expect(page.locator('#form-label')).toHaveText('Faster 4/4 form');
 });
 
 test('default selection and random sets respect size, audio availability and persistence',async({page})=>{
@@ -427,7 +427,7 @@ test('keyboard answers, audio and drawer guards work without double actions',asy
  const names=await page.locator('.choices button').allTextContents();
  const wrongIndex=names.findIndex(n=>n!==correct);
  await page.keyboard.press(String(wrongIndex+1));
- await expect(page.locator('.wrong-answer')).toContainText('Try again');
+ await expect(page.locator('.wrong-answer')).toHaveAttribute('aria-description','Incorrect answer');
  await expect(page.locator('.wrong-answer')).toBeDisabled();
  await page.keyboard.press(String(wrongIndex+1));
  await expect(page.locator('#again-count')).toHaveText('1');

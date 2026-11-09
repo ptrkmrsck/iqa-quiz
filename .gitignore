@@ -19,3 +19,6 @@ __pycache__/
 
 # Local notation backups; display uses Maqam World URLs
 /assets/notation/
+
+# Local jins audio backups; playback uses Maqam World URLs
+/assets/jins-audio/

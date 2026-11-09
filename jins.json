@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "ajam",
+    "name": "‘Ajam",
+    "source": "https://www.maqamworld.com/en/jins/ajam.php",
+    "sourceHeading": "Jins ‘Ajam Root jins of the Maqam ‘Ajam Family",
+    "sourceDescriptions": [
+      "Jins ‘Ajam has two versions:",
+      "The 5-note version of Jins ‘Ajam is the most common version, and is the first jins in Maqam ‘Ajam and Maqam Shawq Afza . It is notated here with its tonic on C and its ghammaz on G.",
+      "The 3-note version of Jins ‘Ajam occurs mostly when it is used as a secondary jins , for example on the 6 th scale degree of Maqam Bayati , Maqam Saba or Maqam Kurd . This version is a carry over from Maqam ‘Ajam ‘Ushayran . It is notated here with its tonic on B♭."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/ajam.mp3"
+    ],
+    "notations": [
+      {
+        "id": "ajam",
+        "source": "https://www.maqamworld.com/note/jins/ajam.png",
+        "width": 651,
+        "height": 167,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "A3",
+            "sourceLabelHtml": "A3",
+            "frequencyHz": 220.0,
+            "position": {
+              "x": 49.0,
+              "y": 119.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B3",
+            "sourceLabelHtml": "B3",
+            "frequencyHz": 247.5,
+            "position": {
+              "x": 126.0,
+              "y": 111.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 209.0,
+              "y": 103.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 283.0,
+              "y": 95.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4",
+            "sourceLabelHtml": "E4",
+            "frequencyHz": 328.0,
+            "position": {
+              "x": 362.0,
+              "y": 86.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable, tuned down from 330"
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 439.0,
+              "y": 78.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 518.0,
+              "y": 70.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 590.0,
+              "y": 62.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      },
+      {
+        "id": "ajam-3-note",
+        "source": "https://www.maqamworld.com/note/jins/ajam-3-note.png",
+        "width": 539,
+        "height": 137,
+        "mapName": "notemap2",
+        "notes": [
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 37.0,
+              "y": 69.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 114.0,
+              "y": 60.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4♭",
+            "sourceLabelHtml": "B4♭",
+            "frequencyHz": 463.54,
+            "position": {
+              "x": 196.0,
+              "y": 53.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "C5",
+            "sourceLabelHtml": "C5",
+            "frequencyHz": 521.48,
+            "position": {
+              "x": 270.0,
+              "y": 45.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D5",
+            "sourceLabelHtml": "D5",
+            "frequencyHz": 586.66,
+            "position": {
+              "x": 347.0,
+              "y": 37.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E5♭",
+            "sourceLabelHtml": "E5♭",
+            "frequencyHz": 616.5,
+            "position": {
+              "x": 420.0,
+              "y": 29.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "F5",
+            "sourceLabelHtml": "F5",
+            "frequencyHz": 695.31,
+            "position": {
+              "x": 496.0,
+              "y": 21.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam/aghadan_alqak.mp3",
+        "title": "Aghadan Alqaka (1971)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam/el_bwab.mp3",
+        "title": "el-Buwab (1994)",
+        "credits": [
+          "Fairouz",
+          "Music by Philemon Wehbe"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam/fi_youm_we_leila.mp3",
+        "title": "Fi Youm we Leila (1978)",
+        "credits": [
+          "Warda",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam/lissa_fakir.mp3",
+        "title": "Lissa Fakir (1960)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam/min_youm_furgak.mp3",
+        "title": "Mawwal Min Youm Furgak",
+        "credits": [
+          "Muhammad Khayri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam/til3it_ya_mahla_nurha.mp3",
+        "title": "Til‘it Ya Mahla Nurha",
+        "credits": [
+          "Muhammad Abdel Karim",
+          "Music by Sayed Darwish"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam-3note/ba3id-3annak.mp3",
+        "title": "Ba‘id ‘Annak (1965)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Baligh Hamdi (Egypt)",
+          "3-note Jins ‘Ajam on the 6 th degree of Maqam Bayati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam-3note/habba-fou2.mp3",
+        "title": "Habba Fouq w Habba Taht",
+        "credits": [
+          "Ahmad Adaweya",
+          "Music by Mohamed el-Mesery",
+          "3-note Jins ‘Ajam on the 6 th degree of Maqam Saba"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam-3note/ahu-dalli-sar.mp3",
+        "title": "Ahu Da-lli Sar",
+        "credits": [
+          "Nay Barghouthi",
+          "Music by Sayed Darwish",
+          "3-note Jins ‘Ajam on the 6 th degree of Maqam Kurd"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "ajam_murassaa",
+    "name": "‘Ajam Murassa‘",
+    "source": "https://www.maqamworld.com/en/jins/ajam_murassaa.php",
+    "sourceHeading": "Jins ‘Ajam Murassa‘ New A variation of Jins ‘Ajam with a raised 4 th",
+    "sourceDescriptions": [
+      "Jins ‘Ajam Murassa‘ is a 5-note jins. It is notated here with its tonic on F and its ghammaz on C. Jins ‘Ajam Murassa‘ is not part of any maqam scale and usually occurs as a modulation from Jins ‘Ajam ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/ajam_murassaa.mp3"
+    ],
+    "notations": [
+      {
+        "id": "ajam_murassaa",
+        "source": "https://www.maqamworld.com/note/jins/ajam_murassaa.png",
+        "width": 569,
+        "height": 142,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "E4",
+            "sourceLabelHtml": "E4",
+            "frequencyHz": 330.0,
+            "position": {
+              "x": 53.0,
+              "y": 86.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 136.0,
+              "y": 78.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 211.0,
+              "y": 69.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 289.0,
+              "y": 61.0,
+              "radius": 13.0
+            },
+            "sourceComment": "TODO should that be lowered a bit to match 'Ajam's 3rd?"
+          },
+          {
+            "label": "B4♮",
+            "sourceLabelHtml": "B4♮",
+            "frequencyHz": 495.0,
+            "position": {
+              "x": 365.0,
+              "y": 53.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "C5",
+            "sourceLabelHtml": "C5",
+            "frequencyHz": 521.5,
+            "position": {
+              "x": 444.0,
+              "y": 45.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D5",
+            "sourceLabelHtml": "D5",
+            "frequencyHz": 586.66,
+            "position": {
+              "x": 518.0,
+              "y": 37.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/kallili.mp3",
+        "title": "Muwshah Kallili Ya Suhbu",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Muhammad ‘Uthman"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/3ala_shatt_bahr_el_hawa.mp3",
+        "title": "‘Ala Shatti Bahr el-Hawa",
+        "credits": [
+          "Karem Mahmud",
+          "Music by Mahmud al-Sherif"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/bein_shattein_w_mayya.mp3",
+        "title": "Bein Shattein we Mayya",
+        "credits": [
+          "Muhammad Qandil"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/ya_ma3shar_al_nas.mp3",
+        "title": "Mawwal Ya Ma‘shar al-Nas",
+        "credits": [
+          "Muhammad Khayri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/3umri_fi_hubbihi.mp3",
+        "title": "Qasida ‘Umri Fi Hubbihi Inqada",
+        "credits": [
+          "Muhammad Khayri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/abdu_daghir_qanun.mp3",
+        "title": "Taqsim Qanun in Maqam 'Ajam",
+        "credits": [
+          "Abdu Daghir",
+          "Al-Gibali"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/nibtidi_mnein_el_hikaya.mp3",
+        "title": "Nibtidi Mnein el-Hikaya (1975)",
+        "credits": [
+          "Abdel Halim Hafez",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/qariat_al_fingan.mp3",
+        "title": "Qari'at al-Fingan (1976)",
+        "credits": [
+          "Abdel Halim Hafez",
+          "Music by Muhammad al-Mugi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/sabbahti_min_3ishqak_abki.mp3",
+        "title": "Dawr Sabbahti Min ‘Ishqi Abki",
+        "credits": [
+          "Abdel Hayy Hilmi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/m_qadri_dalal_oud.mp3",
+        "title": "Oud Taqsim",
+        "credits": [
+          "Muhammad Qadri Dalal"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/ajam_murassaa/layali_zaman.mp3",
+        "title": "Layali Zaman",
+        "credits": [
+          "Instrumental composition by ‘Abdu Dagher",
+          "Recorded with his ensemble at the Cairo Opera House."
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "athar_kurd",
+    "name": "Athar Kurd",
+    "source": "https://www.maqamworld.com/en/jins/athar_kurd.php",
+    "sourceHeading": "Jins Athar Kurd A combination of Jins Kurd and Jins Nikriz",
+    "sourceDescriptions": [
+      "Jins Athar Kurd is a 5-note jins . It is notated here with its tonic on C and its ghammaz on G. Jins Athar Kurd is the first jins in Maqam Athar Kurd ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/athar_kurd.mp3"
+    ],
+    "notations": [
+      {
+        "id": "athar_kurd",
+        "source": "https://www.maqamworld.com/note/jins/athar_kurd.png",
+        "width": 632,
+        "height": 164,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "A3♭",
+            "sourceLabelHtml": "A3♭",
+            "frequencyHz": 211.0,
+            "position": {
+              "x": 59.0,
+              "y": 118.0,
+              "radius": 12.0
+            },
+            "sourceComment": "octave below A4b"
+          },
+          {
+            "label": "B3♮",
+            "sourceLabelHtml": "B3♮",
+            "frequencyHz": 247.5,
+            "position": {
+              "x": 136.0,
+              "y": 110.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 218.0,
+              "y": 102.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4♭",
+            "sourceLabelHtml": "D4♭",
+            "frequencyHz": 274.0,
+            "position": {
+              "x": 293.0,
+              "y": 94.0,
+              "radius": 13.0
+            },
+            "sourceComment": "fine tune minor 2nd (see Kurd)"
+          },
+          {
+            "label": "E4♭",
+            "sourceLabelHtml": "E4♭",
+            "frequencyHz": 309.0,
+            "position": {
+              "x": 370.0,
+              "y": 86.0,
+              "radius": 13.0
+            },
+            "sourceComment": "minor 3rd"
+          },
+          {
+            "label": "F4♯",
+            "sourceLabelHtml": "F4♯",
+            "frequencyHz": 375.0,
+            "position": {
+              "x": 447.0,
+              "y": 77.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 526.0,
+              "y": 69.0,
+              "radius": 14.0
+            },
+            "sourceComment": "hijazkar tonic"
+          },
+          {
+            "label": "A4♭",
+            "sourceLabelHtml": "A4♭",
+            "frequencyHz": 423.0,
+            "position": {
+              "x": 599.0,
+              "y": 61.0,
+              "radius": 12.0
+            },
+            "sourceComment": "variable: Hijaz 2nd"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/athar_kurd/habibaha.mp3",
+        "title": "Habibaha (1965)",
+        "credits": [
+          "Abdel Halim Hafez",
+          "Music by Muhammad al-Mugi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/athar_kurd/raydak.mp3",
+        "title": "Raydak (1950)",
+        "credits": [
+          "Leila Murad",
+          "Music by Ahmad Sidqi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/athar_kurd/ya_fagr_nurak.mp3",
+        "title": "Ya Fagr Nurak Halli We Ban (c.1952)",
+        "credits": [
+          "Baligh Hamdi",
+          "Music by Yussef Shawqi"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "bayati",
+    "name": "Bayati",
+    "source": "https://www.maqamworld.com/en/jins/bayati.php",
+    "sourceHeading": "Jins Bayati Root jins of the Maqam Bayati Family",
+    "sourceDescriptions": [
+      "Jins Bayati is a 4-note jins . It is notated here with its tonic on D and its ghammaz on G. Jins Bayati is the first jins in Maqam Bayati ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/bayati.mp3"
+    ],
+    "notations": [
+      {
+        "id": "bayati",
+        "source": "https://www.maqamworld.com/note/jins/bayati.png",
+        "width": 664,
+        "height": 141,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "B3 half-flat",
+            "sourceLabelHtml": "B3<i class='icon-halfflat'></i>",
+            "frequencyHz": 243.0,
+            "position": {
+              "x": 71.0,
+              "y": 105.0,
+              "radius": 12.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 151.0,
+              "y": 96.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 235.0,
+              "y": 88.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4 half-flat",
+            "sourceLabelHtml": "E4<i class='icon-halfflat'></i>",
+            "frequencyHz": 320.0,
+            "position": {
+              "x": 311.0,
+              "y": 79.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 392.0,
+              "y": 71.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 472.0,
+              "y": 63.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 547.0,
+              "y": 53.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4♭",
+            "sourceLabelHtml": "B4♭",
+            "frequencyHz": 463.54,
+            "position": {
+              "x": 626.0,
+              "y": 45.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/bayati/3alalla_t3ud.mp3",
+        "title": "‘Ala Allah T‘ud (1970)",
+        "credits": [
+          "Wadih al-Safi",
+          "Music by Farid al-Atrash"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/bayati/3ataba.mp3",
+        "title": "‘Ataba - Malaffat (1995)",
+        "credits": [
+          "Joseph Saqr",
+          "Music by Ziad Rahbani",
+          "Bema Enno"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/bayati/3awwidti_3eini.mp3",
+        "title": "‘Awwidti ‘Eini (1957)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/bayati/el_ward_gamil.mp3",
+        "title": "el-Ward Gamil (1946)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/bayati/ba3id_3annak.mp3",
+        "title": "Ba‘id ‘Annak (1965)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/bayati/lamma_3al_bab.mp3",
+        "title": "Lamma ‘al-Bab",
+        "credits": [
+          "Fairouz",
+          "Music by Philemon Wehbe"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "hijaz",
+    "name": "Hijaz",
+    "source": "https://www.maqamworld.com/en/jins/hijaz.php",
+    "sourceHeading": "Jins Hijaz Root jins of the Maqam Hijaz Family",
+    "sourceDescriptions": [
+      "Jins Hijaz is a 4-note jins . It is notated here with its tonic on D and its ghammaz on G. The interval between the 2 nd and 3 rd degrees is usually played smaller than notated by raising the 2 nd a little and lowering the 3 rd a little. Jins Hijaz is the first jins in Maqam Hijaz , Maqam Hijazkar , and Maqam Zanjaran ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/hijaz.mp3"
+    ],
+    "notations": [
+      {
+        "id": "hijaz",
+        "source": "https://www.maqamworld.com/note/jins/hijaz.png",
+        "width": 677,
+        "height": 148,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "B3 half-flat",
+            "sourceLabelHtml": "B3<i class='icon-halfflat'></i>",
+            "frequencyHz": 243.0,
+            "position": {
+              "x": 95.0,
+              "y": 104.0,
+              "radius": 12.0
+            },
+            "sourceComment": "- variable -"
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 173.0,
+              "y": 96.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 255.0,
+              "y": 89.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4♭",
+            "sourceLabelHtml": "E4♭",
+            "frequencyHz": 315.0,
+            "position": {
+              "x": 330.0,
+              "y": 80.0,
+              "radius": 13.0
+            },
+            "sourceComment": "- variable Hijaz 2nd x1.0738-"
+          },
+          {
+            "label": "F4♯",
+            "sourceLabelHtml": "F4♯",
+            "frequencyHz": 375.0,
+            "position": {
+              "x": 408.0,
+              "y": 71.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 486.0,
+              "y": 64.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 559.0,
+              "y": 55.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4♭",
+            "sourceLabelHtml": "B4♭",
+            "frequencyHz": 463.54,
+            "position": {
+              "x": 636.0,
+              "y": 46.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz/ana_fintizarak.mp3",
+        "title": "Ana Fi-ntizarak (1943)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz/aghadan_alqak.mp3",
+        "title": "Aghadan Alqak (1971)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz/bi_karm_el_lulu.mp3",
+        "title": "Bi Karm el-Lulu",
+        "credits": [
+          "Fairouz",
+          "Music by Philemon Wehbe"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz/el_awwila.mp3",
+        "title": "el-Awwila Fil-Gharam(1944)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz/el_ward_gamil.mp3",
+        "title": "el-Ward Gamil (1946)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "hijaz_murassaa",
+    "name": "Hijaz Murassa‘",
+    "source": "https://www.maqamworld.com/en/jins/hijaz_murassaa.php",
+    "sourceHeading": "Jins Hijaz Murassa‘ New A variation of Jins Hijaz with a lowered 5 th",
+    "sourceDescriptions": [
+      "Jins Hijaz Murassa‘ is a 4-note jins . It is notated here with its tonic on D and its ghammaz on G. Jins Hijaz Murassa‘ is not part of any maqam scale and usually occurs as a modulation from Jins Hijaz , most in Maqam Hijazkar ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/hijaz_murassaa.mp3"
+    ],
+    "notations": [
+      {
+        "id": "hijaz_murassaa",
+        "source": "https://www.maqamworld.com/note/jins/hijaz_murassaa.png",
+        "width": 504,
+        "height": 158,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 43.0,
+              "y": 106.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "C4♯",
+            "sourceLabelHtml": "C4♯",
+            "frequencyHz": 281.24,
+            "position": {
+              "x": 88.0,
+              "y": 106.0,
+              "radius": 12.0
+            },
+            "sourceComment": "fine tune"
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 143.0,
+              "y": 98.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4♭",
+            "sourceLabelHtml": "E4♭",
+            "frequencyHz": 315.0,
+            "position": {
+              "x": 217.0,
+              "y": 89.0,
+              "radius": 13.0
+            },
+            "sourceComment": "fine tune"
+          },
+          {
+            "label": "F4♯",
+            "sourceLabelHtml": "F4♯",
+            "frequencyHz": 375.0,
+            "position": {
+              "x": 294.0,
+              "y": 81.0,
+              "radius": 13.0
+            },
+            "sourceComment": "fine tune"
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 373.0,
+              "y": 73.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4♭",
+            "sourceLabelHtml": "A4♭",
+            "frequencyHz": 422.0,
+            "position": {
+              "x": 450.0,
+              "y": 65.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/ana_fintizarak.mp3",
+        "title": "Ana Fi-ntizarak (1943)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/el-hobb-mahush-bis-sahl.mp3",
+        "title": "Dawr el-Hobb Ma Hush Bis-Sahl",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Dawud Husni (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/badru_timmin_oud.mp3",
+        "title": "Muwashah Badru Timmin (Oud Taqsim)",
+        "credits": [
+          "Ghada Shbeir",
+          "Music by Sheikh Mursi al-Hariri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/badru_timmin.mp3",
+        "title": "Muwashah Badru Timmin Haza Husnan",
+        "credits": [
+          "Vocals and Music by Sheikh Mursi al-Hariri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/laha_badrut_timm.mp3",
+        "title": "Muwashah Laha Badru-t-Tim",
+        "credits": [
+          "Vocals by Sheikh Mahmud Subh"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/mala_el_kasat_khana.mp3",
+        "title": "Muwashah Mala al-Kasat (khana)",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Muhammad ‘Uthman"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/qadduka_al_mayyas.mp3",
+        "title": "Qadduka al-Mayyas",
+        "credits": [
+          "Muhammad Khayri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/zarani_al_mahbub.mp3",
+        "title": "Muwashah Zarani al-Mahbub",
+        "credits": [
+          "Salatin Al-Tarab"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/zahr_el_laymun.mp3",
+        "title": "Zahr El-Laymoun (1997)",
+        "credits": [
+          "Sonia M'Barek",
+          "Tawchih © 1997"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/maqam_isba3ain.mp3",
+        "title": "Mawwal in Maqam Isba‘ayn",
+        "credits": [
+          "Sonia M'Barek",
+          "Tawchih © 1997"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "hijazkar",
+    "name": "Hijazkar",
+    "source": "https://www.maqamworld.com/en/jins/hijazkar.php",
+    "sourceHeading": "Jins Hijazkar New (undefined size)",
+    "sourceDescriptions": [
+      "Jins Hijazkar has no ghammaz , and therefore no defined size. Its melody is centered around its tonic, notated here on C. Jins Hijazkar occurs on the octave of Maqam Hijazkar ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/hijazkar.mp3"
+    ],
+    "notations": [
+      {
+        "id": "hijazkar",
+        "source": "https://www.maqamworld.com/note/jins/hijazkar.png",
+        "width": 517,
+        "height": 144,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "A4♭",
+            "sourceLabelHtml": "A4♭",
+            "frequencyHz": 420.0,
+            "position": {
+              "x": 70.0,
+              "y": 68.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4♮",
+            "sourceLabelHtml": "B4♮",
+            "frequencyHz": 493.33,
+            "position": {
+              "x": 149.0,
+              "y": 60.0,
+              "radius": 13.0
+            },
+            "sourceComment": "vartiable"
+          },
+          {
+            "label": "C5",
+            "sourceLabelHtml": "C5",
+            "frequencyHz": 521.48,
+            "position": {
+              "x": 227.0,
+              "y": 51.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D5♭",
+            "sourceLabelHtml": "D5♭",
+            "frequencyHz": 554.0,
+            "position": {
+              "x": 303.0,
+              "y": 42.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Hijaz 2 tuned up from 548"
+          },
+          {
+            "label": "E5♮",
+            "sourceLabelHtml": "E5♮",
+            "frequencyHz": 656.0,
+            "position": {
+              "x": 380.0,
+              "y": 35.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Hijaz 3 tuned down from 660"
+          },
+          {
+            "label": "F5",
+            "sourceLabelHtml": "F5",
+            "frequencyHz": 695.3,
+            "position": {
+              "x": 457.0,
+              "y": 26.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijazkar/ya_halawit_el_dunya.mp3",
+        "title": "Ya Halawit el-Dunya",
+        "credits": [
+          "Sayyed Makkawi",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijazkar/badru_timmin.mp3",
+        "title": "Muwashah Badru Timmin Haza Husnan",
+        "credits": [
+          "Ghada Shbeir",
+          "Al Muwashahat"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijazkar/hibbi_zurni_ma_tayassar.mp3",
+        "title": "Muwashah Hibbi Zurni My Tayassar",
+        "credits": [
+          "Karem Mahmud",
+          "Music by Darwish al-Hariri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijazkar/ramani_bi_sahmi.mp3",
+        "title": "Muwashah Ramani Bi Sahmi Hawahu",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Daoud Husni"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijazkar/ya_manta_wahishni.mp3",
+        "title": "Dawr Ya Ma-nta Wahishni",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Muhammad ‘Uthman"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijazkar/ya_nas_ana_mutti.mp3",
+        "title": "Dawr Ya Nas Ana Mutt Fi Hubbi",
+        "credits": [
+          "Ghada Shbeir",
+          "Music by Sayyed Darwish"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/hijazkar/zahr_el_laymun.mp3",
+        "title": "Zahr El-Laymoun (1997)",
+        "credits": [
+          "Sonia M'Barek",
+          "Tawchih"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "jiharkah",
+    "name": "Jiharkah",
+    "source": "https://www.maqamworld.com/en/jins/jiharkah.php",
+    "sourceHeading": "Jins Jiharkah A 5-note jins",
+    "sourceDescriptions": [
+      "Jins Jiharkah is a 5-note jins . It is notated here with its tonic on F and its ghammaz on C. The 3 rd and 4 th degrees are usually played lower than notated. Jins Jiharkah is the first jins in Maqam Jiharkah ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/jiharkah.mp3"
+    ],
+    "notations": [
+      {
+        "id": "jiharkah",
+        "source": "https://www.maqamworld.com/note/jins/jiharkah.png",
+        "width": 540,
+        "height": 147,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 27.0,
+              "y": 91.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4 half-flat",
+            "sourceLabelHtml": "E4<i class='icon-halfflat'></i>",
+            "frequencyHz": 321.33,
+            "position": {
+              "x": 106.0,
+              "y": 82.0,
+              "radius": 12.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 187.0,
+              "y": 74.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 262.0,
+              "y": 66.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4♮↓",
+            "sourceLabelHtml": "A4♮↓",
+            "frequencyHz": 433.0,
+            "position": {
+              "x": 340.0,
+              "y": 58.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "B4♭↓",
+            "sourceLabelHtml": "B4♭↓",
+            "frequencyHz": 454.0,
+            "position": {
+              "x": 417.0,
+              "y": 50.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "C5",
+            "sourceLabelHtml": "C5",
+            "frequencyHz": 521.48,
+            "position": {
+              "x": 496.0,
+              "y": 42.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/jiharkah/sultan_al_milah.mp3",
+        "title": "Muwashah Anta Sultan al-Milah",
+        "credits": [
+          "Sabah Fakhri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/jiharkah/3awwidti_3eini.mp3",
+        "title": "‘Awwidti ‘Eini (1957)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/jiharkah/shams_il_asil.mp3",
+        "title": "Shams el-Asil (1958)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/jiharkah/taqsim_oud_rast.mp3",
+        "title": "Taqsim Oud in Maqam Rast",
+        "credits": [
+          "Ibrahim al-Haggar",
+          "Wasla in Maqam Rast"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/jiharkah/ya_mal_el_sham.mp3",
+        "title": "Ya Mal il-Sham",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Ahmad Abu Khalil al-Qabbani"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "kurd",
+    "name": "Kurd",
+    "source": "https://www.maqamworld.com/en/jins/kurd.php",
+    "sourceHeading": "Jins Kurd Root jins of the Maqam Kurd Family",
+    "sourceDescriptions": [
+      "Jins Kurd is a 4-note jins . It is notated here with its tonic on D and its ghammaz on G. Jins Kurd is the first jins in Maqam Kurd ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/kurd.mp3"
+    ],
+    "notations": [
+      {
+        "id": "kurd",
+        "source": "https://www.maqamworld.com/note/jins/kurd.png",
+        "width": 525,
+        "height": 144,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 37.0,
+              "y": 97.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 109.0,
+              "y": 89.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4♭",
+            "sourceLabelHtml": "E4♭",
+            "frequencyHz": 308.25,
+            "position": {
+              "x": 183.0,
+              "y": 81.0,
+              "radius": 13.0
+            },
+            "sourceComment": "minor 2nd"
+          },
+          {
+            "label": "F4♮",
+            "sourceLabelHtml": "F4♮",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 261.0,
+              "y": 73.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 339.0,
+              "y": 65.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 411.0,
+              "y": 57.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4♭",
+            "sourceLabelHtml": "B4♭",
+            "frequencyHz": 463.54,
+            "position": {
+              "x": 488.0,
+              "y": 49.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/kurd/3awwidti_3eini.mp3",
+        "title": "‘Awwidti ‘Eini (1957)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/kurd/hayyarti_albi_intro.mp3",
+        "title": "Hayyarti Albi Ma‘ak (1961)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/kurd/hibbi_zurni.mp3",
+        "title": "Muwashah Hibbi Zurni Ma Tayassar",
+        "credits": [
+          "Karem Mahmud",
+          "Music by Darwish al-Hariri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/kurd/inta_omri.mp3",
+        "title": "Inta ‘Omri (1964)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/kurd/mshghoul.mp3",
+        "title": "Mashghul ‘Aleik",
+        "credits": [
+          "Vocals and Music by Karem Mahmoud"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/kurd/ya_bahjet_el_rouh.mp3",
+        "title": "Muwashah Ya Bahjet el-Rouh",
+        "credits": [
+          "Sabah Fakhri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/kurd/ya_zalimni.mp3",
+        "title": "Ya Zalimni (1951)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "lami",
+    "name": "Lami",
+    "source": "https://www.maqamworld.com/en/jins/lami.php",
+    "sourceHeading": "Jins Lami A 4-note jins",
+    "sourceDescriptions": [
+      "Jins Lami is a 4-note jins . It is notated here with its tonic on D and its ghammaz on G. Jins Lami is the first jins in Maqam Lami ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/lami.mp3"
+    ],
+    "notations": [
+      {
+        "id": "lami",
+        "source": "https://www.maqamworld.com/note/jins/lami.png",
+        "width": 489,
+        "height": 144,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 51.0,
+              "y": 93.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4♭",
+            "sourceLabelHtml": "E4♭",
+            "frequencyHz": 308.25,
+            "position": {
+              "x": 126.0,
+              "y": 85.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 202.0,
+              "y": 77.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 281.0,
+              "y": 69.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4♭",
+            "sourceLabelHtml": "A4♭",
+            "frequencyHz": 411.0,
+            "position": {
+              "x": 356.0,
+              "y": 61.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4♭",
+            "sourceLabelHtml": "B4♭",
+            "frequencyHz": 463.54,
+            "position": {
+              "x": 433.0,
+              "y": 53.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/lami/el_bortoqal.mp3",
+        "title": "el-Bortoqal (1938)",
+        "credits": [
+          "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/lami/ahmad_ya_habibi.mp3",
+        "title": "Ahmad Ya Habibi",
+        "credits": [
+          "Vocals and Music by Sabri al-Mudallal"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/lami/el_najmat.mp3",
+        "title": "el-Najmat (1964)",
+        "credits": [
+          "Vocals and Music by Wadih al-Safi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/lami/gulli_ya_hilu.mp3",
+        "title": "Gulli Ya Hilu",
+        "credits": [
+          "Kazem el-Saher (Iraq)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/lami/qasidat_aqulu.mp3",
+        "title": "Qasida Aqulu Wa Qad Nahat Bi Qurbi Hamamatun",
+        "credits": [
+          "Nazem al-Ghazali (Iraq)"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "mukhalif_sharqi",
+    "name": "Mukhalif Sharqi",
+    "source": "https://www.maqamworld.com/en/jins/mukhalif_sharqi.php",
+    "sourceHeading": "Jins Mukhalif Sharqi New A variation of Jins Sikah with a lowered 3 rd",
+    "sourceDescriptions": [
+      "Jins Mukhalif Sharqi has no ghammaz , and therefore no defined size. It is notated here with its tonic on E half-flat . Jins Mukhalif Sharqi is not part of any maqam scale and usually occurs as a modulation from Jins Sikah ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/mukhalif_sharqi.mp3"
+    ],
+    "notations": [
+      {
+        "id": "mukhalif_sharqi",
+        "source": "https://www.maqamworld.com/note/jins/mukhalif_sharqi.png",
+        "width": 315,
+        "height": 164,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "E4 half-flat",
+            "sourceLabelHtml": "E4<i class='icon-halfflat'></i>",
+            "frequencyHz": 320.0,
+            "position": {
+              "x": 80.0,
+              "y": 87.0,
+              "radius": 14.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 155.0,
+              "y": 79.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4♭",
+            "sourceLabelHtml": "G4♭",
+            "frequencyHz": 365.32,
+            "position": {
+              "x": 233.0,
+              "y": 70.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/emta_el_hawa.mp3",
+        "title": "Dawr Emta el-Hawa (1936)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/ghannili.mp3",
+        "title": "Ghannili Shwayy Shwayy (1945)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/raqsat_al_sus.mp3",
+        "title": "Raqsat al-Sus (1974)",
+        "credits": [
+          "Music by the Rahbani Brothers",
+          "From the operetta \"Lulu\""
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/lisan_el_dam3i.mp3",
+        "title": "Dawr Lisan el-Dam‘i",
+        "credits": [
+          "Yusuf al-Manyalawi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/mahtiyali_khana.mp3",
+        "title": "Muwashah Ma-htiyali (khana)",
+        "credits": [
+          "Aicha Redouane",
+          "Arabesques Vocales © 2000"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/muwashah_ya_samiri.mp3",
+        "title": "Muwashah Ya Samiri Da‘a Sabri",
+        "credits": [
+          "Muhammad Khayri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/tahmila_suznak.mp3",
+        "title": "Tahmila Rast (Suznak)",
+        "credits": [
+          "Aicha Redouane",
+          "Arabesques Vocales © 2000"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/ya_sahib_el_gamal.mp3",
+        "title": "Ya ‘Ammi Ya Saheb el-Gamal",
+        "credits": [
+          "Vocals and Music by Ahmed Adaweyah"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/abdu_daghir_violin.mp3",
+        "title": "Taqsim Violin",
+        "credits": [
+          "Abdu Daghir",
+          "Al-Gibali"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/el_layli_mish_bukra.mp3",
+        "title": "el-Layli Ma Birda Bukra",
+        "credits": [
+          "Vocals and Music by Wadih al-Safi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/ib3id_3anni.mp3",
+        "title": "Ib‘id ‘Anni ‘Uyunak",
+        "credits": [
+          "Yasmin al-Khayyam",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mukhalif_sharqi/ib3id_3anni_nay.mp3",
+        "title": "Ib‘id ‘Anni ‘Uyunak - Nay Solo",
+        "credits": [
+          "Yasmin al-Khayyam",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "mustaar",
+    "name": "Musta‘ar",
+    "source": "https://www.maqamworld.com/en/jins/mustaar.php",
+    "sourceHeading": "Jins Musta‘ar A variation of Jins Sikah with a raised 2 nd",
+    "sourceDescriptions": [
+      "Jins Musta‘ar is a 3-note jins . It is notated here with its tonic on E half-flat and its ghammaz on G. Jins Musta‘ar is the first jins in Maqam Musta‘ar ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/mustaar.mp3"
+    ],
+    "notations": [
+      {
+        "id": "mustaar",
+        "source": "https://www.maqamworld.com/note/jins/mustaar.png",
+        "width": 496,
+        "height": 141,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "D4♯",
+            "sourceLabelHtml": "D4♯",
+            "frequencyHz": 308.25,
+            "position": {
+              "x": 66.0,
+              "y": 91.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4 half-flat",
+            "sourceLabelHtml": "E4<i class='icon-halfflat'></i>",
+            "frequencyHz": 320.0,
+            "position": {
+              "x": 147.0,
+              "y": 84.0,
+              "radius": 14.0
+            },
+            "sourceComment": "variable 318~324"
+          },
+          {
+            "label": "F4♯",
+            "sourceLabelHtml": "F4♯",
+            "frequencyHz": 375.0,
+            "position": {
+              "x": 233.0,
+              "y": 76.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 307.0,
+              "y": 68.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4♮",
+            "sourceLabelHtml": "A4♮",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 383.0,
+              "y": 59.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4♭",
+            "sourceLabelHtml": "B4♭",
+            "frequencyHz": 463.54,
+            "position": {
+              "x": 449.0,
+              "y": 52.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mustaar/raqq_il_habib.mp3",
+        "title": "Raqq il-Habib (1944)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Muhammad al-Qasabgi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mustaar/sahran-li-wahdi.mp3",
+        "title": "Sahran li-Wahdi (1950)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mustaar/aruh_li_min.mp3",
+        "title": "Aruh Li Min (1958)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mustaar/habbeit_wala_banshi.mp3",
+        "title": "Habbeit Wala Banshi ‘Alayya (1930)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Muhammad al-Qasabgi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mustaar/huwwa_el_hobb_le3ba.mp3",
+        "title": "Huwwa el-Hobb Li‘ba",
+        "credits": [
+          "Aziza Galal",
+          "Music by Muhammad al-Mugi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mustaar/mawwal_qadi_el_gharam.mp3",
+        "title": "Mawwal Qadi al-Gharam",
+        "credits": [
+          "Abdel Hayy Hilmi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mustaar/oud_taqsim_sikah.mp3",
+        "title": "Taqsim Oud in Maqam Sikah",
+        "credits": [
+          "Riyad al-Sunbati",
+          "Taqaseem"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mustaar/qanun_taqsim_sikah.mp3",
+        "title": "Taqsim Qanun in Maqam Sikah",
+        "credits": [
+          "‘Imad Mulki",
+          "Al-Turath Ensemble",
+          "Gardens of Jasmin - Maqam Huzam"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/mustaar/qasida_qul_lil_maliha.mp3",
+        "title": "Qasida Qul Lil-Maliha",
+        "credits": [
+          "Sabah Fakhri"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "nahawand",
+    "name": "Nahawand",
+    "source": "https://www.maqamworld.com/en/jins/nahawand.php",
+    "sourceHeading": "Jins Nahawand Root jins of the Maqam Nahawand Family",
+    "sourceDescriptions": [
+      "Jins Nahawand is a 5-note jins . It is notated here with its tonic on C and its ghammaz on G. Jins Nahawand is the first jins in Maqam Nahawand ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/nahawand.mp3"
+    ],
+    "notations": [
+      {
+        "id": "nahawand",
+        "source": "https://www.maqamworld.com/note/jins/nahawand.png",
+        "width": 647,
+        "height": 170,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "A3♭",
+            "sourceLabelHtml": "A3♭",
+            "frequencyHz": 209.0,
+            "position": {
+              "x": 62.0,
+              "y": 118.0,
+              "radius": 12.0
+            },
+            "sourceComment": "fine tune up from 205.5"
+          },
+          {
+            "label": "A3♮",
+            "sourceLabelHtml": "A3♮",
+            "frequencyHz": 220.0,
+            "position": {
+              "x": 113.0,
+              "y": 118.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B3♮",
+            "sourceLabelHtml": "B3♮",
+            "frequencyHz": 247.5,
+            "position": {
+              "x": 162.0,
+              "y": 110.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 230.0,
+              "y": 102.0,
+              "radius": 14.0
+            },
+            "sourceComment": "tonic"
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 306.0,
+              "y": 94.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4♭",
+            "sourceLabelHtml": "E4♭",
+            "frequencyHz": 308.25,
+            "position": {
+              "x": 383.0,
+              "y": 86.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 460.0,
+              "y": 78.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 539.0,
+              "y": 69.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4♭",
+            "sourceLabelHtml": "A4♭",
+            "frequencyHz": 411.0,
+            "position": {
+              "x": 611.0,
+              "y": 60.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand/alf_leila_w_leila.mp3",
+        "title": "Alf Leila w Leila (1969)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand/balad_el_mahbub.mp3",
+        "title": "Balad el-Mahbub",
+        "credits": [
+          "Instrumental Composition",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand/darit_el_ayyam.mp3",
+        "title": "Darit el-Ayyam (1970)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand/dawr_ahibb_ashufak.mp3",
+        "title": "Dawr Ahibb Ashufak Kulli Youm (1930)",
+        "credits": [
+          "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand/gaddidti_hubbak.mp3",
+        "title": "Gaddidti Hubbak Leh (1952)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand/ya_dunya_ya_gharami.mp3",
+        "title": "Ya Dunya Ya Gharami (1938)",
+        "credits": [
+          "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand/ya_habibi_kullama.mp3",
+        "title": "Ya Habibi Kullama Habba al-Hawa (2000)",
+        "credits": [
+          "Fairouz",
+          "Music by Rahbani Brothers"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "nahawand_murassaa",
+    "name": "Nahawand Murassa‘",
+    "source": "https://www.maqamworld.com/en/jins/nahawand_murassaa.php",
+    "sourceHeading": "Jins Nahawand Murassa‘ A variation of Jins Nahawand with a lowered 5 th",
+    "sourceDescriptions": [
+      "Jins Nahawand Murassa‘ has no ghammaz , and therefore no defined size. It is notated here with its tonic on C. Jins Nahawand Murassa‘ is the first jins in Maqam Nahawand Murassa‘ ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/nahawand_murassaa.mp3"
+    ],
+    "notations": [
+      {
+        "id": "nahawand_murassaa",
+        "source": "https://www.maqamworld.com/note/jins/nahawand_murassaa.png",
+        "width": 555,
+        "height": 178,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "B3♮",
+            "sourceLabelHtml": "B3♮",
+            "frequencyHz": 247.5,
+            "position": {
+              "x": 55.0,
+              "y": 110.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 126.0,
+              "y": 102.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 202.0,
+              "y": 94.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4♭",
+            "sourceLabelHtml": "E4♭",
+            "frequencyHz": 308.25,
+            "position": {
+              "x": 280.0,
+              "y": 86.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 357.0,
+              "y": 78.0,
+              "radius": 13.0
+            },
+            "sourceComment": "-Hijaz 1st--"
+          },
+          {
+            "label": "G4♭",
+            "sourceLabelHtml": "G4♭",
+            "frequencyHz": 373.33,
+            "position": {
+              "x": 434.0,
+              "y": 70.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "A4♮",
+            "sourceLabelHtml": "A4♮",
+            "frequencyHz": 444.0,
+            "position": {
+              "x": 509.0,
+              "y": 62.0,
+              "radius": 12.0
+            },
+            "sourceComment": "var"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand_murassaa/dulab_nahawand_murassaa.mp3",
+        "title": "Dulab Nahawand (from Sibuni Ya Nas)",
+        "credits": [
+          "Sabah Fakhri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand_murassaa/habbeit_gamalak.mp3",
+        "title": "Habbeit Gamalak",
+        "credits": [
+          "Leila Murad",
+          "Music by Muhammad al-Qasabgi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand_murassaa/khusara.mp3",
+        "title": "Khusara (1957)",
+        "credits": [
+          "Abdel Halim Hafez",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand_murassaa/taht_il_shibbak.mp3",
+        "title": "Taht el-Shibbak (Accordion Solo)",
+        "credits": [
+          "Fatima Serhan",
+          "Music by ‘Aziz ‘Uthman"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nahawand_murassaa/ya_gari.mp3",
+        "title": "Min Hobbi Fik Ya Gari (1958)",
+        "credits": [
+          "Horeyya Hasan",
+          "Music by Muhammad al-Mugi"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "nikriz",
+    "name": "Nikriz",
+    "source": "https://www.maqamworld.com/en/jins/nikriz.php",
+    "sourceHeading": "Jins Nikriz Root jins of the Maqam Nikriz Family",
+    "sourceDescriptions": [
+      "Jins Nikriz is a 5-note jins . It is notated here with its tonic on C and its ghammaz on G. Jins Nikriz is the first jins in Maqam Nikriz and Maqam Nawa Athar ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/nikriz.mp3"
+    ],
+    "notations": [
+      {
+        "id": "nikriz",
+        "source": "https://www.maqamworld.com/note/jins/nikriz.png",
+        "width": 724,
+        "height": 159,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "A3♭",
+            "sourceLabelHtml": "A3♭",
+            "frequencyHz": 209.0,
+            "position": {
+              "x": 60.0,
+              "y": 116.0,
+              "radius": 12.0
+            },
+            "sourceComment": "fine tuned up from 205.5"
+          },
+          {
+            "label": "B3♮",
+            "sourceLabelHtml": "B3♮",
+            "frequencyHz": 247.5,
+            "position": {
+              "x": 138.0,
+              "y": 107.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 220.0,
+              "y": 100.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 295.0,
+              "y": 91.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4♭",
+            "sourceLabelHtml": "E4♭",
+            "frequencyHz": 315.0,
+            "position": {
+              "x": 373.0,
+              "y": 83.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "F4♯",
+            "sourceLabelHtml": "F4♯",
+            "frequencyHz": 375.0,
+            "position": {
+              "x": 450.0,
+              "y": 74.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 528.0,
+              "y": 66.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4♭",
+            "sourceLabelHtml": "A4♭",
+            "frequencyHz": 414.0,
+            "position": {
+              "x": 601.0,
+              "y": 58.0,
+              "radius": 12.0
+            },
+            "sourceComment": "fine tuned up from 411"
+          },
+          {
+            "label": "A4♮",
+            "sourceLabelHtml": "A4♮",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 640.0,
+              "y": 58.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4♭",
+            "sourceLabelHtml": "B4♭",
+            "frequencyHz": 463.54,
+            "position": {
+              "x": 678.0,
+              "y": 50.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nikriz/bayna_qasiyun_wa_rabwa.mp3",
+        "title": "Muwashah Bayna Qasiyun Wa Rabwa",
+        "credits": [
+          "Syrian National Orchestra",
+          "Music by ‘Umar al-Batsh"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nikriz/3awwidti_3eini.mp3",
+        "title": "‘Awwidti ‘Eini (1957)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nikriz/hawwil_ya_ghannam.mp3",
+        "title": "Hawwil Ya Ghannam",
+        "credits": [
+          "Najah Salam",
+          "Music by Eliya al-Matni"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nikriz/ba3id_annak.mp3",
+        "title": "Ba‘id ‘Annak (1965)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nikriz/fi_youm_we_leila.mp3",
+        "title": "Fi Youm We Leila (1978)",
+        "credits": [
+          "Warda",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/nikriz/lamma_anakhu.mp3",
+        "title": "Qasida Lamma Anakhu",
+        "credits": [
+          "Sabah Fakhri"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "rast",
+    "name": "Rast",
+    "source": "https://www.maqamworld.com/en/jins/rast.php",
+    "sourceHeading": "Jins Rast Root jins of the Maqam Rast Family",
+    "sourceDescriptions": [
+      "Jins Rast is a widely popular 5-note jins . It is notated here with its tonic on C and its ghammaz on G. Jins Rast is the first jins in Maqam Rast , Maqam Suznak , and other maqamat in the Maqam Rast Family ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/rast.mp3"
+    ],
+    "notations": [
+      {
+        "id": "rast",
+        "source": "https://www.maqamworld.com/note/jins/rast.png",
+        "width": 663,
+        "height": 150,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "A3",
+            "sourceLabelHtml": "A3",
+            "frequencyHz": 220.0,
+            "position": {
+              "x": 41.0,
+              "y": 110.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B3 half-flat",
+            "sourceLabelHtml": "B3<i class='icon-halfflat'></i>",
+            "frequencyHz": 241.0,
+            "position": {
+              "x": 121.0,
+              "y": 102.0,
+              "radius": 12.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 203.0,
+              "y": 94.0,
+              "radius": 14.0
+            },
+            "sourceComment": "tonic"
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 280.0,
+              "y": 85.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4 half-flat",
+            "sourceLabelHtml": "E4<i class='icon-halfflat'></i>",
+            "frequencyHz": 320.0,
+            "position": {
+              "x": 359.0,
+              "y": 77.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 436.0,
+              "y": 69.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 514.0,
+              "y": 61.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4♭",
+            "sourceLabelHtml": "A4♭",
+            "frequencyHz": 422.0,
+            "position": {
+              "x": 593.0,
+              "y": 52.0,
+              "radius": 12.0
+            },
+            "sourceComment": "variable: Hijaz 2nd"
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 630.0,
+              "y": 52.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/rast/ghannili.mp3",
+        "title": "Ghannili Shwayy Shwayy (1945)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/rast/3alalla_t3ud.mp3",
+        "title": "‘Ala Allah T‘ud (1970)",
+        "credits": [
+          "Wadih al-Safi",
+          "Music by Farid al-Atrash"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/rast/min_3azzibak.mp3",
+        "title": "Min ‘Azzibak",
+        "credits": [
+          "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/rast/min_3izz_el_nawm.mp3",
+        "title": "Min ‘Izz el-Nawm",
+        "credits": [
+          "Fairouz",
+          "Music by Philemon Wehbe"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/rast/ya_nas_el_dinye_dulab.mp3",
+        "title": "Ya Nas el-Dinye Dulab",
+        "credits": [
+          "Sabah"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "saba",
+    "name": "Saba",
+    "source": "https://www.maqamworld.com/en/jins/saba.php",
+    "sourceHeading": "Jins Saba (ambiguous size)",
+    "sourceDescriptions": [
+      "Jins Saba has an ambiguous size. It is notated here with its tonic on D and two ghammaz possibilities: the 3 rd degree (notated on F) or the 6 th degree (notated on B♭). Jins Saba is the first jins in Maqam Saba ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/saba.mp3"
+    ],
+    "notations": [
+      {
+        "id": "saba",
+        "source": "https://www.maqamworld.com/note/jins/saba.png",
+        "width": 647,
+        "height": 155,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "B3 half-flat",
+            "sourceLabelHtml": "B3<i class='icon-halfflat'></i>",
+            "frequencyHz": 243.0,
+            "position": {
+              "x": 66.0,
+              "y": 102.0,
+              "radius": 12.0
+            },
+            "sourceComment": "var"
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 144.0,
+              "y": 94.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 226.0,
+              "y": 86.0,
+              "radius": 14.0
+            },
+            "sourceComment": "tonic"
+          },
+          {
+            "label": "E4 half-flat",
+            "sourceLabelHtml": "E4<i class='icon-halfflat'></i>",
+            "frequencyHz": 320.0,
+            "position": {
+              "x": 301.0,
+              "y": 78.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 379.0,
+              "y": 70.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4♭",
+            "sourceLabelHtml": "G4♭",
+            "frequencyHz": 368.0,
+            "position": {
+              "x": 456.0,
+              "y": 62.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Hijaz 2nd tuned up from 365.32"
+          },
+          {
+            "label": "A4♮",
+            "sourceLabelHtml": "A4♮",
+            "frequencyHz": 437.0,
+            "position": {
+              "x": 532.0,
+              "y": 53.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Hijaz 3rd tuned down from 440"
+          },
+          {
+            "label": "B4♭",
+            "sourceLabelHtml": "B4♭",
+            "frequencyHz": 463.54,
+            "position": {
+              "x": 609.0,
+              "y": 45.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba/huwwa_sahih.mp3",
+        "title": "Huwwa Sahih el-Hawa Ghallab (1960)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba/aghadan_alqak.mp3",
+        "title": "Aghadan Alqaka (1971)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba/ansak.mp3",
+        "title": "Ansak Da Kalam (1961)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba/dulab_saba.mp3",
+        "title": "Dulab in Maqam Saba",
+        "credits": [
+          "Sabri al-Mudallal"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba/layali_saba.mp3",
+        "title": "Layali Saba",
+        "credits": [
+          "Sabri al-Mudallal"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba/lissa_fakir.mp3",
+        "title": "Lissa Fakir (1960)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba/tiri_ya_tiyyara.mp3",
+        "title": "Tiri Ya Tiyyara",
+        "credits": [
+          "Fairouz",
+          "Music by Philemon Wehbe"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "saba_dalanshin",
+    "name": "Saba Dalanshin",
+    "source": "https://www.maqamworld.com/en/jins/saba_dalanshin.php",
+    "sourceHeading": "Jins Saba Dalanshin New A special version of Jins Saba with its tonic on the 3 rd degree",
+    "sourceDescriptions": [
+      "Jins Saba Dalanshin is a special case of Jins Saba which has no ghammaz , and therefore no defined size. Its melody is centered around its tonic, notated here on C. The intervals above the tonic are more or less identical to Jins Hijaz . The note that is 2 degrees below the tonic (in this case A) is a secondary tonic.",
+      "Jins Saba Dalanshin occurs on the octave of Maqam Rast , which in this case becomes known as Maqam Dalanshin . It also occurs on the 5 th degree of Maqam Shawq Afza ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/saba_dalanshin.mp3"
+    ],
+    "notations": [
+      {
+        "id": "saba_dalanshin",
+        "source": "https://www.maqamworld.com/note/jins/saba_dalanshin.png",
+        "width": 552,
+        "height": 164,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 35.0,
+              "y": 70.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4♯",
+            "sourceLabelHtml": "G4♯",
+            "frequencyHz": 415.0,
+            "position": {
+              "x": 86.0,
+              "y": 70.0,
+              "radius": 12.0
+            },
+            "sourceComment": "ET???"
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 133.0,
+              "y": 62.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4 half-flat",
+            "sourceLabelHtml": "B4<i class='icon-halfflat'></i>",
+            "frequencyHz": 477.0,
+            "position": {
+              "x": 208.0,
+              "y": 55.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Bayati 2"
+          },
+          {
+            "label": "C5",
+            "sourceLabelHtml": "C5",
+            "frequencyHz": 521.48,
+            "position": {
+              "x": 281.0,
+              "y": 46.0,
+              "radius": 14.0
+            },
+            "sourceComment": "Hijaz Tonic"
+          },
+          {
+            "label": "D5♭",
+            "sourceLabelHtml": "D5♭",
+            "frequencyHz": 560.0,
+            "position": {
+              "x": 355.0,
+              "y": 38.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Hijaz 2"
+          },
+          {
+            "label": "E5♮",
+            "sourceLabelHtml": "E5♮",
+            "frequencyHz": 660.0,
+            "position": {
+              "x": 432.0,
+              "y": 29.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Hijaz 3"
+          },
+          {
+            "label": "F5",
+            "sourceLabelHtml": "F5",
+            "frequencyHz": 695.3,
+            "position": {
+              "x": 509.0,
+              "y": 21.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_dalanshin/ya_mal_el_sham.mp3",
+        "title": "Ya Mal el-Sham",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Ahmad Abu Khalil al-Qabbani"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_dalanshin/ja_jirat_al_sha3b_al_yamani.mp3",
+        "title": "Qasida Ya Jirat al-Sha‘b al-Yamani",
+        "credits": [
+          "Hasan al-Haffar"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_dalanshin/mala_el_kasat_khana.mp3",
+        "title": "Muwashah Mala al-Kasat (khana)",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Muhammad ‘Uthman"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_dalanshin/qanun_tqasim_rast.mp3",
+        "title": "Qanun Taqsim (from Layali Rast)",
+        "credits": [
+          "‘Abbas al-Bleidi"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_dalanshin/ya_halawit_el_dunya.mp3",
+        "title": "Ya Halawit el-Dunya",
+        "credits": [
+          "Sayyed Makkawi",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_dalanshin/zahrit_el_janub.mp3",
+        "title": "Iswaret el-‘Arus (1989)",
+        "credits": [
+          "Fairouz",
+          "Music by Philemon Wehbe"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "saba_zamzam",
+    "name": "Saba Zamzam",
+    "source": "https://www.maqamworld.com/en/jins/saba_zamzam.php",
+    "sourceHeading": "Jins Saba Zamzam (ambiguous size)",
+    "sourceDescriptions": [
+      "Jins Saba Zamzam (like Jins Saba ) has an ambiguous size. It is notated here with its tonic on D and two ghammaz possibilities: the 3 rd degree (notated on F) or the 6 th degree (notated on B♭). Jins Saba Zamzam is the first jins in Maqam Saba Zamzam ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/saba_zamzam.mp3"
+    ],
+    "notations": [
+      {
+        "id": "saba_zamzam",
+        "source": "https://www.maqamworld.com/note/jins/saba_zamzam.png",
+        "width": 556,
+        "height": 172,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 39.0,
+              "y": 100.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4",
+            "sourceLabelHtml": "D4",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 120.0,
+              "y": 92.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "E4♭",
+            "sourceLabelHtml": "E4♭",
+            "frequencyHz": 308.25,
+            "position": {
+              "x": 196.0,
+              "y": 84.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 274.0,
+              "y": 76.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Hijaz tonic"
+          },
+          {
+            "label": "G4♭",
+            "sourceLabelHtml": "G4♭",
+            "frequencyHz": 368.0,
+            "position": {
+              "x": 349.0,
+              "y": 68.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Hijaz 2nd tuned up from 365.32"
+          },
+          {
+            "label": "A4♮",
+            "sourceLabelHtml": "A4♮",
+            "frequencyHz": 437.0,
+            "position": {
+              "x": 427.0,
+              "y": 60.0,
+              "radius": 13.0
+            },
+            "sourceComment": "Hijaz 3rd tuned down from 440"
+          },
+          {
+            "label": "B4♭",
+            "sourceLabelHtml": "B4♭",
+            "frequencyHz": 463.54,
+            "position": {
+              "x": 504.0,
+              "y": 52.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_zamzam/3ala_hesb_widad.mp3",
+        "title": "‘Ala Hisb Widad Albi (1953)",
+        "credits": [
+          "Abdel Halim Hafez",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_zamzam/gana.mp3",
+        "title": "Gana el-Hawa (1969)",
+        "credits": [
+          "Abdel Halim Hafez",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_zamzam/zayy_el_hawa.mp3",
+        "title": "Zayy el-Hawa (1970)",
+        "credits": [
+          "Abdel Halim Hafez",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_zamzam/nibtidi.mp3",
+        "title": "Nibtidi Mnein el-Hikaya (1975)",
+        "credits": [
+          "Abdel Halim Hafez",
+          "Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/saba_zamzam/ya_bint_el_sultan.mp3",
+        "title": "Ya Bint el-Sultan",
+        "credits": [
+          "Vocals by Ahmed Adaweya"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "sazkar",
+    "name": "Sazkar",
+    "source": "https://www.maqamworld.com/en/jins/sazkar.php",
+    "sourceHeading": "Jins Sazkar A variation of Jins Rast with a raised 2 nd",
+    "sourceDescriptions": [
+      "Jins Sazkar is a 5-note jins. It is notated here with its tonic on C and its ghammaz on G. Jins Sazkar is the first jins in Maqam Sazkar ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/sazkar.mp3"
+    ],
+    "notations": [
+      {
+        "id": "sazkar",
+        "source": "https://www.maqamworld.com/note/jins/sazkar.png",
+        "width": 564,
+        "height": 168,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "B3 half-flat",
+            "sourceLabelHtml": "B3<i class='icon-halfflat'></i>",
+            "frequencyHz": 241.0,
+            "position": {
+              "x": 68.0,
+              "y": 106.0,
+              "radius": 12.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 139.0,
+              "y": 98.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4♯",
+            "sourceLabelHtml": "D4♯",
+            "frequencyHz": 310.0,
+            "position": {
+              "x": 213.0,
+              "y": 89.0,
+              "radius": 13.0
+            },
+            "sourceComment": "var sikah leading tone"
+          },
+          {
+            "label": "E4 half-flat",
+            "sourceLabelHtml": "E4<i class='icon-halfflat'></i>",
+            "frequencyHz": 320.0,
+            "position": {
+              "x": 290.0,
+              "y": 82.0,
+              "radius": 13.0
+            },
+            "sourceComment": "var"
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 368.0,
+              "y": 73.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4 ",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 447.0,
+              "y": 65.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4♮",
+            "sourceLabelHtml": "A4♮",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 519.0,
+              "y": 57.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/sazkar/mudnaka.mp3",
+        "title": "Qasida Mudnaka Gafahu Marqaduhu (1938)",
+        "credits": [
+          "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/sazkar/ya_dala3_sabah.mp3",
+        "title": "Ya Dala‘ Dalla‘ (1974)",
+        "credits": [
+          "Sabah",
+          "Music by Farid al-Atrash"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "sikah",
+    "name": "Sikah",
+    "source": "https://www.maqamworld.com/en/jins/sikah.php",
+    "sourceHeading": "Jins Sikah Root jins of the Maqam Sikah Family",
+    "sourceDescriptions": [
+      "Jins Sikah is a 3-note jins. It is notated here with its tonic on E half-flat and its ghammaz on G. Jins Sikah is the first jins in Maqam Sikah , Maqam Huzam , Maqam ‘Iraq , and Maqam Bastanikar ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/sikah.mp3"
+    ],
+    "notations": [
+      {
+        "id": "sikah",
+        "source": "https://www.maqamworld.com/note/jins/sikah.png",
+        "width": 466,
+        "height": 150,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "C4",
+            "sourceLabelHtml": "C4",
+            "frequencyHz": 260.74,
+            "position": {
+              "x": 37.0,
+              "y": 97.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4♮",
+            "sourceLabelHtml": "D4♮",
+            "frequencyHz": 293.33,
+            "position": {
+              "x": 96.0,
+              "y": 89.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D4♯",
+            "sourceLabelHtml": "D4♯",
+            "frequencyHz": 310.0,
+            "position": {
+              "x": 134.0,
+              "y": 89.0,
+              "radius": 12.0
+            },
+            "sourceComment": "leading tone"
+          },
+          {
+            "label": "E4 half-flat",
+            "sourceLabelHtml": "E4<i class='icon-halfflat'></i>",
+            "frequencyHz": 320.0,
+            "position": {
+              "x": 198.0,
+              "y": 81.0,
+              "radius": 14.0
+            },
+            "sourceComment": "variable 318~324"
+          },
+          {
+            "label": "F4",
+            "sourceLabelHtml": "F4",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 273.0,
+              "y": 72.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 351.0,
+              "y": 65.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4♭",
+            "sourceLabelHtml": "A4♭",
+            "frequencyHz": 422.0,
+            "position": {
+              "x": 425.0,
+              "y": 56.0,
+              "radius": 12.0
+            },
+            "sourceComment": "fine tuned up from 411"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/sikah/el_ward_gamil.mp3",
+        "title": "il-Ward Gamil (1946)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/sikah/abuz_zulof.mp3",
+        "title": "Hayhat Yabu al-Zuluf",
+        "credits": [
+          "Sabah",
+          "(Lebanese Folklore)"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "sikah_baladi",
+    "name": "Sikah Baladi",
+    "source": "https://www.maqamworld.com/en/jins/sikah_baladi.php",
+    "sourceHeading": "Jins Sikah Baladi New (undefined size)",
+    "sourceDescriptions": [
+      "Jins Sikah Baladi has no ghammaz , and therefore no defined size. Its melody is centered around its tonic, notated here on G. Jins Sikah Baladi is very difficult to accurately notate; instead its intervals and intonation are best learned by ear. Jins Sikah Baladi occurs on the octave of Maqam Sikah Baladi ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/sikah_baladi.mp3"
+    ],
+    "notations": [
+      {
+        "id": "sikah_baladi",
+        "source": "https://www.maqamworld.com/note/jins/sikah_baladi.png",
+        "width": 527,
+        "height": 138,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "E4 half-flat↓",
+            "sourceLabelHtml": "E4<i class='icon-halfflat'></i>↓",
+            "frequencyHz": 315.0,
+            "position": {
+              "x": 85.0,
+              "y": 93.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "F4 half-sharp↑",
+            "sourceLabelHtml": "F4<i class='icon-halfsharp'></i>↑",
+            "frequencyHz": 364.0,
+            "position": {
+              "x": 163.0,
+              "y": 85.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 243.0,
+              "y": 77.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4 half-flat↓",
+            "sourceLabelHtml": "A4<i class='icon-halfflat'></i>↓",
+            "frequencyHz": 425.0,
+            "position": {
+              "x": 318.0,
+              "y": 67.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "B4 half-flat↑",
+            "sourceLabelHtml": "B4<i class='icon-halfflat'></i>↑",
+            "frequencyHz": 485.0,
+            "position": {
+              "x": 395.0,
+              "y": 60.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          },
+          {
+            "label": "C5↓",
+            "sourceLabelHtml": "C5↓",
+            "frequencyHz": 515.0,
+            "position": {
+              "x": 473.0,
+              "y": 51.0,
+              "radius": 13.0
+            },
+            "sourceComment": "variable"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/sikah_baladi/qasida_man_mithlukum.mp3",
+        "title": "Qasida Man Mithlukum",
+        "credits": [
+          "Hasan al-Haffar",
+          "Muezzins D'Alep - Chants Religieux De L'Islam"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/sikah_baladi/hakam_3aleina.mp3",
+        "title": "Hakam ‘Aleina el-Hawa (1973)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/sikah_baladi/tal_intizari.mp3",
+        "title": "Tal Intizari (1937)",
+        "credits": [
+          "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/sikah_baladi/fantasy_nahawand.mp3",
+        "title": "Fantasy Nahawand",
+        "credits": [
+          "Instrumental Composition",
+          "Music by Muhammad Abdel Wahab (Egypt)",
+          "Qamar 14"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/sikah_baladi/tqasim_oud_rast.mp3",
+        "title": "Taqsim Oud (from Wasla in Rast)",
+        "credits": [
+          "Ibrahim al-Haggar"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "upper_rast",
+    "name": "Upper Rast",
+    "source": "https://www.maqamworld.com/en/jins/upper_rast.php",
+    "sourceHeading": "Jins Upper Rast New A 4-note version of Jins Rast with the tonic on top",
+    "sourceDescriptions": [
+      "Jins Upper Rast is a 4-note version of Jins Rast , with the unusual feature (shared by Jins Upper ‘Ajam ) that its tonic is the last degree in the scale instead of the first. It is notated here with its ghammaz on G and its tonic on C. Jins Upper Rast is the second jins in Maqam Rast and also occurs on the 5 th degree of Maqam Jiharkah ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/rast.mp3"
+    ],
+    "notations": [
+      {
+        "id": "upper_rast",
+        "source": "https://www.maqamworld.com/note/jins/upper_rast.png",
+        "width": 499,
+        "height": 159,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "F4♮",
+            "sourceLabelHtml": "F4♮",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 61.0,
+              "y": 84.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 144.0,
+              "y": 75.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 219.0,
+              "y": 67.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4 half-flat",
+            "sourceLabelHtml": "B4<i class='icon-halfflat'></i>",
+            "frequencyHz": 482.0,
+            "position": {
+              "x": 297.0,
+              "y": 58.0,
+              "radius": 13.0
+            },
+            "sourceComment": "var"
+          },
+          {
+            "label": "C5",
+            "sourceLabelHtml": "C5",
+            "frequencyHz": 521.48,
+            "position": {
+              "x": 378.0,
+              "y": 50.0,
+              "radius": 14.0
+            },
+            "sourceComment": "tonic"
+          },
+          {
+            "label": "D5",
+            "sourceLabelHtml": "D5",
+            "frequencyHz": 586.66,
+            "position": {
+              "x": 448.0,
+              "y": 42.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_rast/ya_shadi_al_alhan.mp3",
+        "title": "Muwashah Ya Shadi al-Alhan",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Sayyed Darwish"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_rast/atani_zamani.mp3",
+        "title": "Muwashah Atani Zamani",
+        "credits": [
+          "Sabah Fakhri",
+          "Music by Muhammad ‘Uthman"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_rast/dhabiyun-min-al-turki.mp3",
+        "title": "Muwashah Dhabiyun Min al-Turki",
+        "credits": [
+          "Ahmad Shukri",
+          "Unknown composer"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_rast/aruh_li_min.mp3",
+        "title": "Aruh Li Min (1958)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_rast/el-awwila-fil-gharam.mp3",
+        "title": "El-Awwila Fil-Gharam (1944)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_rast/hann_el_hadid.mp3",
+        "title": "Hann el-Hadid (1974)",
+        "credits": [
+          "Joseph Saqr",
+          "Music by Ziad Rahbani",
+          "From the musical Nazl el-Surur"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_rast/asamina.mp3",
+        "title": "Asamina",
+        "credits": [
+          "Fairouz",
+          "Music by Philemon Wehbe"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_rast/hayrana_leh.mp3",
+        "title": "Hayrana Leh (1930)",
+        "credits": [
+          "Leila Murad",
+          "Music by Dawud Husni (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_rast/min_3azzibak.mp3",
+        "title": "Min ‘Azzibak (1931)",
+        "credits": [
+          "Vocals and Music by Muhammad Abdel Wahab (Egypt)"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  },
+  {
+    "id": "upper_ajam",
+    "name": "Upper ‘Ajam",
+    "source": "https://www.maqamworld.com/en/jins/upper_ajam.php",
+    "sourceHeading": "Jins Upper ‘Ajam New A 4-note version of Jins Ajam with the tonic on top",
+    "sourceDescriptions": [
+      "Jins Upper ‘Ajam is a 4-note version of Jins ‘Ajam , with the unusual feature (shared by Jins Upper Rast ) that its tonic is the last degree in the scale instead of the first. It is notated here with its ghammaz on G and its tonic on C. Jins Upper ‘Ajam is the second jins in Maqam ‘Ajam and also occurs on the 3 rd degree of Maqam Bayati ."
+    ],
+    "pronunciationSources": [
+      "https://www.maqamworld.com/audio/name/ajam.mp3"
+    ],
+    "notations": [
+      {
+        "id": "upper_ajam",
+        "source": "https://www.maqamworld.com/note/jins/upper_ajam.png",
+        "width": 508,
+        "height": 150,
+        "mapName": "notemap",
+        "notes": [
+          {
+            "label": "F4♮",
+            "sourceLabelHtml": "F4♮",
+            "frequencyHz": 347.65,
+            "position": {
+              "x": 68.0,
+              "y": 81.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "G4",
+            "sourceLabelHtml": "G4",
+            "frequencyHz": 391.11,
+            "position": {
+              "x": 149.0,
+              "y": 73.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "A4",
+            "sourceLabelHtml": "A4",
+            "frequencyHz": 440.0,
+            "position": {
+              "x": 225.0,
+              "y": 65.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "B4",
+            "sourceLabelHtml": "B4",
+            "frequencyHz": 495.0,
+            "position": {
+              "x": 304.0,
+              "y": 56.0,
+              "radius": 13.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "C5",
+            "sourceLabelHtml": "C5",
+            "frequencyHz": 521.48,
+            "position": {
+              "x": 383.0,
+              "y": 49.0,
+              "radius": 14.0
+            },
+            "sourceComment": ""
+          },
+          {
+            "label": "D5",
+            "sourceLabelHtml": "D5",
+            "frequencyHz": 586.66,
+            "position": {
+              "x": 455.0,
+              "y": 40.0,
+              "radius": 12.0
+            },
+            "sourceComment": ""
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_ajam/zayy_el_hawa.mp3",
+        "title": "Zayy el-Hawa (1970)",
+        "credits": [
+          "Abdel Halim Hafez",
+          "Music by Baligh Hamdi (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_ajam/lissa_fakir.mp3",
+        "title": "Lissa Fakir (1960)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Riyad al-Sunbati"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_ajam/huwwa_sahih.mp3",
+        "title": "Huwwa Sahih el-Hawa Ghallab (1960)",
+        "credits": [
+          "Umm Kulthum",
+          "Music by Zakariya Ahmad (Egypt)"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_ajam/min_youm_furgak.mp3",
+        "title": "Mawwal Min Youm Furgak",
+        "credits": [
+          "Sabah Fakhri"
+        ]
+      },
+      {
+        "source": "https://www.maqamworld.com/audio/jins/upper_ajam/nixon.mp3",
+        "title": "Sharraft Ya Nixon Baba (1974)",
+        "credits": [
+          "Vocals and Music by Sheikh Imam"
+        ]
+      }
+    ],
+    "review": {
+      "status": "unreviewed",
+      "warnings": [],
+      "needs": [
+        "Identify core notes versus baggage and alternatives",
+        "Confirm tonic and ghammaz roles from source explanation",
+        "Choose reference-note sequence; source order is not a verified scale",
+        "Review musical examples before quiz use"
+      ]
+    }
+  }
+]

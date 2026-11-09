@@ -89,7 +89,7 @@ test('wrong answers allow immediate retry without revealing or restarting audio'
  const correct=src!.includes('baladi')?'Baladi':'Malfuf';
  const wrong=correct==='Baladi'?'Malfuf':'Baladi';
  await page.locator('.choices').getByRole('button',{name:wrong,exact:true}).click();
- await expect(page.getByText('Incorrect. Try again.',{exact:true})).toBeVisible();
+ await expect(page.getByText('Incorrect, try again',{exact:true})).toBeVisible();
  await expect(page.getByRole('heading',{name:'Which iqa‘ is this?'})).toBeVisible();
  await expect(page.locator('.notation')).toHaveCount(0);
  await expect(page.locator('#alternate-names')).toHaveCount(0);
@@ -98,7 +98,7 @@ test('wrong answers allow immediate retry without revealing or restarting audio'
  await expect(audio).toHaveJSProperty('paused',false);
  await openSettings(page);await page.getByRole('radio',{name:'Recall',exact:true}).check();
  await page.getByRole('radio',{name:'Multiple choice',exact:true}).check();await closeSettings(page);
- await expect(page.getByRole('button',{name:wrong+' — Try again',exact:true})).toBeDisabled();
+ await expect(page.getByRole('button',{name:wrong,exact:true})).toBeDisabled();
  await page.locator('.choices').getByRole('button',{name:correct,exact:true}).click();
  await expect(page.getByText('Correct.',{exact:true})).toBeVisible();
  await expect(page.locator('.notation img')).toBeVisible();

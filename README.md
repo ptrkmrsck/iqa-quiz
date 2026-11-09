@@ -8,7 +8,7 @@ Notation images and recordings load directly from Maqam World. The repository co
 
 Open [Iqa‘ quiz](https://ptrkmrsck.github.io/iqa-quiz/) on your phone or desktop. No local server is needed.
 
-GitHub Pages deploys automatically when changes are pushed to `main`. The deployment includes only `index.html`, `styles.css`, `app.js`, and `rhythms.json`; media continues to load from Maqam World.
+GitHub Pages deploys automatically when changes are pushed to `main`. The deployment includes the two quiz pages, their scripts and styles, and the rhythm and jins catalogs; media continues to load from Maqam World.
 
 ## Run locally
 
@@ -95,6 +95,41 @@ python3 scripts/import-audio.py
 
 These commands contact Maqam World, refresh the catalog, and download backups into the ignored directories. Review catalog changes before committing. Form mappings follow the source page sections. Two tempo variants—faster Ciftetelli and slower Fox—have no separate source transcription; the app notes this instead of showing mismatched notation. Forms without a recording in the selected audio category are excluded from new questions.
 
+## Jins quiz and catalog
+
+`jins.html` is a separate section sharing the quiz engine, drawer, retries, and round summaries with Iqa. All **24 ajnas** are available, with **25 notation versions**. ‘Ajam randomly uses its 5-note or 3-note version per question, with recordings matched to that version. Each section has its own settings and shareable selection links.
+
+Notation, reference notes, and musical examples are independent toggles. Playing reference notes pauses the musical example; playing the example stops the reference notes. Reference playback starts and ends on the tonic. Most defined spans play upward then down; Upper Rast and Upper ‘Ajam descend first. Extended outlines are used where a core alone cannot distinguish a jins or where its size is undefined. Whenever notation is shown, every displayed note can be tapped or activated with the keyboard, including baggage and alternatives. The entire notation image is divided into full-height touch areas at the midpoints between notes: tapping anywhere plays the nearest note horizontally and briefly highlights its notehead. No permanent circles are shown. Tonic and ghammaz labels appear after a correct answer; reference sequences use the documented study mappings. Audio starts only on request. Reference notes stop on Next, restart, opening Settings, or leaving the page.
+
+`jins-study.js` documents per-version tonic, ghammaz possibilities, reference outlines, and special cases, checked against the source descriptions. `jins-content.js` applies these mappings and defines the presets. `pitch-player.js` generates quiet sine tones at the imported frequencies, with short fades to avoid clicks. No equal-temperament conversion or audio backup files are used. The Musical examples audio option randomly selects an excerpt from the current jins’s source page. Recordings loop, remain fixed during retries, and reveal their title and credits after a correct answer. Playback uses Maqam World URLs, not the ignored backups.
+
+`jins.json` imports all 24 ajnas from the English Jins Index.
+
+Selection presets include Foundations (eight starting points), All ajnas, D-based comparisons, related-jins comparisons around ‘Ajam, Rast, Hijaz, Nahawand, Sikah, and Saba, and flexible or undefined spans. Comparison sets are teaching groupings, not a claim that Maqam World classifies them as formal families. Existing saved selections remain intact; new visits default to Foundations.
+
+The catalog contains 25 notation diagrams, 178 clickable note definitions, 153 musical-example entries, and 24 pronunciation entries. Each diagram includes its original image URL and dimensions, note coordinates, exact source frequencies in Hz, original note labels, and adjacent tuning comments. Source explanations and recording credits are retained for review. Frequencies are Maqam World's per-diagram reference values, not a universal tuning table.
+
+Refresh metadata and optionally download audio backups:
+
+```sh
+python3 scripts/import-jins.py
+python3 scripts/import-jins-audio.py
+python3 -m unittest discover -s tests -p 'test_*.py'
+```
+
+The metadata importer reads PNG dimensions without saving the images. The audio importer stores 175 unique source files (musical excerpts and pronunciations) under ignored `assets/jins-audio/`; two pronunciation URLs are shared across entries. The catalog uses remote URLs only. Existing valid backups are reused.
+
+Special cases handled by the study mappings:
+
+- ‘Ajam has separate 5-note and 3-note diagrams.
+- Notation includes baggage and alternative notes. Source note order must not automatically become the reference-note playback sequence.
+- Upper Rast and Upper ‘Ajam place the tonic at the top of their core scales.
+- Saba and Saba Zamzam offer two ghammaz possibilities; several other ajnas have no defined ghammaz or size.
+- Sikah Baladi is explicitly described as difficult to notate accurately and best learned by ear.
+- Source tuning comments sometimes flag uncertainty or possible future changes. Preserve their assigned values rather than silently correcting them.
+
+The raw import retains its `unreviewed` status; `jins-study.js` holds the separate source-based study mapping so refreshing the import does not overwrite it. Lami and Hijaz Murassa‘ use an extra distinguishing note rather than an identical core to Kurd and Hijaz. Undefined spans use explicitly labeled extended reference outlines, not invented formal scales. Ghammaz labels distinguish multiple possibilities and leave unspecified roles unset. These synthesized outlines are learning references, not performances of characteristic melodic development. Musical examples follow Maqam World's classifications; the excerpts have not been independently reviewed by a musician.
+
 ## Credits and licensing
 
 Rhythm information, notation, and musical examples come from [Maqam World](https://www.maqamworld.com/), with content by Johnny Farraj. Tabla demonstrations are performed by Faisal Zedan. Original source links and recording credits are preserved in the catalog.
@@ -102,3 +137,7 @@ Rhythm information, notation, and musical examples come from [Maqam World](https
 This is an independent study tool, not an official Maqam World project. Third-party material belongs to its respective rights holders; linking to it does not grant permission to redistribute it.
 
 No open-source license has been selected for the application code (`UNLICENSED` in `package.json`).
+
+## TODO
+
+- Add a setting for the number of multiple-choice answers, shared by Iqa and Jins. Cap the count at the selected eligible items, persist it in settings and selection links, and update keyboard shortcuts accordingly. Keep the current maximum of four until implemented.

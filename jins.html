@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maqam World Practice</title>
+<link rel="stylesheet" href="styles.css">
+<script src="pitch-player.js" defer></script>
+<script src="jins-study.js" defer></script>
+<script src="jins-content.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<header class="page-header">
+<h1>Maqam World Practice</h1>
+<button id="open-settings" aria-haspopup="dialog" aria-controls="settings-drawer" aria-expanded="false"><svg aria-hidden="true" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 5h16M2 10h16M2 15h16"/><path d="M6 2v6M14 7v6M8 12v6" stroke-width="3"/></svg>Settings</button>
+</header>
+<nav class="section-nav" aria-label="Quiz sections"><a href="index.html">Iqa</a><a href="jins.html" aria-current="page">Jins</a></nav>
+<hr>
+<dialog id="settings-drawer" aria-labelledby="drawer-title">
+<div class="drawer-header"><h2 id="drawer-title">Settings</h2><button id="close-settings" autofocus>Close</button></div>
+<div id="drawer-content">
+<aside>
+<fieldset id="quiz-options"><legend>Quiz options</legend>
+<fieldset><legend>Question cues</legend>
+<label><input id="notation-enabled" type="checkbox" checked> Notation</label><br>
+<label><input id="reference-enabled" type="checkbox" checked> Reference notes</label><br>
+<label><input id="examples-enabled" type="checkbox"> Musical examples</label>
+<input id="autoplay" type="checkbox" hidden>
+</fieldset>
+<fieldset><legend>Answers</legend>
+<label><input type="radio" name="answers" value="choice" checked> Multiple choice</label><br>
+<label><input type="radio" name="answers" value="recall"> Recall</label>
+</fieldset>
+</fieldset>
+<p id="audio-availability" role="status"></p>
+<h2>Ajnas (<span id="count"></span>)</h2>
+<div class="preset-controls">
+<label for="presets" class="visually-hidden">Preset:</label>
+<select id="presets"><option value="">Choose…</option></select>
+<p id="preset-description"></p>
+<button id="share">Copy selection link</button>
+<input id="share-url" aria-label="Selection link" readonly hidden>
+<p id="preset-status" role="status"></p>
+</div>
+<label for="search">Search name:</label>
+<input id="search" type="search">
+<p class="tools"><button id="random" title="Random selection of the same size; four if empty">Random</button> <button id="all">All</button> <button id="none">Clear</button></p>
+<div id="rhythms" class="rhythm-list" aria-label="Ajnas to include"></div>
+<details class="shortcuts"><summary>Keyboard shortcuts</summary><p>1–4: choose an answer<br>Space: play / stop reference notes<br>Enter: next question after answering</p></details>
+<p id="storage-note" role="status"></p>
+</aside>
+</div>
+</dialog>
+<main class="workspace">
+<section class="practice" aria-label="Flashcard practice">
+<p id="active-mode"></p>
+<p id="round-status"></p>
+<div id="card"></div>
+<p class="legend">D = Dum &nbsp; T = Tak &nbsp; s = Silence</p>
+<hr>
+<p class="session">Reviewed: <strong id="reviewed">0</strong> · Got it: <strong id="known">0</strong> · Again: <strong id="again-count">0</strong></p>
+<button id="restart">Restart round</button>
+</section>
+</main>
+<hr>
+<footer>Notation and reference pitches: <a href="https://www.maqamworld.com/en/jins.php" target="_blank" rel="noopener">MaqamWorld</a>.</footer>
+</body>
+</html>
