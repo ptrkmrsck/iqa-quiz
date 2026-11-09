@@ -27,7 +27,7 @@ function syncPreset(){
  $('#presets').value=match?'builtin:'+match.key:'';
  $('#preset-description').textContent=match?.note||'';
 }
-function save(){try{localStorage.setItem(KEY,JSON.stringify({selected:[...selected],history,options:{transcription,audioEnabled,hard,hardAudio,autoplay,...(section?{referenceNotes:referenceEnabled,musicalExamples:hardAudio}:{})}}));}catch{$('#storage-note').textContent='Storage unavailable. Changes last for this visit only.';}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify({selected:[...selected],history,options:{transcription,audioEnabled,hard,hardAudio,autoplay,...(section?{referenceNotes:referenceEnabled,musicalExamples:hardAudio,tone:section.tone()}:{})}}));}catch{$('#storage-note').textContent='Storage unavailable. Changes last for this visit only.';}}
 function shuffle(items){for(let i=items.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}return items;}
 function list(){
  syncPreset();
@@ -209,6 +209,7 @@ function readLink(){const params=new URLSearchParams(location.hash.slice(1));if(
  hardAudio=params.get('hardAudio')==='1';
  autoplay=!section&&params.get('autoplay')==='1';
  if(section){
+  section.setTone(params.get('tone'));
   referenceEnabled=params.has('referenceNotes')?params.get('referenceNotes')==='1':audioEnabled&&!hardAudio;
   hardAudio=params.has('musicalExamples')?params.get('musicalExamples')==='1':audioEnabled&&hardAudio;
   audioEnabled=referenceEnabled||hardAudio;
@@ -220,6 +221,7 @@ function readLink(){const params=new URLSearchParams(location.hash.slice(1));if(
 function syncOptions(){
  $('#autoplay').checked=autoplay;
  if(section){
+  $('#note-tone').value=section.tone();
   $('#notation-enabled').checked=transcription;$('#reference-enabled').checked=referenceEnabled;$('#examples-enabled').checked=hardAudio;
  }else{
   $(`input[name="transcription"][value="${transcription?'show':'hide'}"]`).checked=true;
@@ -229,6 +231,7 @@ function syncOptions(){
 }
 $('#quiz-options').addEventListener('change',()=>{
  if(section){
+  section.setTone($('#note-tone').value);
   transcription=$('#notation-enabled').checked;referenceEnabled=$('#reference-enabled').checked;hardAudio=$('#examples-enabled').checked;audioEnabled=referenceEnabled||hardAudio;
  }else{
  transcription=$('input[name="transcription"]:checked').value==='show';
@@ -244,7 +247,7 @@ $('#presets').onchange=()=>{
  if(preset)applySelection(preset.ids,preset.key);
 };
 $('#share').onclick=async()=>{
- const url=new URL(location.href);url.hash=new URLSearchParams({[selectionKey]:[...selected].sort().join(','),transcription:transcription?'1':'0',audio:audioEnabled?'1':'0',hard:hard?'1':'0',hardAudio:hardAudio?'1':'0',autoplay:autoplay?'1':'0',...(section?{referenceNotes:referenceEnabled?'1':'0',musicalExamples:hardAudio?'1':'0'}:{})}).toString();
+ const url=new URL(location.href);url.hash=new URLSearchParams({[selectionKey]:[...selected].sort().join(','),transcription:transcription?'1':'0',audio:audioEnabled?'1':'0',hard:hard?'1':'0',hardAudio:hardAudio?'1':'0',autoplay:autoplay?'1':'0',...(section?{referenceNotes:referenceEnabled?'1':'0',musicalExamples:hardAudio?'1':'0',tone:section.tone()}:{})}).toString();
  $('#share-url').hidden=false;$('#share-url').value=url.href;
  try{await navigator.clipboard.writeText(url.href);$('#preset-status').textContent='Link copied.';}catch{$('#share-url').focus();$('#share-url').select();$('#preset-status').textContent='Copy the link above.';}
 };
@@ -263,7 +266,7 @@ fetch(section?.catalog||'rhythms.json').then(r=>{if(!r.ok)throw Error();return r
  selected=new Set(rhythms.filter(r=>defaultNames.includes(r.name)).map(r=>r.id));
  activePreset='common';
  if(stored?.options){transcription=stored.options.transcription!==false;audioEnabled=stored.options.audioEnabled===true;hard=stored.options.hard===true;hardAudio=stored.options.hardAudio===true;autoplay=stored.options.autoplay===true;}
- if(section){referenceEnabled=stored?.options?.referenceNotes??(audioEnabled&&!hardAudio);hardAudio=stored?.options?.musicalExamples??(audioEnabled&&hardAudio);audioEnabled=referenceEnabled||hardAudio;autoplay=false;if(Array.isArray(stored?.selected)){selected=new Set(stored.selected.filter(id=>rhythms.some(r=>r.id===id)));activePreset=builtInPresets().find(p=>p.ids.length===selected.size&&p.ids.every(id=>selected.has(id)))?.key||'';}}
+ if(section){section.setTone(stored?.options?.tone);referenceEnabled=stored?.options?.referenceNotes??(audioEnabled&&!hardAudio);hardAudio=stored?.options?.musicalExamples??(audioEnabled&&hardAudio);audioEnabled=referenceEnabled||hardAudio;autoplay=false;if(Array.isArray(stored?.selected)){selected=new Set(stored.selected.filter(id=>rhythms.some(r=>r.id===id)));activePreset=builtInPresets().find(p=>p.ids.length===selected.size&&p.ids.every(id=>selected.has(id)))?.key||'';}}
  syncOptions();
  history=stored?.history&&typeof stored.history==='object'?stored.history:{};
  presetList();if(!readLink()){list();start();}

@@ -253,3 +253,52 @@ test('presets apply instantly and both Ajam versions reveal matched version labe
   await expect(page.locator('#form-label')).toHaveText(label);
  }
 });
+
+test('interrupting attack, sustain and release fades without a waveform jump or later queued notes',async({page})=>{
+ await page.goto('/jins.html');
+ await expect(page.locator('#reference-play')).toBeVisible();
+ const results=await page.evaluate(async()=>{
+  const results=[];
+  for(const time of [.04,.2,.51]){
+   const offline=new OfflineAudioContext(1,48000,48000);
+   const player=new PitchPlayer();
+   player.context={get currentTime(){return offline.currentTime;},state:'running',resume:()=>Promise.resolve(),createOscillator:()=>offline.createOscillator(),createGain:()=>offline.createGain(),destination:offline.destination};
+   await player.play([440,660]);
+   const paused=offline.suspend(time);const rendering=offline.startRendering();
+   await paused;const stoppedAt=offline.currentTime;player.stop();player.stop();await offline.resume();
+   const data=(await rendering).getChannelData(0);
+   const start=Math.floor((stoppedAt-.005)*48000),end=Math.ceil((stoppedAt+.025)*48000);
+   let jump=0,tail=0;
+   for(let i=start+1;i<end;i++)jump=Math.max(jump,Math.abs(data[i]-data[i-1]));
+   for(let i=Math.ceil((stoppedAt+.025)*48000);i<data.length;i++)tail=Math.max(tail,Math.abs(data[i]));
+   results.push({jump,tail});
+  }
+  return results;
+ });
+ for(const result of results){expect(result.jump).toBeLessThan(.02);expect(result.tail).toBeLessThan(.00001);}
+});
+
+test('tone options apply to sequences and tapped notes without changing the question',async({page})=>{
+ await page.goto('/jins.html#ajnas=bayati,hijaz&referenceNotes=1&musicalExamples=1&transcription=1');
+ const src=await page.locator('.notation img').getAttribute('src');
+ const recording=await page.locator('audio').getAttribute('src');
+ for(const tone of ['sine','square','sawtooth','triangle']){
+  await settings(page,()=>page.getByLabel('Tone',{exact:true}).selectOption(tone));
+  await expect(page.locator('.notation img')).toHaveAttribute('src',src!);
+  await expect(page.locator('audio')).toHaveAttribute('src',recording!);
+  await page.getByRole('button',{name:'Play reference notes',exact:true}).click();
+  await expect.poll(()=>page.evaluate(()=>[...pitchPlayer.voices].filter(v=>!v.released).map(v=>v.oscillator.type))).toEqual(Array(7).fill(tone));
+  await page.locator('.pitch-note').first().tap();
+  await expect.poll(()=>page.evaluate(()=>[...pitchPlayer.voices].filter(v=>!v.released).map(v=>v.oscillator.type))).toEqual([tone]);
+ }
+ await settings(page,async()=>{
+  await page.getByRole('button',{name:'Copy selection link'}).click();
+  await expect(page.locator('#share-url')).toHaveValue(/tone=triangle/);
+ });
+ await page.goto('/jins.html');
+ await settings(page,()=>expect(page.getByLabel('Tone',{exact:true})).toHaveValue('triangle'));
+ await page.goto('/jins.html#ajnas=bayati,hijaz&tone=square');
+ await settings(page,()=>expect(page.getByLabel('Tone',{exact:true})).toHaveValue('square'));
+ await page.goto('/jins.html#ajnas=bayati,hijaz&tone=invalid');
+ await settings(page,()=>expect(page.getByLabel('Tone',{exact:true})).toHaveValue('sine'));
+});

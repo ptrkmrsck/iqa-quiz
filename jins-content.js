@@ -3,6 +3,8 @@ const pitchPlayer=new PitchPlayer();
 window.addEventListener('pagehide',()=>pitchPlayer.stop());
 document.addEventListener('visibilitychange',()=>{if(document.hidden)pitchPlayer.stop();});
 window.quizSection={
+ tone:()=>pitchPlayer.tone,
+ setTone:value=>pitchPlayer.setTone(value),
  key:'jins-practice-v1',catalog:'jins.json',selectionKey:'ajnas',singular:'jins',plural:'ajnas',
  prompt:'Which jins is this?',notationLabel:'Notation',audioLabel:'Reference notes',
  defaults:['‘Ajam','Bayati','Hijaz','Kurd','Nahawand','Rast','Saba','Sikah'],
