@@ -8,7 +8,7 @@ Notation images and recordings load directly from Maqam World. The repository co
 
 Open [Iqa‘ quiz](https://ptrkmrsck.github.io/iqa-quiz/) on your phone or desktop. No local server is needed.
 
-GitHub Pages deploys automatically when changes are pushed to `main`. The deployment includes the two quiz pages, the Resources page, their scripts and styles, and the rhythm and jins catalogs; media continues to load from Maqam World.
+GitHub Pages deploys automatically when changes are pushed to `main`. The deployment includes the two quiz pages, the Resources and How it works pages, their scripts and styles, and the rhythm and jins catalogs; media continues to load from Maqam World.
 
 ## Run locally
 
@@ -69,6 +69,7 @@ Tests cover desktop, tablet, and mobile behavior, including matched forms, retry
 ### Project files
 
 - `index.html`, `styles.css`, `app.js`: interface and quiz logic.
+- `how-it-works.html`: practice, settings, playback, and shortcut guide.
 - `resources.html`: links to Maqam World, Inside Arabic Music, and related learning tools.
 - `rhythms.json`: rhythm names, meters, alternate names, form mappings, media URLs, and credits.
 - `scripts/serve.js`: local development server.

@@ -89,7 +89,7 @@ body:has(#settings-drawer[open]) { overflow: hidden; }
 .shortcuts { margin-top: 24px; font-size: .85em; color: #586067; }
 .shortcuts summary { cursor: pointer; }
 
-.section-nav { display: flex; gap: 20px; margin-bottom: 12px; }
+.section-nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 12px; }
 .section-nav [aria-current="page"] { color: var(--ink); font-weight: bold; text-decoration: none; }
 .resources { max-width: 720px; margin: 24px 0; }
 .resources section { margin-top: 28px; }
