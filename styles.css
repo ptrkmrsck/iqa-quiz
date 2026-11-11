@@ -97,6 +97,31 @@ body:has(#settings-drawer[open]) { overflow: hidden; }
 .resources dt { margin-top: 20px; font-weight: 600; }
 .resources dd { margin: 4px 0 0; }
 .resource-platform { display: inline-block; margin-left: 8px; font-size: .85em; font-weight: normal; color: #586067; }
+.guide { margin: 32px 0 48px; }
+.guide > h2 { margin: 0 0 28px; font: bold 2em Georgia, 'Times New Roman', serif; }
+.guide-layout { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 40px; }
+.guide-contents { position: sticky; top: 24px; align-self: start; display: flex; flex-direction: column; border-left: 2px solid var(--accent); }
+.guide-contents a { display: block; padding: 10px 16px; text-decoration: none; }
+.guide-contents a:hover { background: var(--wash); text-decoration: underline; }
+.guide-content { max-width: 860px; }
+.guide-content section + section { margin-top: 44px; }
+.guide-content h3 { margin: 0; padding-bottom: 12px; border-bottom: 2px solid var(--accent); font: bold 1.5em Georgia, 'Times New Roman', serif; scroll-margin-top: 24px; }
+.guide-content dl { margin: 0; }
+.guide-entry { display: grid; grid-template-columns: minmax(140px, 1fr) minmax(0, 2.6fr); gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.guide-entry dt { font-weight: 600; line-height: 1.5; }
+.guide-entry dd { margin: 0; line-height: 1.7; }
+.guide kbd { font: .85em ui-monospace, monospace; padding: 2px 5px; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 3px; background: #f7f6f3; white-space: nowrap; }
+@media (max-width: 800px) {
+  .guide-layout { display: block; }
+  .guide-contents { position: static; flex-direction: row; flex-wrap: wrap; margin-bottom: 28px; background: #faf7f3; }
+  .guide-contents a { min-height: 44px; box-sizing: border-box; }
+}
+@media (max-width: 500px) {
+  .guide { margin-top: 24px; }
+  .guide > h2 { font-size: 1.7em; margin-bottom: 20px; }
+  .guide-entry { grid-template-columns: minmax(0, 1fr); gap: 6px; padding: 18px 0; }
+  .guide-content section + section { margin-top: 32px; }
+}
 .pitch-notation { position: relative; width: 100%; }
 .pitch-notation img { width: 100%; height: auto; }
 .pitch-note { position: absolute; top: 0; height: 100%; min-height: 0; padding: 0; border: 0; border-radius: 0; background: transparent; touch-action: manipulation; }
