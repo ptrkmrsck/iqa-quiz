@@ -9,7 +9,7 @@ let history = {};
 let roundMissed = new Set(), roundSeen = new Set();
 let choices = [], answered = null, wrongChoices = new Set();
 let transcription = true, audioEnabled = !!section, hard = false, hardAudio = false, autoplay = false;
-let referenceEnabled=!!section;
+let referenceEnabled=!!section, perform=false;
 let activePreset = 'common', autoplayRequested = false, questionNumber = 0;
 let currentForm = null, currentTrack = null, questionTracks = {};
 const defaultNames = section?.defaults||['Maqsum','Baladi','Malfuf','Ayyub','Fallahi','Sa‘idi','Wahda','Wahda w-Nuss','Masmudi Kabir'];
@@ -27,7 +27,7 @@ function syncPreset(){
  $('#presets').value=match?'builtin:'+match.key:'';
  $('#preset-description').textContent=match?.note||'';
 }
-function save(){try{localStorage.setItem(KEY,JSON.stringify({selected:[...selected],history,options:{transcription,audioEnabled,hard,hardAudio,autoplay,...(section?{referenceNotes:referenceEnabled,musicalExamples:hardAudio,tone:section.tone()}:{})}}));}catch{$('#storage-note').textContent='Storage unavailable. Changes last for this visit only.';}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify({selected:[...selected],history,options:{perform,transcription,audioEnabled,hard,hardAudio,autoplay,...(section?{referenceNotes:referenceEnabled,musicalExamples:hardAudio,tone:section.tone()}:{})}}));}catch{$('#storage-note').textContent='Storage unavailable. Changes last for this visit only.';}}
 function shuffle(items){for(let i=items.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}return items;}
 function list(){
  syncPreset();
@@ -44,7 +44,7 @@ function list(){
  });
  if(!$('#rhythms').children.length) $('#rhythms').textContent=`No matching ${plural}.`;
 }
-function availableForms(rhythm){if(section)return rhythm.forms;return rhythm.forms.filter(form=>audioEnabled?(hardAudio?form.examples:form.tabla).length>0:!!form.notation);}
+function availableForms(rhythm){if(perform)return rhythm.forms; if(section)return rhythm.forms;return rhythm.forms.filter(form=>audioEnabled?(hardAudio?form.examples:form.tabla).length>0:!!form.notation);}
 function eligible(){return rhythms.filter(r=>selected.has(r.id)&&availableForms(r).length);}
 function pick(items){return items[Math.floor(Math.random()*items.length)];}
 function start(){beginRound(eligible());}
@@ -69,8 +69,8 @@ function next(){section?.stop();questionNumber++;current=queue.shift();while(cur
  render();}
 function updateTrack(){
  currentTrack=null;
- if((section&&!hardAudio)||!currentForm||!audioEnabled)return;
- const pool=hardAudio?'examples':'tabla';
+ if(!currentForm||(!perform&&((section&&!hardAudio)||!audioEnabled)))return;
+ const pool=perform||hardAudio?'examples':'tabla';
  if(!(pool in questionTracks))questionTracks[pool]=pick(currentForm[pool])||null;
  currentTrack=questionTracks[pool];
 }
@@ -97,9 +97,10 @@ function render(){
  const card=$('#card');
  const previousImage=card.querySelector('.notation img');
  const previousPlayer=card.querySelector('audio');
- const reusePlayer=previousPlayer&&audioEnabled&&currentTrack&&previousPlayer.getAttribute('src')===currentTrack.source&&previousPlayer.dataset.question===String(questionNumber);
- if(!reusePlayer||(!hard&&choices.length<2))previousPlayer?.pause();
+ const reusePlayer=previousPlayer&&(perform||audioEnabled)&&currentTrack&&previousPlayer.getAttribute('src')===currentTrack.source&&previousPlayer.dataset.question===String(questionNumber);
+ if(!reusePlayer||(!perform&&!hard&&choices.length<2))previousPlayer?.pause();
  card.replaceChildren();
+ if(perform){renderPerform(card,previousPlayer,reusePlayer);return;}
  const correct=current&&(answered===current.id||answered==='known');
  $('.legend').hidden=!!section||(!transcription&&!correct);
  if(!transcription&&!audioEnabled){card.innerHTML=`<p>Show ${section?'notation':'transcription'} or select audio in Settings.</p>`;return;}
@@ -159,6 +160,41 @@ function render(){
   for(const [id,label,cls] of [['again','Again','secondary'],['known','Got it','primary']]){const btn=document.createElement('button');btn.id=id;btn.textContent=label;btn.className=cls;btn.onclick=()=>rate(id);actions.append(btn);}card.append(actions);
  }
 }
+function renderPerform(card,previousPlayer,reusePlayer){
+ $('#active-mode').textContent='Perform';
+ $('#audio-availability').textContent='';
+ $('.legend').hidden=!!section||!revealed;
+ if(!current){if(roundSeen.size)showCompletion(card);else card.textContent=`Select at least one ${singular} to begin practicing.`;return;}
+ const title=document.createElement('h2');title.textContent=current.name;card.append(title);
+ if(!revealed){
+  previousPlayer?.pause();
+  const prompt=document.createElement('p');prompt.textContent=section?'Sing or play this jins.':'Sing or play this rhythm. Any familiar form is fine.';
+  const reveal=document.createElement('button');reveal.textContent='Reveal';reveal.onclick=()=>{revealed=true;render();$('#again').focus({preventScroll:true});};
+  card.append(prompt,reveal);return;
+ }
+ if(section){card.append(section.notation(currentForm,true,true));section.audio(card,currentForm);card.append(section.details(currentForm));}
+ else{
+  const notation=document.createElement('div');notation.className='notation';
+  if(currentForm.notation){const img=document.createElement('img');img.src=currentForm.notationSource;img.alt=`${current.name} rhythm notation`;img.onerror=()=>{notation.textContent='Notation could not load. Check your connection.';};notation.append(img);}
+  else notation.textContent=currentForm.notationNote||'No transcription for this form.';
+  card.append(notation);
+  if(current.forms.length>1){const form=document.createElement('p');form.id='form-label';form.textContent=currentForm.label;card.append(form);}
+ }
+ if(currentTrack){
+  const player=reusePlayer?previousPlayer:document.createElement('audio');player.controls=true;player.loop=true;player.preload='metadata';
+  player.dataset.question=String(questionNumber);player.setAttribute('aria-label','Musical example');
+  if(!reusePlayer)player.src=currentTrack.source;
+  if(section)player.onplay=()=>section.stop();
+  const status=document.createElement('p');status.setAttribute('role','status');
+  player.onerror=()=>{status.textContent='Audio could not load. You can still use the transcription.';};card.append(player,status);
+  if(!reusePlayer)player.play().catch(()=>{if(player.isConnected)status.textContent='Autoplay was blocked. Press Play to listen.';});
+  const credit=document.createElement('p');credit.id='track-credit';credit.textContent=[currentTrack.title,...currentTrack.credits].filter(Boolean).join(' — ');card.append(credit);
+ }else{const note=document.createElement('p');note.textContent='No musical example for this form.';card.append(note);}
+ showAlternateNames(card);
+ const actions=document.createElement('div');actions.className='actions';
+ for(const [result,label] of [['again','Again'],['known','Got it']]){const button=document.createElement('button');button.id=result;button.textContent=label;button.onclick=()=>{record(result);next();$('#card button')?.focus({preventScroll:true});};actions.append(button);}card.append(actions);
+ const link=document.createElement('a');link.href=current.source;link.textContent='MaqamWorld source';link.target='_blank';link.rel='noopener';card.append(link);
+}
 function showAnswerActions(card,correct,notation){
  const actions=document.createElement('div');actions.className='answer-actions';
  const feedback=document.createElement('p');feedback.setAttribute('role','status');feedback.textContent=correct?'Correct.':`Incorrect. Answer: ${current.name}. This ${singular} will repeat.`;
@@ -192,7 +228,7 @@ $('#restart').onclick=start;
 for(const id of ['all','none'])$('#'+id).onclick=()=>{applySelection(id==='all'?rhythms.map(r=>r.id):[]);};
 $('#random').onclick=()=>{
  const pool=rhythms.filter(r=>availableForms(r).length);
- const count=Math.min(pool.length,Math.max(hard?1:2,selected.size||4));
+ const count=Math.min(pool.length,Math.max(perform||hard?1:2,selected.size||4));
  applySelection(shuffle(pool).slice(0,count).map(r=>r.id));
 };
 function presetList(){
@@ -207,6 +243,7 @@ function readLink(){const params=new URLSearchParams(location.hash.slice(1));if(
  audioEnabled=params.has('audio')?params.get('audio')==='1':params.get('mode')==='audio';
  hard=params.has('hard')?params.get('hard')==='1':params.get('mode')==='hard';
  hardAudio=params.get('hardAudio')==='1';
+ perform=params.get('direction')==='perform';
  autoplay=!section&&params.get('autoplay')==='1';
  if(section){
   section.setTone(params.get('tone'));
@@ -219,6 +256,8 @@ function readLink(){const params=new URLSearchParams(location.hash.slice(1));if(
  const preset=builtInPresets().find(p=>p.ids.length===ids.length&&p.ids.every(id=>ids.includes(id)));
  applySelection(ids,preset?.key||'');return true;}
 function syncOptions(){
+ $(`input[name="direction"][value="${perform?'perform':'identify'}"]`).checked=true;
+ document.querySelectorAll('.identify-options').forEach(el=>el.hidden=perform);
  $('#autoplay').checked=autoplay;
  if(section){
   $('#note-tone').value=section.tone();
@@ -230,6 +269,9 @@ function syncOptions(){
  $(`input[name="answers"][value="${hard?'recall':'choice'}"]`).checked=true;
 }
 $('#quiz-options').addEventListener('change',()=>{
+ const direction=$('input[name="direction"]:checked').value==='perform';
+ if(direction!==perform){perform=direction;section?.stop();$('#card audio')?.pause();revealed=false;answered=null;wrongChoices=new Set();}
+ document.querySelectorAll('.identify-options').forEach(el=>el.hidden=perform);
  if(section){
   section.setTone($('#note-tone').value);
   transcription=$('#notation-enabled').checked;referenceEnabled=$('#reference-enabled').checked;hardAudio=$('#examples-enabled').checked;audioEnabled=referenceEnabled||hardAudio;
@@ -247,7 +289,7 @@ $('#presets').onchange=()=>{
  if(preset)applySelection(preset.ids,preset.key);
 };
 $('#share').onclick=async()=>{
- const url=new URL(location.href);url.hash=new URLSearchParams({[selectionKey]:[...selected].sort().join(','),transcription:transcription?'1':'0',audio:audioEnabled?'1':'0',hard:hard?'1':'0',hardAudio:hardAudio?'1':'0',autoplay:autoplay?'1':'0',...(section?{referenceNotes:referenceEnabled?'1':'0',musicalExamples:hardAudio?'1':'0',tone:section.tone()}:{})}).toString();
+ const url=new URL(location.href);url.hash=new URLSearchParams({[selectionKey]:[...selected].sort().join(','),direction:perform?'perform':'identify',transcription:transcription?'1':'0',audio:audioEnabled?'1':'0',hard:hard?'1':'0',hardAudio:hardAudio?'1':'0',autoplay:autoplay?'1':'0',...(section?{referenceNotes:referenceEnabled?'1':'0',musicalExamples:hardAudio?'1':'0',tone:section.tone()}:{})}).toString();
  $('#share-url').hidden=false;$('#share-url').value=url.href;
  try{await navigator.clipboard.writeText(url.href);$('#preset-status').textContent='Link copied.';}catch{$('#share-url').focus();$('#share-url').select();$('#preset-status').textContent='Copy the link above.';}
 };
@@ -265,7 +307,7 @@ fetch(section?.catalog||'rhythms.json').then(r=>{if(!r.ok)throw Error();return r
  let stored;try{stored=JSON.parse(localStorage.getItem(KEY));}catch{}
  selected=new Set(rhythms.filter(r=>defaultNames.includes(r.name)).map(r=>r.id));
  activePreset='common';
- if(stored?.options){transcription=stored.options.transcription!==false;audioEnabled=stored.options.audioEnabled===true;hard=stored.options.hard===true;hardAudio=stored.options.hardAudio===true;autoplay=stored.options.autoplay===true;}
+ if(stored?.options){perform=stored.options.perform===true;transcription=stored.options.transcription!==false;audioEnabled=stored.options.audioEnabled===true;hard=stored.options.hard===true;hardAudio=stored.options.hardAudio===true;autoplay=stored.options.autoplay===true;}
  if(section){section.setTone(stored?.options?.tone);referenceEnabled=stored?.options?.referenceNotes??(audioEnabled&&!hardAudio);hardAudio=stored?.options?.musicalExamples??(audioEnabled&&hardAudio);audioEnabled=referenceEnabled||hardAudio;autoplay=false;if(Array.isArray(stored?.selected)){selected=new Set(stored.selected.filter(id=>rhythms.some(r=>r.id===id)));activePreset=builtInPresets().find(p=>p.ids.length===selected.size&&p.ids.every(id=>selected.has(id)))?.key||'';}}
  syncOptions();
  history=stored?.history&&typeof stored.history==='object'?stored.history:{};

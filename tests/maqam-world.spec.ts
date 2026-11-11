@@ -461,3 +461,24 @@ test('completion lists unique misses and practices them without changing selecti
  await page.getByRole('button',{name:'Practice again'}).click();
  await expect(page.locator('#round-status')).toHaveText('2 left in round');
 });
+
+test('Perform hides cues, reveals a musical example, and self-assesses',async({page})=>{
+ await page.goto('/#rhythms=maqsum&direction=perform&audio=0&transcription=0');
+ await expect(page.locator('#card h2')).toHaveText('Maqsum');
+ await expect(page.locator('#card audio,.notation,.choices')).toHaveCount(0);
+ await page.getByRole('button',{name:'Reveal',exact:true}).click();
+ await expect(page.locator('.notation img')).toBeVisible();
+ await expect.poll(()=>page.locator('#card audio').evaluate((a:HTMLAudioElement)=>a.paused)).toBe(false);
+ const src=await page.locator('.notation img').getAttribute('src');
+ await page.getByRole('button',{name:'Again',exact:true}).click();
+ await expect(page.locator('#again-count')).toHaveText('1');
+ await expect(page.locator('#card audio')).toHaveCount(0);
+ await page.getByRole('button',{name:'Reveal',exact:true}).click();
+ await page.getByRole('button',{name:'Got it',exact:true}).click();
+ await expect(page.locator('#round-summary')).toContainText('1 rhythm practiced');
+ await inSettings(page,async()=>{
+  await page.getByRole('button',{name:'Copy selection link'}).click();
+  await expect(page.locator('#share-url')).toHaveValue(/direction=perform/);
+  await expect(page.locator('.identify-options').first()).toBeHidden();
+ });
+});

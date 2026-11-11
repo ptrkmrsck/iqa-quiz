@@ -302,3 +302,21 @@ test('tone options apply to sequences and tapped notes without changing the ques
  await page.goto('/jins.html#ajnas=bayati,hijaz&tone=invalid');
  await settings(page,()=>expect(page.getByLabel('Tone',{exact:true})).toHaveValue('sine'));
 });
+
+test('Perform preserves the jins and reveals playable notation and exclusive audio',async({page})=>{
+ await page.goto('/jins.html#ajnas=bayati&hard=1&referenceNotes=1&transcription=1');
+ const src=await page.locator('.notation img').getAttribute('src');
+ await settings(page,()=>page.getByRole('radio',{name:'Perform',exact:true}).check());
+ await expect(page.locator('#card h2')).toHaveText('Bayati');
+ await expect(page.locator('#card audio,.notation,#reference-play')).toHaveCount(0);
+ await page.getByRole('button',{name:'Reveal',exact:true}).click();
+ await expect(page.locator('.notation img')).toHaveAttribute('src',src!);
+ await expect(page.locator('.pitch-note')).toHaveCount(notesFor('bayati').length);
+ await expect.poll(()=>page.locator('#card audio').evaluate((a:HTMLAudioElement)=>a.paused)).toBe(false);
+ await page.getByRole('button',{name:'Play reference notes',exact:true}).click();
+ await expect.poll(()=>page.locator('#card audio').evaluate((a:HTMLAudioElement)=>a.paused)).toBe(true);
+ await expect.poll(()=>page.evaluate(()=>(window as any).played.length)).toBeGreaterThan(0);
+ await settings(page,()=>page.getByRole('radio',{name:'Identify',exact:true}).check());
+ await expect(page.locator('.notation img')).toHaveAttribute('src',src!);
+ await expect(page.getByRole('button',{name:'Reveal answer'})).toBeVisible();
+});

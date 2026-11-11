@@ -19,17 +19,21 @@
 <div id="drawer-content">
 <aside>
 <fieldset id="quiz-options"><legend>Quiz options</legend>
-<fieldset><legend>Transcription</legend>
+<fieldset><legend>Practice direction</legend>
+<label><input type="radio" name="direction" value="identify" checked> Identify</label><br>
+<label><input type="radio" name="direction" value="perform"> Perform</label>
+</fieldset>
+<fieldset class="identify-options"><legend>Transcription</legend>
 <label><input type="radio" name="transcription" value="show" checked> Show</label>
 <label><input type="radio" name="transcription" value="hide"> Hide</label>
 </fieldset>
-<fieldset><legend>Audio</legend>
+<fieldset class="identify-options"><legend>Audio</legend>
 <label><input type="radio" name="audio" value="none" checked> None</label><br>
 <label><input type="radio" name="audio" value="basic"> Tabla</label><br>
 <label><input type="radio" name="audio" value="hard"> Musical examples</label>
 <p class="autoplay-option"><label><input id="autoplay" type="checkbox"> Autoplay</label></p>
 </fieldset>
-<fieldset><legend>Answers</legend>
+<fieldset class="identify-options"><legend>Answers</legend>
 <label><input type="radio" name="answers" value="choice" checked> Multiple choice</label><br>
 <label><input type="radio" name="answers" value="recall"> Recall</label>
 </fieldset>

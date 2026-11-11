@@ -22,7 +22,11 @@
 <div id="drawer-content">
 <aside>
 <fieldset id="quiz-options"><legend>Quiz options</legend>
-<fieldset><legend>Question cues</legend>
+<fieldset><legend>Practice direction</legend>
+<label><input type="radio" name="direction" value="identify" checked> Identify</label><br>
+<label><input type="radio" name="direction" value="perform"> Perform</label>
+</fieldset>
+<fieldset class="identify-options"><legend>Question cues</legend>
 <label><input id="notation-enabled" type="checkbox" checked> Notation</label><br>
 <label><input id="reference-enabled" type="checkbox" checked> Reference notes</label><br>
 <label><input id="examples-enabled" type="checkbox"> Musical examples</label>
@@ -37,7 +41,7 @@
 <option value="triangle">Triangle</option>
 </select>
 </fieldset>
-<fieldset><legend>Answers</legend>
+<fieldset class="identify-options"><legend>Answers</legend>
 <label><input type="radio" name="answers" value="choice" checked> Multiple choice</label><br>
 <label><input type="radio" name="answers" value="recall"> Recall</label>
 </fieldset>

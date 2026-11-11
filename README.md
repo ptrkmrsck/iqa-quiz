@@ -24,6 +24,8 @@ To use a phone on the same trusted Wi-Fi network, open `http://YOUR_COMPUTER_LOC
 
 ## Practice
 
+**Practice direction** in Settings defaults to **Identify**. **Perform** shows the name so you can sing or play it before selecting **Reveal**. Reveal shows the transcription and starts a randomly selected musical example for the current form (or offers Play if the browser blocks autoplay). Jins notation is playable and includes optional reference-note playback; notes and recordings stop each other. Rate yourself **Again** or **Got it**; Again returns the item later in the round. Direction is saved in browser settings and selection links. Switching directions keeps the current item and form, and preserves Identify cue and answer settings.
+
 Choose rhythms individually or select a preset. Presets apply immediately; editing the selection changes its label to **Custom selection**. **Random** chooses an equally sized set of eligible rhythms, or four if the selection is empty.
 
 Three independent settings control each question:
